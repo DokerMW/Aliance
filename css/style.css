@@ -21,6 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  position: relative;
 }
 ._container {
   max-width: 1470px;
@@ -33,7 +34,7 @@ body {
 /*===== header ==================================================================================*/
 .header {
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 10;
