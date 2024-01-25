@@ -14,6 +14,11 @@ body {
   font-size: 16px;
   line-height: 160%;
   font-weight: 600;
+  transition: background-color 0.3s ease 0s;
+}
+.btn:hover {
+  background-color: #3a71d1;
+  transition: background-color 0.3s ease 0s;
 }
 .wrapper {
   width: 100%;
@@ -68,19 +73,43 @@ body {
   flex: 1 1 100%;
   padding: 0px 0px 0 25px;
   margin: 0px 25px 0px 0px;
+  height: 100%;
 }
 .menu {
   color: white;
 }
 .menu__list {
   display: flex;
+  height: 100%;
   align-items: center;
 }
 .menu__item {
+  height: 100%;
   flex: 0 1 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.menu__item::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0px;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  color: #5c8ee5;
+  background-color: #5c8ee5;
+  transition: width 0.3s ease 0s;
+}
+.menu__item:hover::after {
+  width: 100%;
+  transition: width 0.3s ease 0s;
 }
 .menu__item a {
-  display: inline-block;
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
   font-size: 16px;
   line-height: 160%;
   font-weight: normal;
@@ -101,6 +130,9 @@ body {
   color: white;
   padding-left: 26px;
   background: url("../img/icons/phone.svg") 0 50% / 16px no-repeat;
+}
+.header__phone a:hover {
+  text-decoration: underline;
 }
 .header__btn {
   flex-shrink: 0;
@@ -156,6 +188,7 @@ body {
   background: url("../img/main/main_bg.jpg") 0 0 / cover no-repeat;
   display: flex;
   min-height: 100vh;
+  margin: 0px 0px 30px 0px;
 }
 .main-block__body {
   flex: 1 1 auto;
