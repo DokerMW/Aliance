@@ -8,6 +8,17 @@ body {
   font-family: "Noto Sans", sans-serif;
   font-weight: normal;
 }
+
+.dark .menu__item,
+.dark .header__phone a {
+  color: #292d33;
+}
+.header.dark {
+  background-color: #fff;
+  border: none;
+  transition: all 0.2s ease-in 0s;
+}
+
 .btn {
   background-color: #5c8ee5;
   color: white;
@@ -53,6 +64,7 @@ body {
   left: 0;
   z-index: 10;
   border-bottom: 2px solid rgba(235, 235, 240, 0.2);
+  transition: all 0.2s ease 0s;
 }
 .header__row {
   display: flex;
