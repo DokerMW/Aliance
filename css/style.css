@@ -192,6 +192,38 @@ body {
     font-size: 14px;
   }
 }
+@media (max-width: 1300px) {
+  .header__row {
+    height: 50px;
+  }
+  .header__logo {
+    margin: 0px 10px 0px 0px;
+  }
+  .header__menu {
+    padding: 0px 0px 0 5px;
+    margin: 0px 5px 0px 0px;
+  }
+  .header__logo img {
+    min-width: 80px;
+  }
+  .menu__item:not(:last-child) {
+    margin: 0px 15px 0px 0px;
+  }
+  .menu__item a {
+    font-size: 12px;
+  }
+  .header__phone a {
+    font-size: 10px;
+  }
+  .header__phone {
+    padding: 0px 5px;
+    margin: 0px 5px 0px 0px;
+  }
+  .header__btn {
+    font-size: 10px;
+    padding: 0 15px;
+  }
+}
 /*===============================================================================================*/
 
 /*===== main block ==============================================================================*/
