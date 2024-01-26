@@ -18,7 +18,30 @@ body {
   border: none;
   transition: all 0.2s ease-in 0s;
 }
-
+.title {
+  font-family: "Bebas Neue";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 120%;
+  color: #292d33;
+}
+.link {
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
+  color: #5c8ee5;
+  display: flex;
+  align-items: center;
+}
+.link::before {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background-color: #5c8ee5;
+  display: inline-block;
+  margin-right: 20px;
+}
 .btn {
   background-color: #5c8ee5;
   color: white;
@@ -245,7 +268,7 @@ body {
   background-color: rgba(41, 45, 51, 0.6);
   display: flex;
   min-height: 100vh;
-  margin: 0px 0px 30px 0px;
+  margin: 0px 0px 120px 0px;
 }
 .main-block__body {
   flex: 1 1 auto;
@@ -367,4 +390,77 @@ body {
     }
   }
 }
+/*===============================================================================================*/
+
+/*===== work-scheme ==============================================================================*/
+.work-scheme {
+  padding: 60px 0px 120px 0px;
+}
+.work-scheme__title {
+  margin-bottom: 50px;
+  position: relative;
+}
+.work-scheme__title::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 2px;
+  display: inline-block;
+  background-color: #5c8ee5;
+  top: -22px;
+  left: 0;
+}
+.work-scheme__row {
+  display: flex;
+  margin: 0 -15px;
+}
+.work-scheme__column {
+  padding: 0 15px;
+  flex: 0 1 25%;
+}
+.work-scheme__item {
+}
+.item-scheme {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.item-scheme__number {
+  color: #5c8ee5;
+  font-family: "Bebas Neue";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 120%;
+  margin: 0px 0px 30px 0px;
+  display: flex;
+  align-items: center;
+}
+.item-scheme__number::after {
+  content: "";
+  flex: 1 1 auto;
+  height: 2px;
+  margin: 0px 0px 0px 30px;
+
+  background-color: #ebebf0;
+}
+.item-scheme__title {
+  color: #292d33;
+  font-family: "Noto Sans";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 160%;
+  margin: 0px 0px 10px 0px;
+}
+.item-scheme__text {
+  color: #828a99;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  margin: 0px 0px 20px 0px;
+  flex: 1 1 auto;
+}
+.item-scheme__link {
+}
+
 /*===============================================================================================*/
