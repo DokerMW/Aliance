@@ -1,12 +1,15 @@
 const header = document.querySelector(".header");
-const logo = document.querySelector(".header__img");
+const headerRow = document.querySelector(".header__row");
+const logo = document.querySelector(".header__img use");
 
 window.addEventListener("scroll", function () {
   if (window.scrollY > 50) {
     header.classList.add("dark");
-    logo.setAttribute("src", "./img/header/main_logo_d.svg");
+    headerRow.classList.add("minify");
+    logo.setAttribute("href", "./img/icons/sprite.svg#main_logo_d");
   } else {
     header.classList.remove("dark");
-    logo.setAttribute("src", "./img/header/main_logo_l.svg");
+    headerRow.classList.remove("minify");
+    logo.setAttribute("href", "./img/icons/sprite.svg#main_logo_l");
   }
 });

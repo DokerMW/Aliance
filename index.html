@@ -14,11 +14,11 @@
     <div class="wrapper">
       <header class="header">
         <div class="header__row">
-          <div class="header__logo">
-            <a href="./">
-              <img class="header__img" src="./img/header/main_logo_l.svg" alt="Aliance logo" />
-            </a>
-          </div>
+          <a class="header__logo" href="./">
+            <svg class="header__img">
+              <use href="./img/icons/sprite.svg#main_logo_l"></use>
+            </svg>
+          </a>
           <nav class="header__menu menu">
             <ul class="menu__list">
               <li class="menu__item"><a href="#">О компании</a></li>
@@ -29,7 +29,12 @@
             </ul>
           </nav>
           <div class="header__phone">
-            <a href="tel:+74996861014">+7 (499) 686-10-14</a>
+            <a class="header__phone-link" href="tel:+74996861014">
+              <svg class="header__phone_img">
+                <use href="./img/icons/sprite.svg#phone"></use>
+              </svg>
+              +7 (499) 686-10-14
+            </a>
           </div>
           <button class="header__btn btn">Получить консультацию</button>
         </div>
@@ -50,31 +55,51 @@
               <div class="cards__row">
                 <div class="cards__column">
                   <div class="cards__item item-cards">
-                    <div class="item-cards__icon"><img src="./img/icons/clock.svg" alt="" /></div>
+                    <div class="item-cards__icon">
+                      <svg>
+                        <use href="./img/icons/sprite.svg#clock"></use>
+                      </svg>
+                    </div>
                     <div class="item-cards__text">Непрерывная работа с 2017 года</div>
                   </div>
                 </div>
                 <div class="cards__column">
                   <div class="cards__item item-cards">
-                    <div class="item-cards__icon"><img src="./img/icons/doc.svg" alt="" /></div>
+                    <div class="item-cards__icon">
+                      <svg>
+                        <use href="./img/icons/sprite.svg#doc"></use>
+                      </svg>
+                    </div>
                     <div class="item-cards__text">Вся продукция сертифицирована</div>
                   </div>
                 </div>
                 <div class="cards__column">
                   <div class="cards__item item-cards">
-                    <div class="item-cards__icon"><img src="./img/icons/man.svg" alt="" /></div>
+                    <div class="item-cards__icon">
+                      <svg>
+                        <use href="./img/icons/sprite.svg#man"></use>
+                      </svg>
+                    </div>
                     <div class="item-cards__text">Контроль качества на всех этапах</div>
                   </div>
                 </div>
                 <div class="cards__column">
                   <div class="cards__item item-cards">
-                    <div class="item-cards__icon"><img src="./img/icons/car.svg" alt="" /></div>
+                    <div class="item-cards__icon">
+                      <svg>
+                        <use href="./img/icons/sprite.svg#car"></use>
+                      </svg>
+                    </div>
                     <div class="item-cards__text">Возможны поставки по всей России</div>
                   </div>
                 </div>
                 <div class="cards__column">
                   <div class="cards__item item-cards">
-                    <div class="item-cards__icon"><img src="./img/icons/speed.svg" alt="" /></div>
+                    <div class="item-cards__icon">
+                      <svg>
+                        <use href="./img/icons/sprite.svg#speed"></use>
+                      </svg>
+                    </div>
                     <div class="item-cards__text">Оперативное производство</div>
                   </div>
                 </div>
