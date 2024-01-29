@@ -9,7 +9,7 @@ body {
   font-weight: normal;
 }
 
-.dark .menu__item,
+.dark .menu__item a,
 .dark .header__phone a {
   color: #292d33;
 }
@@ -31,16 +31,26 @@ body {
   font-weight: 600;
   line-height: 160%;
   color: #5c8ee5;
-  display: flex;
-  align-items: center;
+  position: relative;
+  padding: 0px 0px 0px 60px;
+  transition: padding 0.3s ease 0s;
 }
 .link::before {
   content: "";
   width: 40px;
   height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 0;
   background-color: #5c8ee5;
   display: inline-block;
-  margin-right: 20px;
+  transition: width 0.3s ease 0s;
+}
+.link:hover:before {
+  width: 60px;
+}
+.link:hover {
+  padding: 0px 0px 0px 80px;
 }
 .btn {
   background-color: #5c8ee5;
@@ -138,6 +148,9 @@ body {
   display: flex;
   align-items: center;
   position: relative;
+}
+.menu__item a {
+  color: #fff;
 }
 .menu__item::after {
   content: "";
@@ -277,7 +290,7 @@ body {
   background-color: rgba(41, 45, 51, 0.6);
   display: flex;
   min-height: 100vh;
-  margin: 0px 0px 120px 0px;
+  margin: 0px 0px 110px 0px;
 }
 .main-block__body {
   flex: 1 1 auto;
@@ -306,7 +319,7 @@ body {
   height: 2px;
   display: inline-block;
   background-color: #5c8ee5;
-  top: -22px;
+  top: -20px;
   left: 0;
 }
 .main-block__text {
@@ -406,7 +419,8 @@ body {
 
 /*===== work-scheme ==============================================================================*/
 .work-scheme {
-  padding: 60px 0px 120px 0px;
+  padding: 60px 0px 0px 0px;
+  margin: 0px 0px 110px 0px;
 }
 .work-scheme__title {
   margin: 0px 0px 50px 0px;
@@ -469,7 +483,6 @@ body {
   margin: 0px 0px 20px 0px;
   flex: 1 1 auto;
 }
-
 @media (max-width: 1800px) {
   .item-scheme__title {
     font-size: 24px;
