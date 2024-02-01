@@ -4,6 +4,9 @@
 /*===================================================================================================*/
 
 /*===== Общие элементы ==============================================================================*/
+html {
+  font-size: 16px;
+}
 body {
   font-family: "Noto Sans", sans-serif;
   font-weight: normal;
@@ -20,24 +23,24 @@ body {
 }
 .title {
   font-family: "Bebas Neue";
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 400;
   line-height: 120%;
   color: #292d33;
 }
 .link {
   font-family: "Noto Sans";
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 160%;
   color: #5c8ee5;
   position: relative;
-  padding: 0px 0px 0px 60px;
+  padding: 0px 0px 0px 3.75rem;
   transition: padding 0.3s ease 0s;
 }
 .link::before {
   content: "";
-  width: 40px;
+  width: 2.5rem;
   height: 1px;
   position: absolute;
   top: 50%;
@@ -47,15 +50,15 @@ body {
   transition: width 0.3s ease 0s;
 }
 .link:hover:before {
-  width: 60px;
+  width: 3.75rem;
 }
 .link:hover {
-  padding: 0px 0px 0px 80px;
+  padding: 0px 0px 0px 5rem;
 }
 .btn {
   background-color: #5c8ee5;
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 160%;
   font-weight: 400;
   transition: background-color 0.3s ease 0s;
@@ -72,22 +75,24 @@ body {
   overflow: hidden;
 }
 ._container {
-  max-width: 1490px;
+  max-width: 93.125rem;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 0.9375rem;
   width: 100%;
 }
 @media (max-width: 1800px) {
-  ._container {
-    max-width: 1200px;
+  html {
+    font-size: 14px;
   }
 }
-@media (max-width: 1500px) {
-  ._container {
-    max-width: 980px;
+@media (max-width: 1600px) {
+  html {
+    font-size: 12px;
   }
-  .title {
-    font-size: 50px;
+}
+@media (max-width: 1400px) {
+  html {
+    font-size: 10px;
   }
 }
 /*===============================================================================================*/
@@ -106,32 +111,32 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 93px;
+  height: 5.8125rem;
   transition: height 0.2s ease 0s;
 }
 .minify {
-  height: 73px;
+  height: 4.5625rem;
 }
 .header__logo {
   display: flex;
   align-items: center;
-  padding: 10px 50px 10px 33px;
-  margin: 0px 25px 0px 0px;
+  padding: 0.625rem 3.125rem 0.625rem 2.0625rem;
+  margin: 0px 1.5625rem 0px 0px;
   border-right: 1px solid rgba(235, 235, 240, 0.2);
   height: 100%;
 }
 .header__img {
-  width: 140px;
+  width: 8.75rem;
   max-height: 100%;
 }
 .header__logo img {
   max-width: 100%;
-  min-width: 140px;
+  min-width: 8.75rem;
 }
 .header__menu {
   flex: 1 1 100%;
-  padding: 0px 0px 0 25px;
-  margin: 0px 25px 0px 0px;
+  padding: 0px 0px 0 1.5625rem;
+  margin: 0px 1.5625rem 0px 0px;
   height: 100%;
 }
 .menu {
@@ -170,33 +175,33 @@ body {
   height: 100%;
   display: inline-flex;
   align-items: center;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 300;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.025rem;
 }
 .menu__item:not(:last-child) {
-  margin: 0px 50px 0px 0px;
+  margin: 0px 3.125rem 0px 0px;
 }
 
 .header__phone {
   flex: 1 0 auto;
-  padding: 0px 25px;
-  margin: 0px 25px 0px 0px;
+  padding: 0px 1.5625rem;
+  margin: 0px 1.5625rem 0px 0px;
 }
 .header__phone a {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 160%;
   font-weight: 400;
   color: white;
-  padding-left: 26px;
+  padding-left: 1.625rem;
 }
 .header__phone-link {
   display: flex;
   align-items: center;
 }
 .header__phone_img {
-  width: 16px;
-  margin: 0px 15px 0px 0px;
+  width: 1rem;
+  margin: 0px 0.9375rem 0px 0px;
 }
 .header__phone a:hover {
   text-decoration: underline;
@@ -204,81 +209,9 @@ body {
 .header__btn {
   flex-shrink: 0;
   height: 100%;
-  padding: 0 51px;
-  font-size: 16px;
-  letter-spacing: 0.6px;
-}
-@media (max-width: 1800px) {
-  .header__logo {
-    padding: 0 30px;
-    margin: 0px 15px 0px 0px;
-  }
-  .header__img {
-    width: 100px;
-  }
-  .header__menu {
-    padding: 0px 0px 0 10px;
-    margin: 0px 10px 0px 0px;
-  }
-  .menu__item:not(:last-child) {
-    margin: 0px 25px 0px 0px;
-  }
-  .header__phone {
-    padding: 0px 10px;
-    margin: 0px 10px 0px 0px;
-  }
-  .header__btn {
-    padding: 0px 25px;
-  }
-}
-@media (max-width: 1500px) {
-  .menu__item a {
-    font-size: 14px;
-  }
-  .menu__item a {
-    flex: 0 1 100%;
-  }
-  .header__phone a {
-    font-size: 14px;
-  }
-  .header__phone_img {
-    width: 12px;
-  }
-  .header__btn {
-    font-size: 14px;
-  }
-}
-@media (max-width: 1300px) {
-  .header__row {
-    height: 50px;
-  }
-  .header__logo {
-    margin: 0px 10px 0px 0px;
-  }
-  .header__menu {
-    padding: 0px 0px 0 5px;
-    margin: 0px 5px 0px 0px;
-  }
-  .header__logo img {
-    min-width: 80px;
-  }
-  .menu__item:not(:last-child) {
-    margin: 0px 15px 0px 0px;
-  }
-  .menu__item a {
-    font-size: 12px;
-  }
-  .header__phone a {
-    font-size: 10px;
-  }
-  .header__phone {
-    padding: 0px 5px;
-    margin: 0px 5px 0px 0px;
-  }
-  .header__btn {
-    font-size: 10px;
-    padding: 0 15px;
-  }
+  padding: 0 3.1875rem;
+  font-size: 1rem;
+  letter-spacing: 0.0375rem;
 }
 /*===============================================================================================*/
 
@@ -289,23 +222,23 @@ body {
   background-color: rgba(41, 45, 51, 0.6);
   display: flex;
   min-height: 100vh;
-  margin: 0px 0px 110px 0px;
+  margin: 0px 0px 6.875rem 0px;
 }
 .main-block__body {
   flex: 1 1 auto;
   width: 100%;
-  max-width: 1490px;
+  max-width: 93.125rem;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 267px 15px 0 15px;
+  padding: 16.6875rem 0.9375rem 0 0.9375rem;
 }
 .main-block__title {
-  max-width: 1100px;
-  margin: 0px 0px 40px 0px;
+  max-width: 68.75rem;
+  margin: 0px 0px 2.5rem 0px;
   color: white;
-  font-size: 80px;
+  font-size: 5rem;
   line-height: 120%;
   text-transform: uppercase;
   font-family: "Bebas Neue", sans-serif;
@@ -314,27 +247,27 @@ body {
 .main-block__title::before {
   content: "";
   position: absolute;
-  width: 150px;
+  width: 9.375rem;
   height: 2px;
   display: inline-block;
   background-color: #5c8ee5;
-  top: -24px;
+  top: -1.5rem;
   left: 0;
 }
 .main-block__text {
-  max-width: 730px;
+  max-width: 45.625rem;
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 160%;
-  letter-spacing: 0.4px;
-  margin: 0px 0px 50px 0px;
+  letter-spacing: 0.025rem;
+  margin: 0px 0px 3.125rem 0px;
 }
 .main-block__btn {
   align-self: start;
-  padding: 25px 60px;
-  margin: 0px 0px 100px 0px;
-  letter-spacing: 0.4px;
+  padding: 1.5625rem 3.75rem;
+  margin: 0px 0px 6.25rem 0px;
+  letter-spacing: 0.025rem;
 }
 .cards__row {
   display: flex;
@@ -348,14 +281,14 @@ body {
   border-right: 1px solid rgba(235, 235, 240, 0.2);
 }
 .cards__item {
-  padding: 32px 50px 30px 50px;
+  padding: 2rem 3.125rem 1.875rem 3.125rem;
   width: 100%;
 }
 .item-cards__icon {
   position: relative;
-  width: 30px;
-  height: 30px;
-  margin: 0px 0px 24px 0px;
+  width: 1.875rem;
+  height: 1.875rem;
+  margin: 0px 0px 1.5rem 0px;
 }
 .item-cards__icon svg {
   max-width: 100%;
@@ -363,90 +296,38 @@ body {
 }
 .item-cards__text {
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 160%;
   font-weight: 300;
   letter-spacing: 0.3px;
-}
-@media (max-width: 1800px) {
-  .main-block__body {
-    max-width: 1200px;
-    padding: 130px 15px 0 15px;
-  }
-  .main-block__title {
-    font-size: 64px;
-    margin: 0px 0px 20px 0px;
-  }
-  .main-block__text {
-    margin: 0px 0px 30px 0px;
-  }
-  .main-block__btn {
-    padding: 20px 45px;
-    margin: 0px 0px 70px 0px;
-  }
-  .cards__item {
-    padding: 20px 40px;
-  }
-  .item-cards__icon {
-    width: 30px;
-    margin: 0px 0px 14px 0px;
-  }
-  @media (max-width: 1500px) {
-    .main-block {
-      margin: 0px 0px 80px 0px;
-    }
-    .main-block__body {
-      max-width: 980px;
-      padding: 130px 15px 0 15px;
-    }
-    .main-block__title {
-      font-size: 58px;
-      line-height: 110%;
-      max-width: 850px;
-    }
-    .main-block__btn {
-      padding: 15px 20px;
-      margin: 0px 0px 60px 0px;
-    }
-    .cards__item {
-      padding: 20px;
-    }
-    .item-cards__icon {
-      width: 20px;
-      height: 20px;
-    }
-    .item-cards__text {
-      font-size: 14px;
-    }
-  }
 }
 /*===============================================================================================*/
 
 /*===== work-scheme ==============================================================================*/
 .work-scheme {
-  padding: 65px 0px 0px 0px;
-  margin: 0px 0px 110px 0px;
+  padding: 4.0625rem 0px 0px 0px;
+  margin: 0px 0px 6.875rem 0px;
 }
 .work-scheme__title {
-  margin: 0px 0px 55px 0px;
+  margin: 0px 0px 3.4375rem 0px;
   position: relative;
 }
 .work-scheme__title::before {
   content: "";
   position: absolute;
-  width: 150px;
+  width: 9.375rem;
   height: 2px;
   display: inline-block;
   background-color: #5c8ee5;
-  top: -25px;
+  top: -1.5625rem;
   left: 0;
 }
 .work-scheme__row {
   display: flex;
-  margin: 0 -15px;
+  margin: 0 -0.9375rem;
 }
 .work-scheme__column {
-  padding: 0 15px;
+  padding: 0 0.9375rem;
   flex: 0 1 25%;
 }
 .item-scheme {
@@ -457,10 +338,10 @@ body {
 .item-scheme__number {
   color: #5c8ee5;
   font-family: "Bebas Neue";
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 600;
   line-height: 120%;
-  margin: 0px 0px 34px 0px;
+  margin: 0px 0px 2.125rem 0px;
   display: flex;
   align-items: center;
 }
@@ -468,7 +349,7 @@ body {
   content: "";
   flex: 1 1 auto;
   height: 1px;
-  margin: 0px 0px 0px 30px;
+  margin: 0px 0px 0px 1.875rem;
   background-color: #ebebf0;
 }
 .work-scheme__column:first-child .item-scheme__number {
@@ -477,35 +358,19 @@ body {
 .item-scheme__title {
   color: #292d33;
   font-family: "Noto Sans";
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 400;
   line-height: 160%;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 0.625rem 0px;
   max-width: 80%;
 }
 .item-scheme__text {
   color: #828a99;
   font-family: "Noto Sans";
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
-  margin: 0px 0px 20px 0px;
+  margin: 0px 0px 1.25rem 0px;
   flex: 1 1 auto;
-}
-@media (max-width: 1800px) {
-  .item-scheme__title {
-    font-size: 24px;
-    line-height: 120%;
-  }
-  .work-scheme__title {
-    margin: 0px 0px 30px 0px;
-  }
-}
-@media (max-width: 1500px) {
-  .item-scheme__title {
-    font-size: 20px;
-    line-height: 120%;
-    min-height: 48px;
-  }
 }
 /*===============================================================================================*/
