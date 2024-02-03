@@ -7,34 +7,48 @@ const burgerButton = document.querySelector(".burger-menu");
 const menuBody = document.querySelector(".header__menu_mobile");
 const burgerLine = document.querySelectorAll(".burger-menu__icon span");
 
-//Смена цвета шапки и логотипа + уменьшение высоты шапки
-window.addEventListener("scroll", function () {
-  if (window.scrollY > 50) {
-    header.classList.add("dark");
-    headerRow.classList.add("minify");
-    burgerLine.forEach((el) => el.classList.add("dark"));
-    logo.setAttribute("href", "./img/icons/sprite.svg#main_logo_d");
-  } else {
-    header.classList.remove("dark");
-    burgerLine.forEach((el) => el.classList.remove("dark"));
-    headerRow.classList.remove("minify");
-    logo.setAttribute("href", "./img/icons/sprite.svg#main_logo_l");
-  }
-});
+const lightThemeOn = () => {
+  header.classList.add("dark");
+  burgerLine.forEach((el) => el.classList.add("dark"));
+};
+const lightThemeOff = () => {
+  header.classList.remove("dark");
+  burgerLine.forEach((el) => el.classList.remove("dark"));
+};
+const darkLogo = () => logo.setAttribute("href", "./img/icons/sprite.svg#main_logo_d");
+const lightLogo = () => logo.setAttribute("href", "./img/icons/sprite.svg#main_logo_l");
+const minHeader = () => headerRow.classList.add("minify");
+const maxHeader = () => headerRow.classList.remove("minify");
 
-//Открытие и закрытие мобильного меню
-if (burgerButton) {
+const changeHeaderTheme = () => {
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 50) {
+      lightThemeOn();
+      minHeader();
+      darkLogo();
+    } else {
+      lightThemeOff();
+      maxHeader();
+      lightLogo();
+    }
+  });
+};
+
+const mMenuToggle = () => {
   burgerButton.addEventListener("click", function (e) {
     document.body.classList.toggle("_lock");
     iconMenu.classList.toggle("_active");
     menuBody.classList.toggle("_active");
     if (body.classList.contains("_lock")) {
-      logo.setAttribute("href", "./img/icons/sprite.svg#main_logo_d");
+      darkLogo();
     } else if (!body.classList.contains("_lock") && window.scrollY < 50) {
-      logo.setAttribute("href", "./img/icons/sprite.svg#main_logo_l");
+      lightLogo();
     }
     if (window.scrollY < 50) {
       burgerLine.forEach((el) => el.classList.toggle("dark"));
     }
   });
-}
+};
+
+changeHeaderTheme();
+mMenuToggle();
