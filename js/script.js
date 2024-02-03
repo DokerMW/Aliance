@@ -3,6 +3,7 @@ const body = document.querySelector("body");
 const headerRow = document.querySelector(".header__row");
 const logo = document.querySelector(".header__img use");
 const iconMenu = document.querySelector(".burger-menu__icon");
+const burgerButton = document.querySelector(".burger-menu");
 const menuBody = document.querySelector(".header__menu_mobile");
 const burgerLine = document.querySelectorAll(".burger-menu__icon span");
 
@@ -22,8 +23,8 @@ window.addEventListener("scroll", function () {
 });
 
 //Открытие и закрытие мобильного меню
-if (iconMenu) {
-  iconMenu.addEventListener("click", function (e) {
+if (burgerButton) {
+  burgerButton.addEventListener("click", function (e) {
     document.body.classList.toggle("_lock");
     iconMenu.classList.toggle("_active");
     menuBody.classList.toggle("_active");
