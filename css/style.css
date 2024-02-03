@@ -349,10 +349,8 @@ body._lock {
   }
 }
 @media (max-width: 767px) {
-  .header__row.minify {
-    height: 48px;
-  }
-  .mobile-menu_list::before {
+  .header__row.minify,
+  .header.dark .mobile-menu_list::before {
     height: 48px;
   }
 }
