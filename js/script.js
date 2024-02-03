@@ -1,6 +1,7 @@
 const header = document.querySelector(".header");
 const headerRow = document.querySelector(".header__row");
 const logo = document.querySelector(".header__img use");
+const burgerIcon = document.querySelector(".burger-menu");
 
 window.addEventListener("scroll", function () {
   if (window.scrollY > 50) {
