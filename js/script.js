@@ -60,7 +60,8 @@ const swiper = new Swiper(".swiper", {
 
   // Navigation arrows
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".swiper-next-btn",
+    prevEl: ".swiper-prev-btn",
   },
+  slidesPerView: 3.5,
 });
