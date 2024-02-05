@@ -105,7 +105,7 @@
               зависит от анализа существующих паттернов поведения.
             </p>
             <button class="main-block__btn btn">Подробнее о компании</button>
-            <div class="main-block__cards cards swiper">
+            <div class="main-block__cards cards swiper features-slider">
               <div class="cards__row swiper-wrapper">
                 <div class="cards__column swiper-slide">
                   <div class="cards__item item-cards">
@@ -161,9 +161,13 @@
                   </div>
                 </div>
               </div>
-              <div class="swiper-nav">
-                <div class="swiper-prev-btn"></div>
-                <div class="swiper-next-btn"></div>
+              <div class="features-swiper-nav">
+                <div class="features-prev-btn">
+                  <img src="./img/icons/arrow.svg" alt="slider arrow" />
+                </div>
+                <div class="features-next-btn">
+                  <img src="./img/icons/arrow.svg" alt="slider arrow" />
+                </div>
               </div>
             </div>
           </div>
@@ -171,48 +175,58 @@
         <section class="work-scheme">
           <div class="_container">
             <h2 class="work-scheme__title title">схема работы</h2>
-            <div class="work-scheme__row">
-              <div class="work-scheme__column">
-                <div class="work-scheme__item item-scheme">
-                  <div class="item-scheme__number">01</div>
-                  <h3 class="item-scheme__title">Знакомство</h3>
-                  <p class="item-scheme__text">
-                    Безусловно, сплочённость команды профессионалов позволяет оценить значение форм
-                    воздействия.
-                  </p>
-                  <div class="item-scheme__link">
-                    <a href="#" class="link">Оставить заявку</a>
+            <div class="swiper scheme-slider">
+              <div class="work-scheme__row swiper-wrapper">
+                <div class="work-scheme__column swiper-slide">
+                  <div class="work-scheme__item item-scheme">
+                    <div class="item-scheme__number">01</div>
+                    <h3 class="item-scheme__title">Знакомство</h3>
+                    <p class="item-scheme__text">
+                      Безусловно, сплочённость команды профессионалов позволяет оценить значение
+                      форм воздействия.
+                    </p>
+                    <div class="item-scheme__link">
+                      <a href="#" class="link">Оставить заявку</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="work-scheme__column swiper-slide">
+                  <div class="work-scheme__item item-scheme">
+                    <div class="item-scheme__number">02</div>
+                    <h3 class="item-scheme__title">Заключение договора</h3>
+                    <p class="item-scheme__text">
+                      Лишь интерактивные прототипы<br />
+                      призваны к ответу.
+                    </p>
+                  </div>
+                </div>
+                <div class="work-scheme__column swiper-slide">
+                  <div class="work-scheme__item item-scheme">
+                    <div class="item-scheme__number">03</div>
+                    <h3 class="item-scheme__title">Производство</h3>
+                    <p class="item-scheme__text">
+                      А также стремящиеся вытеснить традиционное производство, нанотехнологии
+                      функционально разнесены на независимые элементы.
+                    </p>
+                  </div>
+                </div>
+                <div class="work-scheme__column swiper-slide">
+                  <div class="work-scheme__item item-scheme">
+                    <div class="item-scheme__number">04</div>
+                    <h3 class="item-scheme__title">Доставка</h3>
+                    <p class="item-scheme__text">
+                      В частности, экономическая повестка сегодняшнего дня говорит о возможностях
+                      приоритизации разума над эмоциями.
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="work-scheme__column">
-                <div class="work-scheme__item item-scheme">
-                  <div class="item-scheme__number">02</div>
-                  <h3 class="item-scheme__title">Заключение договора</h3>
-                  <p class="item-scheme__text">
-                    Лишь интерактивные прототипы<br />
-                    призваны к ответу.
-                  </p>
+              <div class="scheme-swiper-nav">
+                <div class="scheme-prev-btn">
+                  <img src="./img/icons/arrow.svg" alt="slider arrow" />
                 </div>
-              </div>
-              <div class="work-scheme__column">
-                <div class="work-scheme__item item-scheme">
-                  <div class="item-scheme__number">03</div>
-                  <h3 class="item-scheme__title">Производство</h3>
-                  <p class="item-scheme__text">
-                    А также стремящиеся вытеснить традиционное производство, нанотехнологии
-                    функционально разнесены на независимые элементы.
-                  </p>
-                </div>
-              </div>
-              <div class="work-scheme__column">
-                <div class="work-scheme__item item-scheme">
-                  <div class="item-scheme__number">04</div>
-                  <h3 class="item-scheme__title">Доставка</h3>
-                  <p class="item-scheme__text">
-                    В частности, экономическая повестка сегодняшнего дня говорит о возможностях
-                    приоритизации разума над эмоциями.
-                  </p>
+                <div class="scheme-next-btn">
+                  <img src="./img/icons/arrow.svg" alt="slider arrow" />
                 </div>
               </div>
             </div>
