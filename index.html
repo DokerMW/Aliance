@@ -7,6 +7,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <meta name="format-detection" content="telephone=no" />
     <link rel="shortcut icon" href="./img/icons/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Aliance Production</title>
   </head>
@@ -104,9 +105,9 @@
               зависит от анализа существующих паттернов поведения.
             </p>
             <button class="main-block__btn btn">Подробнее о компании</button>
-            <div class="main-block__cards cards">
-              <div class="cards__row">
-                <div class="cards__column">
+            <div class="main-block__cards cards swiper features-slider">
+              <div class="cards__row swiper-wrapper">
+                <div class="cards__column swiper-slide">
                   <div class="cards__item item-cards">
                     <div class="item-cards__icon">
                       <svg width="21px">
@@ -119,7 +120,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="cards__column">
+                <div class="cards__column swiper-slide">
                   <div class="cards__item item-cards">
                     <div class="item-cards__icon">
                       <svg width="29px">
@@ -129,7 +130,7 @@
                     <div class="item-cards__text">Вся продукция сертифицирована</div>
                   </div>
                 </div>
-                <div class="cards__column">
+                <div class="cards__column swiper-slide">
                   <div class="cards__item item-cards">
                     <div class="item-cards__icon">
                       <svg width="25px">
@@ -139,7 +140,7 @@
                     <div class="item-cards__text">Контроль качества на всех этапах</div>
                   </div>
                 </div>
-                <div class="cards__column">
+                <div class="cards__column swiper-slide">
                   <div class="cards__item item-cards">
                     <div class="item-cards__icon">
                       <svg>
@@ -149,7 +150,7 @@
                     <div class="item-cards__text">Возможны поставки по всей России</div>
                   </div>
                 </div>
-                <div class="cards__column">
+                <div class="cards__column swiper-slide">
                   <div class="cards__item item-cards">
                     <div class="item-cards__icon">
                       <svg>
@@ -160,54 +161,72 @@
                   </div>
                 </div>
               </div>
+              <div class="features-swiper-nav">
+                <div class="features-prev-btn">
+                  <img src="./img/icons/arrow.svg" alt="slider arrow" />
+                </div>
+                <div class="features-next-btn">
+                  <img src="./img/icons/arrow.svg" alt="slider arrow" />
+                </div>
+              </div>
             </div>
           </div>
         </section>
         <section class="work-scheme">
           <div class="_container">
             <h2 class="work-scheme__title title">схема работы</h2>
-            <div class="work-scheme__row">
-              <div class="work-scheme__column">
-                <div class="work-scheme__item item-scheme">
-                  <div class="item-scheme__number">01</div>
-                  <h3 class="item-scheme__title">Знакомство</h3>
-                  <p class="item-scheme__text">
-                    Безусловно, сплочённость команды профессионалов позволяет оценить значение форм
-                    воздействия.
-                  </p>
-                  <div class="item-scheme__link">
-                    <a href="#" class="link">Оставить заявку</a>
+            <div class="swiper scheme-slider">
+              <div class="work-scheme__row swiper-wrapper">
+                <div class="work-scheme__column swiper-slide">
+                  <div class="work-scheme__item item-scheme">
+                    <div class="item-scheme__number">01</div>
+                    <h3 class="item-scheme__title">Знакомство</h3>
+                    <p class="item-scheme__text">
+                      Безусловно, сплочённость команды профессионалов позволяет оценить значение
+                      форм воздействия.
+                    </p>
+                    <div class="item-scheme__link">
+                      <a href="#" class="link">Оставить заявку</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="work-scheme__column swiper-slide">
+                  <div class="work-scheme__item item-scheme">
+                    <div class="item-scheme__number">02</div>
+                    <h3 class="item-scheme__title">Заключение договора</h3>
+                    <p class="item-scheme__text">
+                      Лишь интерактивные прототипы<br />
+                      призваны к ответу.
+                    </p>
+                  </div>
+                </div>
+                <div class="work-scheme__column swiper-slide">
+                  <div class="work-scheme__item item-scheme">
+                    <div class="item-scheme__number">03</div>
+                    <h3 class="item-scheme__title">Производство</h3>
+                    <p class="item-scheme__text">
+                      А также стремящиеся вытеснить традиционное производство, нанотехнологии
+                      функционально разнесены на независимые элементы.
+                    </p>
+                  </div>
+                </div>
+                <div class="work-scheme__column swiper-slide">
+                  <div class="work-scheme__item item-scheme">
+                    <div class="item-scheme__number">04</div>
+                    <h3 class="item-scheme__title">Доставка</h3>
+                    <p class="item-scheme__text">
+                      В частности, экономическая повестка сегодняшнего дня говорит о возможностях
+                      приоритизации разума над эмоциями.
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="work-scheme__column">
-                <div class="work-scheme__item item-scheme">
-                  <div class="item-scheme__number">02</div>
-                  <h3 class="item-scheme__title">Заключение договора</h3>
-                  <p class="item-scheme__text">
-                    Лишь интерактивные прототипы<br />
-                    призваны к ответу.
-                  </p>
+              <div class="scheme-swiper-nav">
+                <div class="scheme-prev-btn">
+                  <img src="./img/icons/arrow.svg" alt="slider arrow" />
                 </div>
-              </div>
-              <div class="work-scheme__column">
-                <div class="work-scheme__item item-scheme">
-                  <div class="item-scheme__number">03</div>
-                  <h3 class="item-scheme__title">Производство</h3>
-                  <p class="item-scheme__text">
-                    А также стремящиеся вытеснить традиционное производство, нанотехнологии
-                    функционально разнесены на независимые элементы.
-                  </p>
-                </div>
-              </div>
-              <div class="work-scheme__column">
-                <div class="work-scheme__item item-scheme">
-                  <div class="item-scheme__number">04</div>
-                  <h3 class="item-scheme__title">Доставка</h3>
-                  <p class="item-scheme__text">
-                    В частности, экономическая повестка сегодняшнего дня говорит о возможностях
-                    приоритизации разума над эмоциями.
-                  </p>
+                <div class="scheme-next-btn">
+                  <img src="./img/icons/arrow.svg" alt="slider arrow" />
                 </div>
               </div>
             </div>
@@ -215,6 +234,7 @@
         </section>
       </main>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>

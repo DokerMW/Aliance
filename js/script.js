@@ -52,3 +52,50 @@ const mMenuToggle = () => {
 
 changeHeaderTheme();
 mMenuToggle();
+
+const swiperFeatures = new Swiper(".features-slider", {
+  direction: "horizontal",
+  loop: false,
+  navigation: {
+    nextEl: ".features-next-btn",
+    prevEl: ".features-prev-btn",
+  },
+  slidesPerView: 3.5,
+  breakpoints: {
+    320: {
+      slidesPerView: 1.4,
+    },
+    550: {
+      slidesPerView: 2.4,
+    },
+    768: {
+      slidesPerView: 3.4,
+    },
+    900: {
+      slidesPerView: 4.4,
+    },
+  },
+});
+const swiperScheme = new Swiper(".scheme-slider", {
+  direction: "horizontal",
+  loop: false,
+  navigation: {
+    nextEl: ".scheme-next-btn",
+    prevEl: ".scheme-prev-btn",
+  },
+  slidesPerView: 3.5,
+  breakpoints: {
+    320: {
+      slidesPerView: 1.4,
+    },
+    550: {
+      slidesPerView: 2.4,
+    },
+    768: {
+      slidesPerView: 3.4,
+    },
+    900: {
+      slidesPerView: 4.4,
+    },
+  },
+});
