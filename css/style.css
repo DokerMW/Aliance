@@ -513,6 +513,39 @@ body._lock .header__row {
   font-weight: 300;
   letter-spacing: 0.3px;
 }
+@media (max-width: 768px) {
+  .main-block__title {
+    font-size: 3.75rem;
+    max-width: 50rem;
+    margin: 0px 0px 1.5rem 0px;
+  }
+}
+@media (max-width: 550px) {
+  .main-block__title {
+    font-size: 3rem;
+    max-width: 40rem;
+    margin: 0px 0px 1.5rem 0px;
+  }
+  .main-block__text {
+    margin: 0px 0px 2.125rem 0px;
+  }
+  .main-block__body {
+    justify-content: center;
+    padding: 16.6875rem 0.9375rem 0 0.9375rem;
+  }
+}
+@media (max-width: 450px) {
+  .main-block__title {
+    font-size: 3rem;
+    max-width: 30rem;
+    margin: 0px 0px 1.5rem 0px;
+    line-height: 100%;
+  }
+  .main-block__text {
+    line-height: 130%;
+    max-width: 30rem;
+  }
+}
 /*===============================================================================================*/
 
 /*===== work-scheme ==============================================================================*/
