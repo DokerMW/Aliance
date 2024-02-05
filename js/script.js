@@ -76,6 +76,7 @@ const swiperFeatures = new Swiper(".features-slider", {
     },
   },
 });
+
 const swiperScheme = new Swiper(".scheme-slider", {
   direction: "horizontal",
   loop: false,

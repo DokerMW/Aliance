@@ -404,7 +404,7 @@ body._lock .header__row {
     left: -100%;
     top: 0;
     width: 100%;
-    height: 67px;
+    height: 83px;
     background-color: #fff;
     z-index: 3;
     transition: left 0.2s ease 0s;
@@ -416,7 +416,7 @@ body._lock .header__row {
 @media (max-width: 767px) {
   .header__row.minify,
   .header.dark .mobile-menu_list::before {
-    height: 48px;
+    height: 73px;
   }
 }
 @media (max-width: 450px) {
@@ -821,8 +821,6 @@ body._lock .header__row {
 }
 .swiper-wrapper {
   width: 100%;
-}
-.swiper-slide {
 }
 .features-swiper-nav {
   display: none;
