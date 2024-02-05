@@ -7,6 +7,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <meta name="format-detection" content="telephone=no" />
     <link rel="shortcut icon" href="./img/icons/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Aliance Production</title>
   </head>
@@ -104,9 +105,9 @@
               зависит от анализа существующих паттернов поведения.
             </p>
             <button class="main-block__btn btn">Подробнее о компании</button>
-            <div class="main-block__cards cards">
-              <div class="cards__row">
-                <div class="cards__column">
+            <div class="main-block__cards cards swiper">
+              <div class="cards__row swiper-wrapper">
+                <div class="cards__column swiper-slide">
                   <div class="cards__item item-cards">
                     <div class="item-cards__icon">
                       <svg width="21px">
@@ -119,7 +120,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="cards__column">
+                <div class="cards__column swiper-slide">
                   <div class="cards__item item-cards">
                     <div class="item-cards__icon">
                       <svg width="29px">
@@ -129,7 +130,7 @@
                     <div class="item-cards__text">Вся продукция сертифицирована</div>
                   </div>
                 </div>
-                <div class="cards__column">
+                <div class="cards__column swiper-slide">
                   <div class="cards__item item-cards">
                     <div class="item-cards__icon">
                       <svg width="25px">
@@ -139,7 +140,7 @@
                     <div class="item-cards__text">Контроль качества на всех этапах</div>
                   </div>
                 </div>
-                <div class="cards__column">
+                <div class="cards__column swiper-slide">
                   <div class="cards__item item-cards">
                     <div class="item-cards__icon">
                       <svg>
@@ -149,7 +150,7 @@
                     <div class="item-cards__text">Возможны поставки по всей России</div>
                   </div>
                 </div>
-                <div class="cards__column">
+                <div class="cards__column swiper-slide">
                   <div class="cards__item item-cards">
                     <div class="item-cards__icon">
                       <svg>
@@ -159,6 +160,10 @@
                     <div class="item-cards__text">Оперативное производство</div>
                   </div>
                 </div>
+              </div>
+              <div class="swiper-nav">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
               </div>
             </div>
           </div>
@@ -215,6 +220,7 @@
         </section>
       </main>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>
