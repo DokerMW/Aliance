@@ -63,7 +63,7 @@ const swiperFeatures = new Swiper(".features-slider", {
   slidesPerView: 3.5,
   breakpoints: {
     320: {
-      slidesPerView: 1.4,
+      slidesPerView: 1.38,
     },
     550: {
       slidesPerView: 2.4,
@@ -87,7 +87,7 @@ const swiperScheme = new Swiper(".scheme-slider", {
   slidesPerView: 3.5,
   breakpoints: {
     320: {
-      slidesPerView: 1.4,
+      slidesPerView: 1.1,
     },
     550: {
       slidesPerView: 2.4,

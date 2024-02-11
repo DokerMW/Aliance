@@ -23,7 +23,7 @@ body._lock {
   transition: all 0.2s ease-in 0s;
 }
 .minify {
-  height: 73px !important;
+  height: 73px;
 }
 .title {
   font-family: "Bebas Neue";
@@ -140,6 +140,19 @@ body._lock {
   }
   .title {
     font-size: 36px;
+  }
+}
+@media (max-width: 450px) {
+  .title::before {
+    width: 100px;
+    top: -18px;
+  }
+  .link {
+    font-weight: 700;
+    padding: 0px 0px 0px 60px;
+  }
+  .link::before {
+    width: 40px;
   }
 }
 /*===============================================================================================*/
@@ -430,8 +443,18 @@ body._lock .header__row {
   }
 }
 @media (max-width: 450px) {
+  .header__row {
+    height: 68px;
+  }
+  .header__row.minify,
+  .header.dark .mobile-menu_list::before {
+    height: 68px;
+  }
   .header__logo svg {
     height: 60%;
+  }
+  .header__btn {
+    padding: 0 32px 0 31px;
   }
 }
 /*===============================================================================================*/
@@ -497,6 +520,12 @@ body._lock .header__row {
 }
 @media (max-width: 767px) {
   .header__row.minify .header__burger .burger-menu__icon span:nth-child(2) {
+    top: calc(50% - 1px);
+  }
+}
+@media (max-width: 450px) {
+  .burger-menu__icon span:nth-child(2) {
+    width: 75%;
     top: calc(50% - 1px);
   }
 }
@@ -673,34 +702,44 @@ body._lock .header__row {
   }
 }
 @media (max-width: 450px) {
+  .main-block__body {
+    padding: 138px 15px 0 15px;
+  }
   .main-block__title {
-    font-size: 34px;
+    font-size: 48px;
     max-width: 560px;
-    margin: 0px 0px 24px 0px;
-    line-height: 100%;
+    margin: 0px 0px 15px 0px;
+    line-height: 120%;
   }
   .main-block__text {
-    line-height: 150%;
-    max-width: 550px;
+    line-height: 160%;
+    max-width: 340px;
     font-size: 14px;
   }
   .main-block__title::before {
-    top: -25px;
+    top: -20px;
+    width: 100px;
   }
   .main-block__btn {
+    font-weight: 700;
     align-self: stretch;
-    padding: 18px 0;
+    padding: 20px 0;
     margin: 0px 0px 50px 0px;
   }
   .item-cards__text {
-    font-size: 16px;
+    font-size: 14px;
   }
   .item-cards__icon {
     width: 36px;
     height: 36px;
+    margin: 0px 0px 20px 0px;
   }
   .cards__item {
-    padding: 23px 30px 20px 30px;
+    padding: 20px 20px 18px 30px;
+  }
+
+  .main-block__btn {
+    font-size: 14px;
   }
 }
 /*===============================================================================================*/
@@ -790,7 +829,7 @@ body._lock .header__row {
   }
   .item-scheme__text {
     font-size: 14px;
-    line-height: 140%;
+    line-height: 160%;
   }
 }
 @media (max-width: 1150px) {
@@ -806,9 +845,6 @@ body._lock .header__row {
   .item-scheme__number {
     margin: 0px 0px 25px 0px;
   }
-  .item-scheme__title {
-    font-size: 18px;
-  }
   .work-scheme__row {
     margin: 0 -10px;
   }
@@ -819,6 +855,24 @@ body._lock .header__row {
 @media (max-width: 768px) {
   .item-scheme__title {
     min-height: auto;
+  }
+}
+@media (max-width: 450px) {
+  .work-scheme {
+    padding: 67px 0px 0px 0px;
+    margin: 0px 0px 115px 0px;
+  }
+  .work-scheme__row {
+    margin: 0 -15px 18px -15px;
+  }
+  .item-scheme__number {
+    font-size: 48px;
+  }
+  .item-scheme__number {
+    margin: 0px 0px 15px 0px;
+  }
+  .item-scheme__link {
+    margin-top: 5px;
   }
 }
 /*===============================================================================================*/
@@ -887,6 +941,22 @@ body._lock .header__row {
     right: 0;
     z-index: 20;
     cursor: pointer;
+  }
+  .scheme-prev-btn,
+  .scheme-next-btn {
+    padding: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .features-prev-btn {
+    border-left: none;
+  }
+  .features-next-btn {
+    border-right: none;
+    border-left: none;
+  }
+  .features-swiper-nav {
+    height: 40px;
   }
 }
 /*===============================================================================================*/
@@ -1011,6 +1081,9 @@ body._lock .header__row {
   }
 }
 @media (max-width: 450px) {
+  .production {
+    margin: 0px 0px 118px 0px;
+  }
   .item-production__img {
     height: 215px;
   }
@@ -1018,13 +1091,14 @@ body._lock .header__row {
     margin: 0px 0px 35px 0px;
   }
   .item-production__body {
-    padding: 20px 30px 92px 30px;
+    padding: 22px 30px 92px 30px;
   }
   .item-production__title {
     font-size: 20px;
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 12px 0px;
   }
   .item-production__text {
+    line-height: 160%;
     font-size: 14px;
   }
 }
@@ -1176,6 +1250,9 @@ body._lock .header__row {
 @media (max-width: 450px) {
   .item-brand {
     flex-direction: column;
+  }
+  .brands__title {
+    margin: 0px 0px 33px 0px;
   }
   .item-brand__logo {
     flex: 1 1 100px;
