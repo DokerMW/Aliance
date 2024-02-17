@@ -1487,7 +1487,7 @@ body._lock .header__row {
 
 /*===== blog style ==============================================================================*/
 .blog {
-   padding-bottom: 100px;
+   margin: 0px 0px 224px 0px;
 }
 .blog__title {
    position: relative;
@@ -1496,6 +1496,9 @@ body._lock .header__row {
 .blog__body {
    gap: 30px;
    margin: 0 0 30px 0;
+}
+.blog__column {
+   flex: 0 1 50%;
 }
 .item-blog__content {
    padding: 50px;
@@ -1553,6 +1556,11 @@ body._lock .header__row {
       line-height: 130%;
    }
 }
+@media (max-width: 1400px) {
+   .blog__column {
+      flex: none;
+   }
+}
 @media (max-width: 900px) {
    .blog__body {
       gap: 0px;
@@ -1573,5 +1581,86 @@ body._lock .header__row {
    .item-blog__text {
       display: none;
    }
+}
+/*===============================================================================================*/
+
+/*===== cooperation ==============================================================================*/
+.cooperation {
+   background-color: #f0f2f5;
+   position: relative;
+   margin-bottom: 200px;
+}
+.cooperation__image {
+   position: absolute;
+   bottom: 0;
+   left: -10px;
+}
+.cooperation__body {
+   width: 840px;
+   padding: 95px 0 100px 0;
+   margin-left: auto;
+}
+.cooperation__title {
+   font-family: "Bebas Neue";
+   font-size: 60px;
+   font-weight: 400;
+   line-height: 120%;
+   color: #292d33;
+   margin: 0px 0px 27px 0px;
+}
+.cooperation__text {
+   color: rgb(130, 138, 153);
+   font-size: 16px;
+   line-height: 160%;
+   margin: 0px 0px 50px 0px;
+   max-width: 640px;
+}
+.cooperation__form {
+}
+.form-cooperation {
+}
+.form-cooperation__input-group {
+   display: flex;
+   gap: 30px;
+   height: 66px;
+   margin: 0px 0px 30px 0px;
+}
+.form-cooperation__input {
+   flex: 0 1 50%;
+   position: relative;
+}
+.form-cooperation__input label {
+   position: absolute;
+   left: 30px;
+   top: 50%;
+   transform: translate(0, -50%);
+   color: rgb(130, 138, 153);
+   font-family: "Noto Sans";
+   font-size: 16px;
+   font-weight: 400;
+}
+.form-cooperation__input input {
+   background-color: #f0f2f5;
+   border: 1px solid rgb(228, 228, 235);
+   width: 100%;
+   height: 100%;
+   padding: 20px 30px;
+}
+.form-cooperation__footer {
+   display: flex;
+   align-items: center;
+}
+.form-cooperation__btn {
+   flex: 0 0 auto;
+   padding: 18px 48px;
+   margin-right: 31px;
+}
+.form-cooperation__notify {
+   max-width: 410px;
+   color: rgb(130, 138, 153);
+   font-size: 12px;
+   line-height: 160%;
+   background: url("../img/cooperation/icon.svg") 0 3px no-repeat;
+   padding-left: 22px;
 }
 /*===============================================================================================*/
