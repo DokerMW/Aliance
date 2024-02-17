@@ -1593,7 +1593,7 @@ body._lock .header__row {
 .cooperation__image {
    position: absolute;
    bottom: 0;
-   left: -10px;
+   left: -8px;
 }
 .cooperation__body {
    width: 840px;
@@ -1615,10 +1615,6 @@ body._lock .header__row {
    margin: 0px 0px 50px 0px;
    max-width: 640px;
 }
-.cooperation__form {
-}
-.form-cooperation {
-}
 .form-cooperation__input-group {
    display: flex;
    gap: 30px;
@@ -1629,15 +1625,17 @@ body._lock .header__row {
    flex: 0 1 50%;
    position: relative;
 }
-.form-cooperation__input label {
+.label {
    position: absolute;
-   left: 30px;
+   left: 20px;
    top: 50%;
    transform: translate(0, -50%);
    color: rgb(130, 138, 153);
    font-family: "Noto Sans";
    font-size: 16px;
    font-weight: 400;
+   background-color: #f0f2f5;
+   padding: 0 10px;
 }
 .form-cooperation__input input {
    background-color: #f0f2f5;
@@ -1645,6 +1643,15 @@ body._lock .header__row {
    width: 100%;
    height: 100%;
    padding: 20px 30px;
+   font-size: 16px;
+}
+.form-cooperation__input input:focus {
+   border: 1px solid rgb(92, 142, 230);
+}
+.input:focus ~ .label {
+   top: 0;
+   left: 20px;
+   font-size: 10px;
 }
 .form-cooperation__footer {
    display: flex;
