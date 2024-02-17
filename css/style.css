@@ -1639,6 +1639,7 @@ body._lock .header__row {
    font-weight: 400;
    background-color: #f0f2f5;
    padding: 0 10px;
+   transition: all 0.2s;
 }
 .form-cooperation__input input {
    background-color: #f0f2f5;
@@ -1652,7 +1653,8 @@ body._lock .header__row {
 .form-cooperation__input input:focus {
    border: 1px solid rgb(92, 142, 230);
 }
-.input:focus ~ .label {
+.input:focus ~ .label,
+.input:not(:placeholder-shown).input:not(:focus) ~ .label {
    top: 0;
    left: 20px;
    font-size: 10px;
