@@ -1571,6 +1571,9 @@ body._lock .header__row {
    }
 }
 @media (max-width: 450px) {
+   .blog {
+      margin: 0px 0px 60px 0px;
+   }
    .item-blog__title {
       font-size: 20px;
       line-height: 120%;
@@ -1618,7 +1621,7 @@ body._lock .header__row {
 .form-cooperation__input-group {
    display: flex;
    gap: 30px;
-   height: 66px;
+
    margin: 0px 0px 30px 0px;
 }
 .form-cooperation__input {
@@ -1644,6 +1647,7 @@ body._lock .header__row {
    height: 100%;
    padding: 20px 30px;
    font-size: 16px;
+   height: 66px;
 }
 .form-cooperation__input input:focus {
    border: 1px solid rgb(92, 142, 230);
@@ -1669,5 +1673,88 @@ body._lock .header__row {
    line-height: 160%;
    background: url("../img/cooperation/icon.svg") 0 3px no-repeat;
    padding-left: 22px;
+}
+@media (max-width: 1650px) {
+   .cooperation__image {
+      left: -100px;
+   }
+   .cooperation__body {
+      width: 640px;
+   }
+}
+@media (max-width: 1400px) {
+   .cooperation__image {
+      display: none;
+   }
+   .form-cooperation__input {
+      flex: 0 1 100%;
+      margin: 0px 0px 15px 0px;
+   }
+   .cooperation__body {
+      width: 100%;
+   }
+   .cooperation__title {
+      font-size: 50px;
+   }
+}
+@media (max-width: 900px) {
+   .cooperation__body {
+      padding: 70px 0;
+   }
+   .form-cooperation__input-group {
+      flex-wrap: wrap;
+      gap: 15px;
+   }
+   .form-cooperation__footer {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+   }
+   .form-cooperation__btn {
+      flex: 1 1 100%;
+      margin-right: 0;
+      margin-bottom: 15px;
+   }
+   .cooperation__title {
+      font-size: 40px;
+      margin: 0px 0px 20px 0px;
+      line-height: 1;
+   }
+}
+@media (max-width: 450px) {
+   .cooperation__body {
+      padding: 50px 0;
+   }
+   .cooperation__title {
+      font-size: 36px;
+      margin: 0px 0px 17px 0px;
+   }
+   .cooperation__text {
+      font-size: 14px;
+      margin: 0px 0px 30px 0px;
+      max-width: none;
+   }
+   .form-cooperation__input input {
+      height: 62px;
+   }
+   .form-cooperation__input-group {
+      gap: 0px;
+      margin: 0px 0px 10px 0px;
+   }
+   .form-cooperation__input {
+      margin: 0px 0px 20px 0px;
+   }
+   .form-cooperation__input:last-child {
+      margin: 0;
+   }
+   .label {
+      font-size: 14px;
+   }
+   .form-cooperation__notify {
+      max-width: 300px;
+   }
+   .form-cooperation__btn {
+      margin-bottom: 30px;
+   }
 }
 /*===============================================================================================*/
