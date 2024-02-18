@@ -1759,3 +1759,115 @@ body._lock .header__row {
    }
 }
 /*===============================================================================================*/
+/*===== footer ==============================================================================*/
+.footer {
+}
+
+.top-footer {
+   display: flex;
+   align-items: center;
+   min-height: 163px;
+   border-bottom: 1px solid rgb(235, 235, 240);
+}
+.top-footer__logo {
+   max-width: 200px;
+   margin-right: 160px;
+}
+.footer__img {
+   width: 100%;
+}
+.footer__img {
+}
+.top-footer__tel {
+   color: rgb(41, 45, 51);
+   font-size: 32px;
+   font-weight: 600;
+   line-height: 160%;
+   text-decoration-line: underline;
+   margin-right: 82px;
+}
+.top-footer__info {
+   display: flex;
+   align-items: center;
+}
+.top-footer__address {
+   margin-right: 40px;
+   padding-left: 28px;
+   background: url("../img/icons/address.svg") 0 0 no-repeat;
+}
+.top-footer__email {
+   padding-left: 30px;
+   background: url("../img/icons/mail.svg") 0 0 no-repeat;
+}
+.top-footer__email,
+.top-footer__address {
+   color: rgb(41, 45, 51);
+   font-size: 16px;
+   font-weight: 400;
+}
+.top-footer__social {
+   margin-left: auto;
+   display: flex;
+   align-items: center;
+   gap: 22px;
+}
+
+.footer__middle {
+}
+.middle-footer {
+   min-height: 265px;
+   display: flex;
+   align-items: center;
+}
+.middle-footer_list {
+   display: flex;
+   width: 100%;
+}
+.middle-footer__item {
+}
+.middle-footer__item > a {
+   display: inline-block;
+   color: rgb(41, 45, 51);
+   font-size: 16px;
+   font-weight: 600;
+   margin-bottom: 30px;
+}
+.middle-footer__sublist {
+   padding-left: 20px;
+}
+.middle-footer__subitem {
+}
+.middle-footer__subitem a {
+   display: inline-block;
+   color: rgb(130, 138, 153);
+   font-size: 16px;
+   margin: 0px 0px 15px 0px;
+}
+.footer__bottom {
+}
+.bottom-footer {
+}
+.bottom-footer__row {
+   display: flex;
+   min-height: 60px;
+   align-items: center;
+   justify-content: space-between;
+}
+.bottom-footer__item,
+.bottom-footer__item a {
+   color: rgb(130, 138, 153);
+   font-size: 12px;
+}
+.bottom-footer__item a {
+   text-decoration: underline;
+}
+.bottom-footer__item:first-child span {
+   margin-right: 80px;
+}
+.bottom-footer__item:last-child span {
+   margin-right: 10px;
+}
+.bottom-footer__icon {
+   height: 11px;
+}
+/*===============================================================================================*/
