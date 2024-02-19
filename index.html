@@ -47,7 +47,7 @@
                   <svg class="header__phone_img">
                      <use href="./img/icons/sprite.svg#phone"></use>
                   </svg>
-                  <span>Получить консультацию</span>
+                  <a href="#contact" class="_popup-link">Получить консультацию</a>
                </button>
             </div>
             <nav class="header__menu_mobile mobile-menu">
@@ -565,6 +565,56 @@
                   </div>
                </div>
             </section>
+            <section class="modals">
+               <div class="modals__popup popup popup_contact">
+                  <div class="popup__content">
+                     <div class="popup__body">
+                        <div class="popup-top">
+                           <div class="popup__close"></div>
+                           <h3>Есть вопросы?</h3>
+                           <p>
+                              Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
+                              ответит на все интересующие вопросы и поможем даже в самых сложных
+                              случаях!
+                           </p>
+                        </div>
+                        <div class="popup-bottom">
+                           <form action="#" class="popup-top__form form-popup">
+                              <div class="form-popup__input-group">
+                                 <div class="form-popup__input">
+                                    <input
+                                       class="input"
+                                       id="input-name_2"
+                                       type="text"
+                                       name="username"
+                                       placeholder=" " />
+                                    <label class="label" for="input-name_2">Имя</label>
+                                 </div>
+                                 <div class="form-popup__input">
+                                    <input
+                                       class="input"
+                                       id="input-tel_2"
+                                       type="tel"
+                                       name="usertel"
+                                       placeholder=" " />
+                                    <label class="label" for="input-tel_2">Номер телефона</label>
+                                 </div>
+                              </div>
+                              <div class="form-popup__footer">
+                                 <button class="form-popup__btn btn" type="submit">
+                                    Отправить заявку
+                                 </button>
+                                 <div class="form-popup__notify">
+                                    Обращаясь к нам вы получаете не только профессиональную работу,
+                                    но и абсолютную конфиденциальность информации!
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
          </main>
          <footer class="footer">
             <div class="footer__top top-footer">
@@ -650,3 +700,50 @@
       <script src="./js/script.js"></script>
    </body>
 </html>
+
+<!--<div class="popup popup_driver">
+   <div class="popup__content">
+      <div class="popup__body">
+         <div class="popup__close"></div>
+         <form action="#" id="form_4" class="driver__form form popup-form" method="post">
+            <h2 class="form__title">READY TO DRIVE?</h2>
+            <div class="form__item form__item_input">
+               <input type="text" class="input-name no-img _req4" data-value="Name *" />
+            </div>
+            <div class="form__item form__item_input">
+               <input
+                  type="tel"
+                  name="phone"
+                  class="_phone _req4 form__input"
+                  data-value="Phone number *" />
+            </div>
+            <div class="form__item form__item_input">
+               <input type="text" class="input-lastname _req4" data-value="Your age *" />
+            </div>
+            <div class="form__item form__item_input">
+               <input type="text" class="input-state _req4" data-value="Years of experience *" />
+            </div>
+            <div class="form__item form__item_select">
+               <select name="form[]" class="form _req4 form__input">
+                  <option hidden>Do you have a clean driving record without violations? *</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+               </select>
+            </div>
+            <div class="form__item form__item_select">
+               <select name="form[]" class="form _req4 form__input">
+                  <option hidden>Do you have veiled CDL class A *</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+               </select>
+            </div>
+            <div class="form__item form__item_checkbox check">
+               I agree to receive job alerts and marketing emails from DVL Express and those acting
+               on its behalf.
+               <input type="checkbox" name="form[]" class="_req4 checkbox__input" />
+            </div>
+            <button type="submit">APPLY NOW</button>
+         </form>
+      </div>
+   </div>
+</div> -->
