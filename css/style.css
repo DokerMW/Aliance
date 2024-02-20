@@ -273,6 +273,9 @@ body._lock .header__row {
    letter-spacing: 0.6px;
    margin-left: auto;
    outline: 1px solid #5c8ee6;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .header__btn svg {
    display: none;
@@ -2080,7 +2083,6 @@ body._lock .header__row {
    left: 0;
    width: 100%;
    height: 100%;
-   transition: visibility 0.8s ease 0s;
    visibility: hidden;
 }
 .popup::before {
@@ -2092,7 +2094,6 @@ body._lock .header__row {
    top: 0;
    left: 0;
    opacity: 0;
-   transition: opacity 0.8s ease 0s;
 }
 .popup__content {
    display: -webkit-box;
@@ -2109,7 +2110,6 @@ body._lock .header__row {
 }
 .popup__body {
    transform: scale(1);
-   transition: all 0.3s ease 0s;
    background-color: #fff;
    max-width: 460px;
    padding: 40px 50px;
@@ -2118,7 +2118,6 @@ body._lock .header__row {
 .popup-top {
    position: relative;
 }
-
 .popup__close {
    width: 50px;
    height: 50px;
@@ -2128,7 +2127,17 @@ body._lock .header__row {
    cursor: pointer;
    z-index: 300;
    border: 1px solid rgb(235, 235, 240);
-   background: url("../img/icons/close.png") center / 18px 18px no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.popup__close-img {
+   width: 24px;
+   height: 24px;
+}
+.popup__close:hover .popup__close-img {
+   transform: rotate(90deg);
+   transition: all 0.2s ease 0s;
 }
 .popup-top h3 {
    color: rgb(41, 45, 51);
@@ -2143,6 +2152,9 @@ body._lock .header__row {
    font-size: 16px;
    font-weight: 400;
    line-height: 160%;
+   margin: 0px 0px 30px 0px;
+}
+.popup-thx-img {
    margin: 0px 0px 30px 0px;
 }
 .popup-top__form {
@@ -2178,6 +2190,7 @@ body._lock .header__row {
    padding: 20px 10px;
    margin: 0px 0px 24px 0px;
    font-size: 14px;
+   text-align: center;
 }
 
 .form-popup__notify {
@@ -2191,16 +2204,16 @@ body._lock .header__row {
 .popup._active {
    overflow: auto;
    visibility: visible;
+   transition: all 0.8s ease 0s;
 }
 .popup._active::before {
    opacity: 1;
 }
 .popup__body {
-   transform: scale(1);
-   transition: all 0.3s ease 0s;
+   transform: scale(0);
+   transition: all 0.4s ease 0s;
 }
 .popup._active .popup__body {
-   transition: all 0.3s ease 0.2s;
    transform: scale(1);
 }
 /*===============================================================================================*/
