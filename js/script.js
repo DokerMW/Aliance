@@ -123,7 +123,7 @@ const swiperBlog = new Swiper(".swiper-blog", {
 });
 
 let popup_link = document.querySelectorAll("._popup-link");
-let thxPopup_link = document.querySelector("._popup-link-thx");
+let thxPopup_link = document.querySelectorAll("._popup-link-thx");
 let popup = document.querySelector(".popup_contact");
 let thxPopup = document.querySelector(".popup_thanks");
 let popupThanks = document.querySelector(".popup_thanks");
@@ -162,11 +162,14 @@ const closePopup = () => {
    });
 };
 const openThxPopup = () => {
-   thxPopup_link.addEventListener("click", function () {
-      thxPopup.classList.add("_active");
-      if (thxPopup.classList.contains("_active")) {
-         popup.classList.remove("_active");
-      }
+   thxPopup_link.forEach((el) => {
+      el.addEventListener("click", function (e) {
+         thxPopup.classList.add("_active");
+         if (thxPopup.classList.contains("_active")) {
+            popup.classList.remove("_active");
+         }
+         e.preventDefault();
+      });
    });
 };
 
