@@ -22,14 +22,16 @@ const maxHeader = () => headerRow.classList.remove("minify");
 
 const changeHeaderTheme = () => {
    window.addEventListener("scroll", function () {
-      if (window.scrollY > 50) {
-         lightThemeOn();
-         minHeader();
-         darkLogo();
-      } else {
-         lightThemeOff();
-         maxHeader();
-         lightLogo();
+      if (header.classList.contains("main-header")) {
+         if (window.scrollY > 50) {
+            lightThemeOn();
+            minHeader();
+            darkLogo();
+         } else {
+            lightThemeOff();
+            maxHeader();
+            lightLogo();
+         }
       }
    });
 };
