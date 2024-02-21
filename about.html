@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="format-detection" content="telephone=no" />
+      <link rel="shortcut icon" href="./img/icons/favicon.ico" type="image/x-icon" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="./css/style.css" />
+      <title>О компании - Aliance Production</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         <header class="header">
+            <div class="header__row">
+               <div class="header__burger burger-menu">
+                  <div class="burger-menu__icon">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+               </div>
+               <a class="header__logo" href="./">
+                  <svg class="header__img">
+                     <use href="./img/icons/sprite.svg#main_logo_l"></use>
+                  </svg>
+               </a>
+               <nav class="header__menu menu">
+                  <ul class="menu__list">
+                     <li class="menu__item"><a href="#">О компании</a></li>
+                     <li class="menu__item"><a href="#">Контрактное производство</a></li>
+                     <li class="menu__item"><a href="#">Собственные торговые марки</a></li>
+                     <li class="menu__item"><a href="#">Новости</a></li>
+                     <li class="menu__item"><a href="#">Контакты</a></li>
+                  </ul>
+               </nav>
+
+               <div class="header__phone">
+                  <a class="header__phone-link" href="tel:+74996861014">
+                     <svg class="header__phone_img">
+                        <use href="./img/icons/sprite.svg#phone"></use>
+                     </svg>
+                     +7 (499) 686-10-14
+                  </a>
+               </div>
+               <a href="#contact" class="header__btn btn _popup-link">
+                  <svg class="header__phone_img">
+                     <use href="./img/icons/sprite.svg#phone"></use>
+                  </svg>
+                  <span>Получить консультацию</span>
+               </a>
+            </div>
+            <nav class="header__menu_mobile mobile-menu">
+               <ul class="mobile-menu_list">
+                  <li class="mobile-menu__item"><a href="#">О компании</a></li>
+                  <li class="mobile-menu__item">
+                     <a href="#">Контрактное производство</a>
+                     <ul class="mobile-menu__sublist">
+                        <li class="mobile-menu__subitem"><a href="#">Автомобильная химия</a></li>
+                        <li class="mobile-menu__subitem"><a href="#">Бытовая химия</a></li>
+                        <li class="mobile-menu__subitem">
+                           <a href="#">Дезинфицирующие средства</a>
+                        </li>
+                        <li class="mobile-menu__subitem"><a href="#">Пищевые аэрозоли</a></li>
+                        <li class="mobile-menu__subitem">
+                           <a href="#">Косметическая продукция</a>
+                        </li>
+                        <li class="mobile-menu__subitem"><a href="#">Краски аэрозольные</a></li>
+                     </ul>
+                  </li>
+                  <li class="mobile-menu__item">
+                     <a href="#">Собственные торговые марки</a>
+                     <ul class="mobile-menu__sublist">
+                        <li class="mobile-menu__subitem"><a href="#">Автохимия AG-Tech</a></li>
+                        <li class="mobile-menu__subitem"><a href="#">Автохимия AP</a></li>
+                     </ul>
+                  </li>
+                  <li class="mobile-menu__item"><a href="#">Новости</a></li>
+                  <li class="mobile-menu__item"><a href="#">Контакты</a></li>
+               </ul>
+               <div class="mobile-menu__contacts">
+                  <a href="tel:+74996861014" class="mobile-menu__phone">+7 (499) 686-10-14</a>
+                  <div class="mobile-menu__address">г. Мосвка, Холодильный пер. 4к1с8</div>
+                  <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-menu__email"
+                     >a.dragunov@tdaliance.ru</a
+                  >
+                  <div class="mobile-menu__social">
+                     <a href="#">
+                        <img src="./img/icons/vk.svg" alt="vk" />
+                     </a>
+                     <a href="#">
+                        <img src="./img/icons/inst.svg" alt="inst" />
+                     </a>
+                  </div>
+               </div>
+            </nav>
+         </header>
+         <main>
+            <section class="modals">
+               <div class="modals__popup popup popup_contact">
+                  <div class="popup__content">
+                     <div class="popup__body">
+                        <div class="popup-top">
+                           <div class="popup__close">
+                              <img class="popup__close-img" src="img/icons/close.png" alt="" />
+                           </div>
+                           <h3>Есть вопросы?</h3>
+                           <p>
+                              Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
+                              ответит на все интересующие вопросы и поможем даже в самых сложных
+                              случаях!
+                           </p>
+                        </div>
+                        <div class="popup-bottom">
+                           <form action="#" class="popup-top__form form-popup">
+                              <div class="form-popup__input-group">
+                                 <div class="form-popup__input">
+                                    <input
+                                       class="input"
+                                       id="input-name_2"
+                                       type="text"
+                                       name="username"
+                                       placeholder=" " />
+                                    <label class="label" for="input-name_2">Имя</label>
+                                 </div>
+                                 <div class="form-popup__input">
+                                    <input
+                                       class="input"
+                                       id="input-tel_2"
+                                       type="tel"
+                                       name="usertel"
+                                       placeholder=" " />
+                                    <label class="label" for="input-tel_2">Номер телефона</label>
+                                 </div>
+                              </div>
+                              <div class="form-popup__footer">
+                                 <a
+                                    href="#"
+                                    class="form-popup__btn btn _popup-link-thx"
+                                    type="submit">
+                                    Отправить заявку
+                                 </a>
+                                 <div class="form-popup__notify">
+                                    Обращаясь к нам вы получаете не только профессиональную работу,
+                                    но и абсолютную конфиденциальность информации!
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="modals__popup popup popup_thanks">
+                  <div class="popup__content">
+                     <div class="popup__body">
+                        <div class="popup-top">
+                           <div class="popup__close">
+                              <img class="popup__close-img" src="img/icons/close.png" alt="" />
+                           </div>
+                           <img class="popup-thx-img" src="img/modals/thanks.svg" alt="" />
+                           <h3>Спасибо за заявку!</h3>
+                           <p>
+                              Наш менеджер свяжется с Вами в ближайшее время ответит на все
+                              интересующие вопросы и поможем даже в самых сложных случаях!
+                           </p>
+                        </div>
+                        <div class="popup-bottom">
+                           <a href="index.html" class="form-popup__btn btn">
+                              Вернуться на главную
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </main>
+         <footer class="footer">
+            <div class="footer__top top-footer">
+               <div class="top-footer__container _container">
+                  <div class="top-footer__logo">
+                     <svg class="footer__img">
+                        <use href="./img/icons/sprite.svg#main_logo_d"></use>
+                     </svg>
+                  </div>
+                  <a href="tel:+74996861014" class="top-footer__tel">+7 (499) 686-10-14</a>
+                  <div class="top-footer__info">
+                     <div class="top-footer__address">г. Мосвка, Холодильный пер. 4к1с8</div>
+                     <a href="mailto:a.dragunov@tdaliance.ru" class="top-footer__email"
+                        >a.dragunov@tdaliance.ru</a
+                     >
+                  </div>
+                  <div class="top-footer__social">
+                     <img src="img/icons/vk.svg" alt="" />
+                     <img src="img/icons/inst.svg" alt="" />
+                  </div>
+               </div>
+            </div>
+            <nav class="footer__middle middle-footer">
+               <div class="middle-footer__container _container">
+                  <div class="middle-footer__column">
+                     <h2 class="middle-footer__title"><a href="#">Контрактное производство</a></h2>
+                     <ul class="middle-footer_list">
+                        <li class="middle-footer__item">
+                           <a href="#">Автомобильная химия</a>
+                        </li>
+                        <li class="middle-footer__item"><a href="#">Бытовая химия</a></li>
+                        <li class="middle-footer__item">
+                           <a href="#">Дезинфицирующие средства</a>
+                        </li>
+                        <li class="middle-footer__item"><a href="#">Пищевые аэрозоли</a></li>
+                        <li class="middle-footer__item">
+                           <a href="#">Косметическая продукция</a>
+                        </li>
+                        <li class="middle-footer__item">
+                           <a href="#">Краски аэрозольные</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="middle-footer__column">
+                     <h2 class="middle-footer__title">
+                        <a href="#">Собственные марки</a>
+                     </h2>
+                     <ul class="middle-footer_list">
+                        <li class="middle-footer__item">
+                           <a href="#">Автохимия AG-Tech</a>
+                        </li>
+                        <li class="middle-footer__item"><a href="#">Автохимия AP</a></li>
+                     </ul>
+                  </div>
+                  <div class="middle-footer__column">
+                     <ul class="middle-footer_list">
+                        <li class="middle-footer__title"><a href="#">О компании</a></li>
+                        <li class="middle-footer__title"><a href="#">Новости</a></li>
+                        <li class="middle-footer__title"><a href="#">Контакты</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+            <div class="footer__bottom bottom-footer">
+               <div class="bottom-footer__container _container">
+                  <div class="bottom-footer__row">
+                     <div class="bottom-footer__item">
+                        <span>© 2022 «Aliance Production». Все права защищены.</span>
+                        <a href="#">Политики конфиденциальности</a>
+                     </div>
+                     <div class="bottom-footer__item">
+                        <span>Сделано в</span>
+                        <svg class="bottom-footer__icon">
+                           <use href="./img/icons/sprite.svg#ruso"></use>
+                        </svg>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="./js/script.js"></script>
+   </body>
+</html>

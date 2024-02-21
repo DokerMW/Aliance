@@ -84,6 +84,9 @@ body._lock {
    padding: 0 15px;
    width: 100%;
 }
+main {
+   flex: 1 1 auto;
+}
 @media (min-width: 998px) {
    .link:hover:before {
       width: 60px;
