@@ -39,6 +39,9 @@ body._lock {
    top: -25px;
    left: 0;
 }
+.title_big {
+   font-size: 80px;
+}
 .link {
    font-family: "Noto Sans";
    font-size: 16px;
@@ -84,6 +87,7 @@ body._lock {
 main {
    flex: 1 1 auto;
 }
+
 @media (min-width: 998px) {
    .link:hover:before {
       width: 60px;
@@ -156,6 +160,44 @@ main {
    .link::before {
       width: 40px;
    }
+}
+/*===============================================================================================*/
+
+/*===== breadcrumbs ==============================================================================*/
+
+.breadcrumbs {
+   list-style: none;
+}
+
+.breadcrumbs__item {
+   display: inline;
+   position: relative;
+   margin-right: 10px;
+   color: rgb(41, 45, 51);
+   font-size: 14px;
+}
+.breadcrumbs__item:not(:first-child) {
+   padding-left: 24px;
+}
+.breadcrumbs__item:not(:first-child)::before {
+   content: "";
+   background-color: rgb(130, 138, 153);
+   width: 14px;
+   height: 1px;
+   display: inline-block;
+   position: absolute;
+   top: 50%;
+   left: 0;
+}
+
+.breadcrumbs__link {
+   color: rgb(130, 138, 153);
+   font-size: 14px;
+}
+
+.breadcrumbs__link:hover {
+   color: #01447e;
+   text-decoration: underline;
 }
 /*===============================================================================================*/
 
@@ -285,6 +327,11 @@ body._lock .header__row {
 }
 .header__btn a {
    color: #fff;
+}
+.secondary_header {
+   background-color: #f0f2f5;
+   min-height: 364px;
+   padding: 168px 0 50px 0;
 }
 @media (min-width: 998px) {
    .menu__item:hover::after {
