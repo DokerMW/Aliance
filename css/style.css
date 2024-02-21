@@ -22,9 +22,6 @@ body._lock {
    background-color: #fff;
    transition: all 0.2s ease-in 0s;
 }
-.minify {
-   height: 73px;
-}
 .title {
    font-family: "Bebas Neue";
    font-size: 60px;
@@ -181,6 +178,9 @@ main {
    height: 93px;
    transition: height 0.2s ease 0s;
    gap: 50px;
+}
+.header__row.minify {
+   height: 73px;
 }
 body._lock .header__row {
    border-bottom: 1px solid rgba(235, 235, 240);
@@ -448,6 +448,10 @@ body._lock .header__row {
       z-index: 3;
       transition: left 0.2s ease 0s;
    }
+   .header__row.minify,
+   .header.dark .mobile-menu_list::before {
+      height: 73px;
+   }
    .mobile-menu._active .mobile-menu_list::before {
       left: 0;
    }
@@ -462,9 +466,12 @@ body._lock .header__row {
    .header__row {
       height: 68px;
    }
+   .mobile-menu_list::before {
+      height: 68px;
+   }
    .header__row.minify,
    .header.dark .mobile-menu_list::before {
-      height: 68px;
+      height: 48px;
    }
    .header__logo svg {
       height: 60%;
