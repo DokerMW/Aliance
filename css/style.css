@@ -331,7 +331,7 @@ body._lock .header__row {
 .secondary_header {
    background-color: #f0f2f5;
    max-height: 364px;
-   padding: 168px 0 50px 0;
+   padding: 168px 0 55px 0;
 }
 @media (min-width: 998px) {
    .menu__item:hover::after {
@@ -670,6 +670,7 @@ body._lock .header__row {
 .cards__column_black {
    border-left: 1px solid rgb(235, 235, 240);
    border-top: 1px solid rgb(235, 235, 240);
+   border-bottom: 1px solid rgb(235, 235, 240);
 }
 .cards__column_black:last-child {
    border-right: 1px solid rgb(235, 235, 240);
@@ -1376,7 +1377,7 @@ body._lock .header__row {
    font-size: 60px;
    margin: 0px 0px 27px 0px;
    line-height: 120%;
-   max-width: 380px;
+   max-width: 450px;
 }
 .founder__text {
    color: rgb(130, 138, 153);
@@ -1386,6 +1387,9 @@ body._lock .header__row {
 }
 .founder__text p:not(:last-child) {
    margin: 0px 0px 23px 0px;
+}
+.founder__content_about {
+   padding-bottom: 80px;
 }
 @media (max-width: 1650px) {
    .founder__image {
