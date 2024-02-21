@@ -146,6 +146,27 @@ const swiperBlog = new Swiper(".swiper-blog", {
       },
    },
 });
+const swiperResearch = new Swiper(".swiper-research", {
+   direction: "horizontal",
+   loop: true,
+   navigation: {
+      nextEl: ".swiper-research__btn_n",
+      prevEl: ".swiper-research__btn_p",
+   },
+   slidesPerView: 2,
+   spaceBetween: 30,
+   breakpoints: {
+      320: {
+         slidesPerView: 1,
+      },
+      900: {
+         slidesPerView: 1.3,
+      },
+      1400: {
+         slidesPerView: 2,
+      },
+   },
+});
 
 let popup_link = document.querySelectorAll("._popup-link");
 let thxPopup_link = document.querySelectorAll("._popup-link-thx");
