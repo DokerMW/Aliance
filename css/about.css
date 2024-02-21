@@ -7,7 +7,7 @@
 
 /*===== experts ==============================================================================*/
 .experts {
-   margin: 0px 0px 100px 0px;
+   margin: 0px 0px 150px 0px;
    position: relative;
 }
 .experts__image {
@@ -21,6 +21,7 @@
    padding-top: 100px;
    display: flex;
    align-items: center;
+   margin: 0px 0px 100px 0px;
 }
 .experts__content {
    margin-left: auto;

@@ -78,6 +78,29 @@ const swiperFeatures = new Swiper(".features-slider", {
       },
    },
 });
+const swiperExperts = new Swiper(".experts-slider", {
+   direction: "horizontal",
+   loop: false,
+   navigation: {
+      nextEl: ".experts-next-btn",
+      prevEl: ".experts-prev-btn",
+   },
+   slidesPerView: 3.5,
+   breakpoints: {
+      320: {
+         slidesPerView: 1.38,
+      },
+      550: {
+         slidesPerView: 2.4,
+      },
+      768: {
+         slidesPerView: 3.4,
+      },
+      900: {
+         slidesPerView: 4.4,
+      },
+   },
+});
 
 const swiperScheme = new Swiper(".scheme-slider", {
    direction: "horizontal",
