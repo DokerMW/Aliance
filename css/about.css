@@ -12,17 +12,15 @@
 }
 .experts__image {
    width: 480px;
-   height: 480px;
 }
 .experts__image img {
    width: 100%;
-   height: 100%;
    object-fit: cover;
-   object-position: top right;
 }
 .experts__body {
    padding-top: 100px;
    display: flex;
+   align-items: center;
 }
 .experts__content {
    margin-left: auto;
@@ -46,22 +44,27 @@
 }
 @media (max-width: 1650px) {
    .experts__image {
-      width: 35vw;
+      width: 400px;
    }
-   .experts__image img {
-      object-position: top center;
+   .experts__content {
+      max-width: 740px;
+   }
+   .experts__body {
+      padding-top: 50px;
    }
 }
 @media (max-width: 1400px) {
+   .experts__image {
+      width: 350px;
+   }
    .experts__content {
-      max-width: 640px;
+      max-width: 540px;
       padding: 50px 0px 20px 20px;
    }
    .experts__title {
       font-size: 50px;
       margin: 0px 0px 20px 0px;
       line-height: 110%;
-      max-width: 320px;
    }
 }
 @media (max-width: 1150px) {
@@ -69,9 +72,12 @@
       display: block;
    }
    .experts__image {
-      position: relative;
+      text-align: center;
       width: 100%;
-      height: auto;
+      margin: 0px 0px 20px 0px;
+   }
+   .experts__image img {
+      max-width: 480px;
    }
    .experts__content {
       margin: 0;
@@ -79,21 +85,37 @@
       padding: 76px 30px 15px 15px;
    }
 }
+@media (max-width: 550px) {
+   .experts__image {
+      margin: 0px 0px 30px 0px;
+   }
+   .experts__image img {
+      max-width: 400px;
+   }
+   .experts__content {
+      margin: 0;
+      max-width: 100%;
+      padding: 40px 30px 15px 15px;
+   }
+}
 @media (max-width: 450px) {
    .experts {
       margin: 0px 0px 120px 0px;
    }
+   .experts__image {
+      margin: 0px 0px 40px 0px;
+   }
+   .experts__image img {
+      max-width: 350px;
+   }
    .experts__content {
-      padding: 68px 10px 0 0px;
+      padding: 20px 10px 0 0px;
    }
    .experts__title {
       font-size: 36px;
       margin: 0px 0px 15px 0px;
       line-height: 120%;
-      max-width: 230px;
-   }
-   .experts__image {
-      height: 295px;
+      max-width: none;
    }
    .experts__text {
       font-size: 14px;
