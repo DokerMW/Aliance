@@ -330,7 +330,7 @@ body._lock .header__row {
 }
 .secondary_header {
    background-color: #f0f2f5;
-   min-height: 364px;
+   max-height: 364px;
    padding: 168px 0 50px 0;
 }
 @media (min-width: 998px) {
