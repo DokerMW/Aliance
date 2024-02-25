@@ -43,7 +43,7 @@
                      +7 (499) 686-10-14
                   </a>
                </div>
-               <a href="#contact" class="header__btn btn _popup-link">
+               <a href="#contact" data-toggle="modal" class="header__btn btn">
                   <svg class="header__phone_img">
                      <use href="./img/icons/sprite.svg#phone"></use>
                   </svg>
@@ -106,7 +106,9 @@
                      доказательством простого факта: высококачественный прототип будущего проекта
                      напрямую зависит от анализа существующих паттернов поведения.
                   </p>
-                  <button class="main-block__btn btn _popup-link">Подробнее о компании</button>
+                  <button data-toggle="modal" class="main-block__btn btn">
+                     Подробнее о компании
+                  </button>
                   <div class="main-block__cards cards swiper features-slider">
                      <div class="cards__row swiper-wrapper">
                         <div class="cards__column swiper-slide">
@@ -188,7 +190,7 @@
                                  значение форм воздействия.
                               </p>
                               <div class="item-scheme__link">
-                                 <a href="#" class="link _popup-link">Оставить заявку</a>
+                                 <a href="#" data-toggle="modal" class="link">Оставить заявку</a>
                               </div>
                            </div>
                         </div>
@@ -553,7 +555,7 @@
                            </div>
                         </div>
                         <div class="form-cooperation__footer">
-                           <button class="form-cooperation__btn btn _popup-link-thx">
+                           <button data-toggle="modal" class="form-cooperation__btn btn">
                               Отправить заявку
                            </button>
                            <div class="form-cooperation__notify">
@@ -566,11 +568,11 @@
                </div>
             </section>
             <section class="modals">
-               <div class="modals__popup popup popup_contact">
-                  <div class="popup__content">
+               <div class="modals__popup popup popup_contact modal">
+                  <div class="popup__content modal-dialog">
                      <div class="popup__body">
                         <div class="popup-top">
-                           <div class="popup__close">
+                           <div data-toggle="modal" class="popup__close">
                               <img class="popup__close-img" src="img/icons/close.png" alt="" />
                            </div>
                            <h3>Есть вопросы?</h3>
@@ -605,7 +607,8 @@
                               <div class="form-popup__footer">
                                  <a
                                     href="#"
-                                    class="form-popup__btn btn _popup-link-thx"
+                                    data-toggle="modal-thx"
+                                    class="form-popup__btn btn"
                                     type="submit">
                                     Отправить заявку
                                  </a>
@@ -619,11 +622,11 @@
                      </div>
                   </div>
                </div>
-               <div class="modals__popup popup popup_thanks">
-                  <div class="popup__content">
+               <div class="modals__popup popup popup_thanks modal-thx">
+                  <div class="popup__content modal-thx-dialog">
                      <div class="popup__body">
                         <div class="popup-top">
-                           <div class="popup__close">
+                           <div data-toggle="modal" class="popup__close">
                               <img class="popup__close-img" src="img/icons/close.png" alt="" />
                            </div>
                            <img class="popup-thx-img" src="img/modals/thanks.svg" alt="" />

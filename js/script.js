@@ -168,57 +168,29 @@ const swiperResearch = new Swiper(".swiper-research", {
    },
 });
 
-let popup_link = document.querySelectorAll("._popup-link");
-let thxPopup_link = document.querySelectorAll("._popup-link-thx");
-let popup = document.querySelector(".popup_contact");
-let thxPopup = document.querySelector(".popup_thanks");
-let popupThanks = document.querySelector(".popup_thanks");
-let popupCloseBtn = document.querySelectorAll(".popup__close");
+const modal = document.querySelector(".modal");
+const modalThx = document.querySelector(".modal-thx");
+const modalDialog = document.querySelector(".modal-dialog");
+const modalThxDialog = document.querySelector(".modal-thx-dialog");
 
-const openPopup = () => {
-   popup_link.forEach((el) => {
-      el.addEventListener("click", function () {
-         popup.classList.add("_active");
-         document.body.classList.add("_lock");
-      });
-   });
-};
-
-const removeActive = () => {
-   popup.classList.remove("_active");
-   thxPopup.classList.remove("_active");
-   document.body.classList.remove("_lock");
-};
-
-const closePopup = () => {
-   popupCloseBtn.forEach((el) => {
-      el.addEventListener("click", function () {
-         removeActive();
-      });
-   });
-   popup.addEventListener("click", function (e) {
-      if (!e.target.closest(".popup__body")) {
-         removeActive();
-      }
-   });
-   thxPopup.addEventListener("click", function (e) {
-      if (!e.target.closest(".popup__body")) {
-         removeActive();
-      }
-   });
-};
-const openThxPopup = () => {
-   thxPopup_link.forEach((el) => {
-      el.addEventListener("click", function (e) {
-         thxPopup.classList.add("_active");
-         if (thxPopup.classList.contains("_active")) {
-            popup.classList.remove("_active");
-         }
+const toggleModal = (popup, atr) => {
+   document.addEventListener("click", (e) => {
+      if (
+         e.target.dataset.toggle == atr ||
+         e.target.parentNode.dataset.toggle == atr ||
+         (!e.composedPath().includes(modalDialog) && popup.classList.contains("_active"))
+      ) {
          e.preventDefault();
-      });
+         popup.classList.toggle("_active");
+      }
+   });
+
+   document.addEventListener("keyup", (e) => {
+      if (e.key == "Escape" && popup.classList.contains("_active")) {
+         popup.classList.toggle("_active");
+      }
    });
 };
 
-openPopup();
-closePopup();
-openThxPopup();
+toggleModal(modal, "modal");
+toggleModal(modalThx, "modal-thx");
