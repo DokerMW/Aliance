@@ -521,7 +521,7 @@
                            </p>
                         </div>
                         <div class="popup-bottom">
-                           <form action="#" class="popup-top__form form-popup">
+                           <form action="handler.php" method='POST' class="popup-top__form form-popup">
                               <div class="form-popup__input-group">
                                  <div class="form-popup__input">
                                     <input
@@ -543,13 +543,9 @@
                                  </div>
                               </div>
                               <div class="form-popup__footer">
-                                 <a
-                                    href="#"
-                                    class="form-popup__btn btn"
-                                    type="submit"
-                                    data-toggle="modal-thx">
+                                 <button class="form-popup__btn btn" type="submit">
                                     Отправить заявку
-                                 </a>
+                                 </button>
                                  <div class="form-popup__notify">
                                     Обращаясь к нам вы получаете не только профессиональную работу,
                                     но и абсолютную конфиденциальность информации!
