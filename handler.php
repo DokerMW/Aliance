@@ -15,4 +15,10 @@ foreach($formData as $key => $value) {
 }
 
 $sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&text={$text}", "r");
+
+if ($sendToTelegram) {
+	echo "Success";
+} else {
+	echo "Error";
+}
 ?>
