@@ -219,6 +219,22 @@ forms.forEach((form) => {
          },
       ])
       .onSuccess((e) => {
-         console.log(e.target.getAttribute("method"));
+         const thisForm = e.target;
+         const formData = new FormData(thisForm);
+
+         const ajaxSend = (formData) => {
+            fetch(thisForm.getAttribute("action"), {
+               method: thisForm.getAttribute("method"),
+               body: formData,
+            }).then((response) => {
+               if (response.ok) {
+                  thisForm.reset();
+                  alert("Ok");
+               } else {
+                  alert("Ошибка: ".response.statusText);
+               }
+            });
+         };
+         ajaxSend(formData);
       });
 });
