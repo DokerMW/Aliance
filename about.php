@@ -484,7 +484,7 @@
                            </div>
                            <div class="form-cooperation__input">
                               <input
-                                 class="input"
+                                 class="input _phone"
                                  id="input-tel"
                                  type="tel"
                                  name="usertel"
@@ -534,7 +534,7 @@
                                  </div>
                                  <div class="form-popup__input">
                                     <input
-                                       class="input"
+                                       class="input _phone"
                                        id="input-tel_2"
                                        type="tel"
                                        name="usertel"
@@ -582,7 +582,9 @@
          </main>
          <?php include_once('./footer.php') ?>
       </div>
-      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+			<script src="./js/inputmask.min.js"></script>
+			<script src="./js/just-validate.production.min.js"></script>
       <script src="./js/script.js"></script>
    </body>
 </html>

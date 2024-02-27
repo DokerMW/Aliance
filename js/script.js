@@ -239,3 +239,15 @@ forms.forEach((form) => {
          ajaxSend(formData);
       });
 });
+
+const inputTel = document.querySelectorAll("input");
+
+inputTel.forEach((e) => {
+   if (e.classList.contains("_phone")) {
+      e.classList.add("_mask");
+      Inputmask("+7 (999) 9999999", {
+         clearIncomplete: true,
+         clearMaskOnLostFocus: true,
+      }).mask(e);
+   }
+});
