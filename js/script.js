@@ -194,3 +194,31 @@ const toggleModal = (popup, atr) => {
 
 toggleModal(modal, "modal");
 toggleModal(modalThx, "modal-thx");
+
+const forms = document.querySelectorAll("form");
+forms.forEach((form) => {
+   const validation = new JustValidate(form, {
+      errorFieldCssClass: "is-invalid",
+   });
+   validation
+      .addField("[name=username]", [
+         {
+            rule: "required",
+            errorMessage: "Укажите имя",
+         },
+         {
+            rule: "maxLength",
+            value: 50,
+            errorMessage: "Не более 50 символов",
+         },
+      ])
+      .addField("[name=usertel]", [
+         {
+            rule: "required",
+            errorMessage: "Укажите телефон",
+         },
+      ])
+      .onSuccess((e) => {
+         console.log(e.target.getAttribute("method"));
+      });
+});
