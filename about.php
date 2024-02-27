@@ -560,7 +560,7 @@
                   <div class="popup__content modal-thx-dialog">
                      <div class="popup__body">
                         <div class="popup-top">
-                           <div class="popup__close">
+                           <div data-toggle="modal-thx" class="popup__close">
                               <img class="popup__close-img" src="img/icons/close.png" alt="" />
                            </div>
                            <img class="popup-thx-img" src="img/modals/thanks.svg" alt="" />
@@ -571,7 +571,7 @@
                            </p>
                         </div>
                         <div class="popup-bottom">
-                           <a href="index.html" class="form-popup__btn btn">
+                           <a href="index.php" class="form-popup__btn btn">
                               Вернуться на главную
                            </a>
                         </div>

@@ -173,12 +173,12 @@ const modalThx = document.querySelector(".modal-thx");
 const modalDialog = document.querySelector(".modal-dialog");
 const modalThxDialog = document.querySelector(".modal-thx-dialog");
 
-const toggleModal = (popup, atr) => {
+const toggleModal = (popup, atr, body) => {
    document.addEventListener("click", (e) => {
       if (
          e.target.dataset.toggle == atr ||
          e.target.parentNode.dataset.toggle == atr ||
-         (!e.composedPath().includes(modalDialog) && popup.classList.contains("_active"))
+         (!e.composedPath().includes(body) && popup.classList.contains("_active"))
       ) {
          e.preventDefault();
          popup.classList.toggle("_active");
@@ -192,8 +192,8 @@ const toggleModal = (popup, atr) => {
    });
 };
 
-toggleModal(modal, "modal");
-toggleModal(modalThx, "modal-thx");
+toggleModal(modal, "modal", modalDialog);
+toggleModal(modalThx, "modal-thx", modalThxDialog);
 
 const forms = document.querySelectorAll("form");
 forms.forEach((form) => {
@@ -229,7 +229,8 @@ forms.forEach((form) => {
             }).then((response) => {
                if (response.ok) {
                   thisForm.reset();
-                  alert("Ok");
+                  modal.classList.remove("_active");
+                  modalThx.classList.add("_active");
                } else {
                   alert("Ошибка: ".response.statusText);
                }
