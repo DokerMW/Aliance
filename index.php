@@ -4,6 +4,7 @@
 	<body>
 		<div class="wrapper">
 			<?php 
+				$general_header_style = 'main-header';
 				$main_logo_path = './img/icons/sprite.svg#main_logo_l';
 				include_once('./template_parts/header.php');
 			?>
@@ -92,95 +93,10 @@
 						</div>
 					</div>
 				</section>
-				<section class="production">
-					<div class="_container">
-						<h2 class="production__title title">Контрактное производство</h2>
-						<div class="production__body">
-							<a href="#" class="production__column">
-								<div class="production__item item-production">
-									<div class="item-production__body">
-										<h3 class="item-production__title">Автомобильная химия</h3>
-										<div class="item-production__text">
-											Безусловно, сплочённость команды профессионалов позволяет оценить
-											значение форм воздействия.
-										</div>
-									</div>
-									<div class="item-production__img">
-										<img src="./img/prod/img_01.png" alt="" />
-									</div>
-								</div>
-							</a>
-							<a href="#" class="production__column">
-								<div class="production__item item-production">
-									<div class="item-production__body">
-										<h3 class="item-production__title">Бытовая химия</h3>
-										<div class="item-production__text">
-											А также стремящиеся вытеснить традиционное производство,
-											нанотехнологии функционально разнесены на независимые элементы.
-										</div>
-									</div>
-									<div class="item-production__img">
-										<img src="./img/prod/img_02.png" alt="" />
-									</div>
-								</div>
-							</a>
-							<a href="#" class="production__column">
-								<div class="production__item item-production">
-									<div class="item-production__body">
-										<h3 class="item-production__title">Дезинфицирующие средства</h3>
-										<div class="item-production__text">
-											Лишь интерактивные прототипы призваны к ответу.
-										</div>
-									</div>
-									<div class="item-production__img">
-										<img src="./img/prod/img_03.png" alt="" />
-									</div>
-								</div>
-							</a>
-							<a href="#" class="production__column">
-								<div class="production__item item-production">
-									<div class="item-production__body">
-										<h3 class="item-production__title">Пищевые аэрозоли</h3>
-										<div class="item-production__text">
-											Безусловно, сплочённость команды профессионалов позволяет оценить
-											значение форм воздействия.
-										</div>
-									</div>
-									<div class="item-production__img">
-										<img src="./img/prod/img_03.png" alt="" />
-									</div>
-								</div>
-							</a>
-							<a href="#" class="production__column">
-								<div class="production__item item-production">
-									<div class="item-production__body">
-										<h3 class="item-production__title">Косметическая продукция</h3>
-										<div class="item-production__text">
-											Лишь интерактивные прототипы призваны к ответу.
-										</div>
-									</div>
-									<div class="item-production__img">
-										<img src="./img/prod/img_01.png" alt="" />
-									</div>
-								</div>
-							</a>
-							<a href="#" class="production__column">
-								<div class="production__item item-production">
-									<div class="item-production__body">
-										<h3 class="item-production__title">Краски аэрозольные</h3>
-										<div class="item-production__text">
-											А также стремящиеся вытеснить традиционное производство,
-											нанотехнологии функционально разнесены на независимые элементы.
-										</div>
-									</div>
-									<div class="item-production__img">
-										<img src="./img/prod/img_02.png" alt="" />
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-				</section>
+				<?php 
+					$production_title = 'Контрактное производство';
+					include_once('./template_parts/production.php') 
+				?>
 				<section class="brands">
 					<div class="_container">
 						<h2 class="brands__title title">собственные <span>торговые</span> марки</h2>

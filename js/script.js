@@ -24,13 +24,19 @@ const changeHeaderTheme = () => {
    window.addEventListener("scroll", function () {
       if (header.classList.contains("main-header")) {
          if (window.scrollY > 50) {
-            lightThemeOn();
             minHeader();
+            lightThemeOn();
             darkLogo();
          } else {
-            lightThemeOff();
             maxHeader();
+            lightThemeOff();
             lightLogo();
+         }
+      } else if (header.classList.contains("dark")) {
+         if (window.scrollY > 50) {
+            minHeader();
+         } else {
+            maxHeader();
          }
       }
    });
