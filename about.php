@@ -1,15 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="format-detection" content="telephone=no" />
-      <link rel="shortcut icon" href="./img/icons/favicon.ico" type="image/x-icon" />
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-      <link rel="stylesheet" href="./css/style.css" />
-      <link rel="stylesheet" href="./css/about.css" />
-      <title>О компании - Aliance Production</title>
-   </head>
+<?php $extra_styles = '<link rel="stylesheet" href="./css/about.css" />'; 	$head_subtitle = 'О Компании'; 
+			include_once('./template_parts/head.php');
+			?>
    <body>
       <div class="wrapper">
          <header class="header dark">
@@ -97,17 +90,12 @@
             </nav>
          </header>
          <main>
-            <section class="about-header secondary_header">
-               <div class="_container">
-                  <h1 class="about-header__title title title_big">о компании</h1>
-                  <ul class="about-header__breadcrumbs breadcrumbs">
-                     <li class="breadcrumbs__item">
-                        <a href="index.html" class="breadcrumbs__link">Главная</a>
-                     </li>
-                     <li class="breadcrumbs__item">О компании</li>
-                  </ul>
-               </div>
-            </section>
+				 <?php $subheader_name = 'about-header';
+								$page_subheader_title = 'about-header__title';
+								$subheader_title_content = 'О Компании';
+								$page_subheader_breadcrumbs = 'about-header__breadcrumbs';
+								include_once('./template_parts/subheader.php');
+					?>
             <section class="experts">
                <div class="_container">
                   <div class="experts__body">

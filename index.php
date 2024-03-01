@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="format-detection" content="telephone=no" />
-      <link rel="shortcut icon" href="./img/icons/favicon.ico" type="image/x-icon" />
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-      <link rel="stylesheet" href="./css/style.css" />
-      <title>Aliance Production</title>
-   </head>
+  <?php include_once('./template_parts/head.php'); ?>
    <body>
       <div class="wrapper">
          <header class="header main-header">
