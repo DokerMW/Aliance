@@ -77,7 +77,7 @@
 			<div class="bottom-footer__row">
 				<div class="bottom-footer__item">
 					<span>© <?php echo date('Y') ?> «Aliance Production». Все права защищены.</span>
-					<a href="#">Политики конфиденциальности</a>
+					<a href="./politics.php">Политики конфиденциальности</a>
 				</div>
 				<div class="bottom-footer__item">
 					<span>Сделано в</span>
