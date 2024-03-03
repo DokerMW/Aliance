@@ -1,0 +1,14 @@
+.founder__image_por {
+   position: relative;
+   max-width: 600px;
+   width: auto;
+}
+.founder__body {
+   align-items: center;
+}
+.founder__title {
+   max-width: 600px;
+}
+.experts__cards {
+   margin: 0px 0px 150px 0px;
+}

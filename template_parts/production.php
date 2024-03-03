@@ -4,7 +4,7 @@
 			echo '<h2 class="production__title title">'. $production_title .'</h2>'; } 
 		?>
 		<div class="production__body">
-			<a href="#" class="production__column">
+			<a href="./autohim.php" class="production__column">
 				<div class="production__item item-production">
 					<div class="item-production__body">
 						<h3 class="item-production__title">Автомобильная химия</h3>
@@ -18,7 +18,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#" class="production__column">
+			<a href="./chemicals.php" class="production__column">
 				<div class="production__item item-production">
 					<div class="item-production__body">
 						<h3 class="item-production__title">Бытовая химия</h3>
@@ -32,7 +32,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#" class="production__column">
+			<a href="./disinfection.php" class="production__column">
 				<div class="production__item item-production">
 					<div class="item-production__body">
 						<h3 class="item-production__title">Дезинфицирующие средства</h3>
@@ -45,7 +45,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#" class="production__column">
+			<a href="./aerosol.php" class="production__column">
 				<div class="production__item item-production">
 					<div class="item-production__body">
 						<h3 class="item-production__title">Пищевые аэрозоли</h3>
@@ -59,7 +59,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#" class="production__column">
+			<a href="./cosmetics.php" class="production__column">
 				<div class="production__item item-production">
 					<div class="item-production__body">
 						<h3 class="item-production__title">Косметическая продукция</h3>
@@ -72,7 +72,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#" class="production__column">
+			<a href="./paints.php" class="production__column">
 				<div class="production__item item-production">
 					<div class="item-production__body">
 						<h3 class="item-production__title">Краски аэрозольные</h3>

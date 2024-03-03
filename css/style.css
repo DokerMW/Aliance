@@ -167,6 +167,7 @@ main {
 
 .breadcrumbs {
    list-style: none;
+   padding-bottom: 55px;
 }
 
 .breadcrumbs__item {
@@ -331,7 +332,7 @@ body._lock .header__row {
 .secondary_header {
    background-color: #f0f2f5;
    max-height: 364px;
-   padding: 168px 0 55px 0;
+   padding: 168px 0 0 0;
 }
 @media (min-width: 998px) {
    .menu__item:hover::after {
@@ -2349,3 +2350,55 @@ body._lock .header__row {
    display: inline-block;
    padding: 0 10px;
 }
+
+/*===== suheader ==============================================================================*/
+.subheader-img {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   max-height: 240px;
+   object-fit: cover;
+}
+.subheader-wrapper {
+   position: relative;
+}
+/*===============================================================================================*/
+
+/*===== autohim-type ==============================================================================*/
+.autohim-type {
+   margin: 0px 0px 166px 0px;
+}
+
+.autohim-type__title {
+   position: relative;
+   margin: 0px 0px 25px 0px;
+}
+
+.autohim-type__text {
+   color: rgb(130, 138, 153);
+   max-width: 840px;
+   font-size: 16px;
+   line-height: 160%;
+   margin: 0px 0px 50px 0px;
+}
+.autohim-type__list {
+   columns: 4;
+}
+.autohim-type__item {
+   color: rgb(41, 45, 51);
+   font-size: 16px;
+   margin: 0px 0px 20px 0px;
+   position: relative;
+   padding-left: 36px;
+}
+.autohim-type__item::before {
+   content: "";
+   width: 16px;
+   height: 1px;
+   background-color: #5c8ee6;
+   display: inline-block;
+   top: 50%;
+   left: 0;
+   position: absolute;
+}
+/*===============================================================================================*/

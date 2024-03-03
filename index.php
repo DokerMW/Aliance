@@ -33,70 +33,13 @@
 						?>
 					</div>
 				</section>
-				<section class="work-scheme">
-					<div class="_container">
-						<h2 class="work-scheme__title title">схема работы</h2>
-						<div class="swiper scheme-slider">
-							<div class="work-scheme__row swiper-wrapper">
-								<div class="work-scheme__column swiper-slide">
-									<div class="work-scheme__item item-scheme">
-										<div class="item-scheme__number">01</div>
-										<h3 class="item-scheme__title">Знакомство</h3>
-										<p class="item-scheme__text">
-											Безусловно, сплочённость команды профессионалов позволяет оценить
-											значение форм воздействия.
-										</p>
-										<div class="item-scheme__link">
-											<a href="#" data-toggle="modal" class="link">Оставить заявку</a>
-										</div>
-									</div>
-								</div>
-								<div class="work-scheme__column swiper-slide">
-									<div class="work-scheme__item item-scheme">
-										<div class="item-scheme__number">02</div>
-										<h3 class="item-scheme__title">Заключение договора</h3>
-										<p class="item-scheme__text">
-											Лишь интерактивные прототипы<br />
-											призваны к ответу.
-										</p>
-									</div>
-								</div>
-								<div class="work-scheme__column swiper-slide">
-									<div class="work-scheme__item item-scheme">
-										<div class="item-scheme__number">03</div>
-										<h3 class="item-scheme__title">Производство</h3>
-										<p class="item-scheme__text">
-											А также стремящиеся вытеснить традиционное производство,
-											нанотехнологии функционально разнесены на независимые элементы.
-										</p>
-									</div>
-								</div>
-								<div class="work-scheme__column swiper-slide">
-									<div class="work-scheme__item item-scheme">
-										<div class="item-scheme__number">04</div>
-										<h3 class="item-scheme__title">Доставка</h3>
-										<p class="item-scheme__text">
-											В частности, экономическая повестка сегодняшнего дня говорит о
-											возможностях приоритизации разума над эмоциями.
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="scheme-swiper-nav blue-btn-nav">
-								<div class="scheme-prev-btn blue-btn-nav_prev">
-									<img src="./img/icons/arrow.svg" alt="slider arrow" />
-								</div>
-								<div class="scheme-next-btn blue-btn-nav_next">
-									<img src="./img/icons/arrow.svg" alt="slider arrow" />
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
+				<?php include_once('./template_parts/work-scheme.php'); ?>
 				<?php 
 					$production_title = 'Контрактное производство';
 					include_once('./template_parts/production.php') 
 				?>
+				
+
 				<section class="brands">
 					<div class="_container">
 						<h2 class="brands__title title">собственные <span>торговые</span> марки</h2>
@@ -128,7 +71,14 @@
 						</div>
 					</div>
 				</section>
-				<?php $founder_link = 'Подробнее о компании'; include_once('./template_parts/founder.php') ?>
+				<?php 
+					$founder_link = 'Подробнее о компании'; 
+					$founder_img = './img/founder/main_img.jpeg';
+					$founder_title = 'Отношение к делу и к клиентам';
+					$founder_par = 'Кстати, интерактивные прототипы описаны максимально подробно. Повседневная практика показывает, что укрепление и развитие внутренней структуры говорит о возможностях соответствующих условий активизации. Внезапно, независимые государства, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут подвергнуты целой серии независимых исследований. С учётом сложившейся международной обстановки, синтетическое тестирование выявляет срочную потребность системы массового участия.';
+					$founder_par2 = 'А ещё действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены сами себе. Не следует, однако, забывать, что выбранный нами инновационный путь в значительной степени обусловливает важность дальнейших направлений развития.';
+					include_once('./template_parts/founder.php') 
+				?>
 				<?php include_once('./template_parts/products.php') ?>
 				<section class="blog">
 					<div class="_container">
