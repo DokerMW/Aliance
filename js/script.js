@@ -153,6 +153,7 @@ const swiperBlog = new Swiper(".swiper-blog", {
       },
    },
 });
+
 const swiperResearch = new Swiper(".swiper-research", {
    direction: "horizontal",
    loop: true,

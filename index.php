@@ -51,13 +51,18 @@
 					include_once('./template_parts/founder.php') 
 				?>
 				<?php include_once('./template_parts/products.php') ?>
-				<section class="blog">
+				<?php 
+					$blog_title = 'Блог экспертов в области производства';
+					$blog_slider_class = 'swiper-blog';
+					include_once('./template_parts/blog.php') 
+				?>
+				<!-- <section class="blog">
 					<div class="_container">
 						<h2 class="blog__title title">Блог экспертов в области производства</h2>
 						<div class="blog__swiper swiper-blog swiper">
 							<div class="blog__body swiper-blog__body swiper-wrapper">
 								<div class="blog__column swiper-slide">
-									<div class="blog__item item-blog">
+									<a href="./blog.php" class="blog__item item-blog">
 										<div class="item-blog_bg">
 											<img src="img/blog/slide_01.jpeg" alt="" />
 										</div>
@@ -71,10 +76,10 @@
 												предоставлены...
 											</div>
 										</div>
-									</div>
+									</a>
 								</div>
 								<div class="blog__column swiper-slide">
-									<div class="blog__item item-blog">
+									<a href="./blog.php" class="blog__item item-blog">
 										<div class="item-blog_bg">
 											<img src="img/blog/slide_02.jpeg" alt="" />
 										</div>
@@ -88,11 +93,45 @@
 												высокотехнологичная...
 											</div>
 										</div>
-									</div>
+									</a>
+								</div>
+								<div class="blog__column swiper-slide">
+									<a href="./blog.php" class="blog__item item-blog">
+										<div class="item-blog_bg">
+											<img src="img/blog/slide_01.jpeg" alt="" />
+										</div>
+										<div class="item-blog__content">
+											<h3 class="item-blog__title">
+												Современная методология разработки одухотворила всех причастных
+											</h3>
+											<div class="item-blog__text">
+												Действия представителей оппозиции, превозмогая сложившуюся
+												непростую экономическую ситуацию, в равной степени
+												предоставлены...
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="blog__column swiper-slide">
+									<a href="./blog.php" class="blog__item item-blog">
+										<div class="item-blog_bg">
+											<img src="img/blog/slide_02.jpeg" alt="" />
+										</div>
+										<div class="item-blog__content">
+											<h3 class="item-blog__title">
+												Сложно сказать, почему жизнь прекрасна
+											</h3>
+											<div class="item-blog__text">
+												Сложно сказать, почему элементы политического процесса
+												функционально разнесены на независимые элементы. Безусловно,
+												высокотехнологичная...
+											</div>
+										</div>
+									</a>
 								</div>
 							</div>
 							<div class="swiper-blog__footer">
-								<a href="#" class="swiper-blog__link link">Весь блог</a>
+								<a href="./blog.php" class="swiper-blog__link link">Весь блог</a>
 								<div class="swiper-blog__nav blue-btn-nav">
 									<div class="swiper-blog__btn_p blue-btn-nav_prev">
 										<img src="./img/icons/arrow.svg" alt="slider arrow" />
@@ -104,7 +143,7 @@
 							</div>
 						</div>
 					</div>
-				</section>
+				</section> -->
 				<?php include_once('./template_parts/cooperation.php') ?>
 				<?php include_once('./template_parts/modals.php') ?>
 			</main>

@@ -19,9 +19,6 @@
 				if(!empty($subheader_img)){
 					echo '<img class="subheader-img" src="' . $subheader_img . '" alt="">';
 				}
-				if(!empty($subheader_bg)){
-					echo '<img class="subheader-bg" src="' . $subheader_bg . '" alt="">'; 
-				}
 			?>
 		</div>
 	</div>

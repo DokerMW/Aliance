@@ -1,0 +1,41 @@
+.swiper-slide {
+   width: auto;
+}
+.blog__swiper {
+   width: 100%;
+}
+.blog__body {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   margin: 0px -15px;
+}
+.blog__column {
+   flex: 0 1 50%;
+   padding: 0 15px;
+   margin-bottom: 30px;
+}
+.pagination_wrapper {
+   width: 100%;
+}
+.pagination {
+   padding-right: 30px;
+   display: flex;
+   width: 100%;
+   justify-content: flex-end;
+}
+.page-item {
+   width: 50px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.page-link {
+   color: rgb(41, 45, 51);
+   font-size: 16px;
+   font-weight: 600;
+}
+.page-item.active {
+   border: 1px solid blue;
+}
