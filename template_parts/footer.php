@@ -22,51 +22,51 @@
 	<nav class="footer__middle middle-footer">
 		<div class="middle-footer__container _container">
 			<div class="middle-footer__column">
-				<h2 class="middle-footer__title"><a href="#">Контрактное производство</a></h2>
+				<h2 class="middle-footer__title"><a href="./contracts.php">Контрактное производство</a></h2>
 				<ul class="middle-footer_list">
 					<li class="middle-footer__item">
-						<a href="#">Автомобильная химия</a>
+						<a href="./autohim.php">Автомобильная химия</a>
 					</li>
 					<li class="middle-footer__item">
-						<a href="#">Бытовая химия</a>
+						<a href="./chemicals.php">Бытовая химия</a>
 					</li>
 					<li class="middle-footer__item">
-						<a href="#">Дезинфицирующие средства</a>
+						<a href="./disinfection.php">Дезинфицирующие средства</a>
 					</li>
 					<li class="middle-footer__item">
-						<a href="#">Пищевые аэрозоли</a>
+						<a href="./aerosol.php">Пищевые аэрозоли</a>
 					</li>
 					<li class="middle-footer__item">
-						<a href="#">Косметическая продукция</a>
+						<a href="./cosmetics.php">Косметическая продукция</a>
 					</li>
 					<li class="middle-footer__item">
-						<a href="#">Краски аэрозольные</a>
+						<a href="./paints.php">Краски аэрозольные</a>
 					</li>
 				</ul>
 			</div>
 			<div class="middle-footer__column">
 				<h2 class="middle-footer__title">
-					<a href="#">Собственные марки</a>
+					<a href="./trademarks.php">Собственные марки</a>
 				</h2>
 				<ul class="middle-footer_list">
 					<li class="middle-footer__item">
-						<a href="#">Автохимия AG-Tech</a>
+						<a href="./autohim_ag">Автохимия AG-Tech</a>
 					</li>
 					<li class="middle-footer__item">
-						<a href="#">Автохимия AP</a>
+						<a href="./autohim_ap">Автохимия AP</a>
 					</li>
 				</ul>
 			</div>
 			<div class="middle-footer__column">
 				<ul class="middle-footer_list">
 					<li class="middle-footer__title">
-						<a href="#">О компании</a>
+						<a href="./about.php">О компании</a>
 					</li>
 					<li class="middle-footer__title">
 						<a href="#">Новости</a>
 					</li>
 					<li class="middle-footer__title">
-						<a href="#">Контакты</a>
+						<a href="./contacts.php">Контакты</a>
 					</li>
 				</ul>
 			</div>
