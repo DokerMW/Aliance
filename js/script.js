@@ -140,6 +140,7 @@ const swiperBlog = new Swiper(".swiper-blog", {
       prevEl: ".swiper-blog__btn_p",
    },
    slidesPerView: 2,
+   spaceBetween: 30,
    breakpoints: {
       320: {
          slidesPerView: 1,

@@ -1577,11 +1577,9 @@ body._lock .header__row {
    margin: 0px 0px 56px 0px;
 }
 .blog__body {
-   gap: 30px;
    margin: 0 0 30px 0;
 }
 .blog__column {
-   flex: 0 1 50%;
 }
 .item-blog__content {
    padding: 50px;
