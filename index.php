@@ -38,39 +38,10 @@
 					$production_title = 'Контрактное производство';
 					include_once('./template_parts/production.php') 
 				?>
-				
-
-				<section class="brands">
-					<div class="_container">
-						<h2 class="brands__title title">собственные <span>торговые</span> марки</h2>
-						<div class="brands__row">
-							<a href="#" class="brands__item item-brand">
-								<div class="item-brand__logo">
-									<svg>
-										<use href="./img/icons/sprite.svg#brand_01"></use>
-									</svg>
-								</div>
-								<h3 class="item-brand__title">Автохимия AG-Tech</h3>
-								<div class="item-brand__text">
-									Для современного мира разбавленное изрядной долей эмпатии, рациональное
-									мышление создаёт предпосылки для поставленных обществом задач.
-								</div>
-							</a>
-							<a href="#" class="brands__item item-brand">
-								<div class="item-brand__logo">
-									<svg>
-										<use href="./img/icons/sprite.svg#brand_02"></use>
-									</svg>
-								</div>
-								<h3 class="item-brand__title">Автохимия AP</h3>
-								<div class="item-brand__text">
-									Для современного мира разбавленное изрядной долей эмпатии, рациональное
-									мышление создаёт предпосылки для поставленных обществом задач.
-								</div>
-							</a>
-						</div>
-					</div>
-				</section>
+				<?php 
+					$brands_title = 'собственные торговые марки';
+					include_once('./template_parts/brands.php') 
+				?>
 				<?php 
 					$founder_link = 'Подробнее о компании'; 
 					$founder_img = './img/founder/main_img.jpeg';
