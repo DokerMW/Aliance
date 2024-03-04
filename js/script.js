@@ -49,7 +49,11 @@ const mMenuToggle = () => {
       menuBody.classList.toggle("_active");
       if (body.classList.contains("_lock")) {
          darkLogo();
-      } else if (!body.classList.contains("_lock") && window.scrollY < 50) {
+      } else if (
+         !body.classList.contains("_lock") &&
+         window.scrollY < 50 &&
+         !header.classList.contains("dark")
+      ) {
          lightLogo();
       }
       if (window.scrollY < 50) {

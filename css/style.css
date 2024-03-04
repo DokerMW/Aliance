@@ -566,6 +566,9 @@ body._lock .header__row {
    .burger-menu__icon span.dark {
       background-color: #292d33;
    }
+   .header.dark .burger-menu__icon span {
+      background-color: #292d33;
+   }
    .burger-menu__icon span:first-child {
       top: 0px;
    }
