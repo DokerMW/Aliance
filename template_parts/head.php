@@ -6,6 +6,10 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="./css/style.css" />
 	<?php echo $extra_styles ?>
+	<script src="./js/swiper-bundle.min.js" defer></script>
+	<script src="./js/inputmask.min.js" defer></script>
+	<script src="./js/just-validate.production.min.js" defer></script>
+	<script src="./js/script.js" defer></script>
 	<title>
 		<?php 
 			if(!empty($head_subtitle)){
