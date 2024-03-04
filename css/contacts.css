@@ -45,3 +45,24 @@
 .map {
    margin: 40px 0px 200px 0px;
 }
+@media (max-width: 1650px) {
+   .top-contacts__tel {
+      font-size: 28px;
+   }
+   .top-contacts__email,
+   .top-contacts__address {
+      font-size: 18px;
+   }
+   .top-contacts__info {
+      flex-direction: column;
+      gap: 15px;
+   }
+}
+@media (max-width: 900px) {
+   .top-contacts__container {
+      flex-direction: column;
+   }
+   .top-contacts__social {
+      margin-left: 0;
+   }
+}

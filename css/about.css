@@ -186,7 +186,28 @@
    height: 100%;
    object-fit: cover;
 }
-
+@media (max-width: 1400px) {
+   .fabric__body {
+      flex-direction: column;
+      align-items: stretch;
+   }
+   .fabric__content {
+      margin: 0px 0px 50px 0px;
+      order: 2;
+   }
+   .fabric__image {
+      width: 100%;
+      order: 1;
+   }
+   .fabric__image img {
+      width: 100%;
+   }
+}
+@media (max-width: 700px) {
+   .fabric__list {
+      columns: 1;
+   }
+}
 /*===============================================================================================*/
 
 /*===== research ==============================================================================*/
@@ -225,6 +246,12 @@
    display: flex;
    justify-content: flex-end;
    align-items: center;
+}
+@media (max-width: 1400px) {
+   .research__body {
+      flex-direction: column;
+      align-items: stretch;
+   }
 }
 /*===============================================================================================*/
 

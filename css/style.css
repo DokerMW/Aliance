@@ -176,6 +176,7 @@ main {
    margin-right: 10px;
    color: rgb(41, 45, 51);
    font-size: 14px;
+   line-height: 20px;
 }
 .breadcrumbs__item:not(:first-child) {
    padding-left: 24px;
@@ -2362,6 +2363,16 @@ body._lock .header__row {
 }
 .subheader-wrapper {
    position: relative;
+}
+@media (max-width: 1400px) {
+   .subheader-img {
+      max-height: 180px;
+   }
+}
+@media (max-width: 1150px) {
+   .subheader-img {
+      display: none;
+   }
 }
 /*===============================================================================================*/
 

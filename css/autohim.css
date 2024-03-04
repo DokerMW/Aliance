@@ -12,3 +12,39 @@
 .experts__cards {
    margin: 0px 0px 150px 0px;
 }
+@media (max-width: 1650px) {
+   .founder__image_por {
+      max-width: none;
+      height: 760px;
+   }
+   .founder__image_por img {
+      height: 100%;
+   }
+}
+@media (max-width: 1400px) {
+   .founder__body {
+      flex-direction: column;
+   }
+   .founder__image_por {
+      height: auto;
+   }
+   .founder__content {
+      width: 100%;
+      align-content: start;
+      padding-left: 0;
+      margin-left: 0;
+   }
+   .autohim-type__list {
+      columns: 3;
+   }
+}
+@media (max-width: 900px) {
+   .autohim-type__list {
+      columns: 2;
+   }
+}
+@media (max-width: 750px) {
+   .autohim-type__list {
+      columns: 1;
+   }
+}
