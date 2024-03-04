@@ -44,7 +44,7 @@
 				?>
 				<?php 
 					$founder_link = 'Подробнее о компании'; 
-					$founder_img = './img/founder/main_img.jpeg';
+					$founder_img = './img/founder/main_img.webp';
 					$founder_title = 'Отношение к делу и к клиентам';
 					$founder_par = 'Кстати, интерактивные прототипы описаны максимально подробно. Повседневная практика показывает, что укрепление и развитие внутренней структуры говорит о возможностях соответствующих условий активизации. Внезапно, независимые государства, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут подвергнуты целой серии независимых исследований. С учётом сложившейся международной обстановки, синтетическое тестирование выявляет срочную потребность системы массового участия.';
 					$founder_par2 = 'А ещё действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены сами себе. Не следует, однако, забывать, что выбранный нами инновационный путь в значительной степени обусловливает важность дальнейших направлений развития.';
@@ -64,7 +64,7 @@
 								<div class="blog__column swiper-slide">
 									<a href="./blog.php" class="blog__item item-blog">
 										<div class="item-blog_bg">
-											<img src="img/blog/slide_01.jpeg" alt="" />
+											<img src="img/blog/slide_01.webp" alt="" />
 										</div>
 										<div class="item-blog__content">
 											<h3 class="item-blog__title">
@@ -81,7 +81,7 @@
 								<div class="blog__column swiper-slide">
 									<a href="./blog.php" class="blog__item item-blog">
 										<div class="item-blog_bg">
-											<img src="img/blog/slide_02.jpeg" alt="" />
+											<img src="img/blog/slide_02.webp" alt="" />
 										</div>
 										<div class="item-blog__content">
 											<h3 class="item-blog__title">
@@ -98,7 +98,7 @@
 								<div class="blog__column swiper-slide">
 									<a href="./blog.php" class="blog__item item-blog">
 										<div class="item-blog_bg">
-											<img src="img/blog/slide_01.jpeg" alt="" />
+											<img src="img/blog/slide_01.webp" alt="" />
 										</div>
 										<div class="item-blog__content">
 											<h3 class="item-blog__title">
@@ -115,7 +115,7 @@
 								<div class="blog__column swiper-slide">
 									<a href="./blog.php" class="blog__item item-blog">
 										<div class="item-blog_bg">
-											<img src="img/blog/slide_02.jpeg" alt="" />
+											<img src="img/blog/slide_02.webp" alt="" />
 										</div>
 										<div class="item-blog__content">
 											<h3 class="item-blog__title">

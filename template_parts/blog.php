@@ -10,7 +10,7 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 						<div class="item-blog_bg">
-							<img src="img/blog/slide_01.jpeg" alt="" />
+							<img src="img/blog/slide_01.webp" alt="" />
 						</div>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -27,7 +27,7 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 						<div class="item-blog_bg">
-							<img src="img/blog/slide_02.jpeg" alt="" />
+							<img src="img/blog/slide_02.webp" alt="" />
 						</div>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -44,7 +44,7 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 						<div class="item-blog_bg">
-							<img src="img/blog/slide_01.jpeg" alt="" />
+							<img src="img/blog/slide_01.webp" alt="" />
 						</div>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -61,7 +61,7 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 						<div class="item-blog_bg">
-							<img src="img/blog/slide_02.jpeg" alt="" />
+							<img src="img/blog/slide_02.webp" alt="" />
 						</div>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -78,7 +78,7 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 						<div class="item-blog_bg">
-							<img src="img/blog/slide_01.jpeg" alt="" />
+							<img src="img/blog/slide_01.webp" alt="" />
 						</div>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -95,7 +95,7 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 						<div class="item-blog_bg">
-							<img src="img/blog/slide_02.jpeg" alt="" />
+							<img src="img/blog/slide_02.webp" alt="" />
 						</div>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -112,7 +112,7 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 						<div class="item-blog_bg">
-							<img src="img/blog/slide_01.jpeg" alt="" />
+							<img src="img/blog/slide_01.webp" alt="" />
 						</div>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -129,7 +129,7 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 						<div class="item-blog_bg">
-							<img src="img/blog/slide_02.jpeg" alt="" />
+							<img src="img/blog/slide_02.webp" alt="" />
 						</div>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -146,7 +146,7 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 						<div class="item-blog_bg">
-							<img src="img/blog/slide_01.jpeg" alt="" />
+							<img src="img/blog/slide_01.webp" alt="" />
 						</div>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -163,7 +163,7 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 						<div class="item-blog_bg">
-							<img src="img/blog/slide_02.jpeg" alt="" />
+							<img src="img/blog/slide_02.webp" alt="" />
 						</div>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">

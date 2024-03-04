@@ -14,7 +14,7 @@
 						</div>
 					</div>
 					<div class="item-production__img">
-						<img src="./img/prod/img_01.png" alt="" />
+						<img src="./img/prod/img_01.webp" alt="" />
 					</div>
 				</div>
 			</a>
@@ -28,7 +28,7 @@
 						</div>
 					</div>
 					<div class="item-production__img">
-						<img src="./img/prod/img_02.png" alt="" />
+						<img src="./img/prod/img_02.webp" alt="" />
 					</div>
 				</div>
 			</a>
@@ -41,7 +41,7 @@
 						</div>
 					</div>
 					<div class="item-production__img">
-						<img src="./img/prod/img_03.png" alt="" />
+						<img src="./img/prod/img_03.webp" alt="" />
 					</div>
 				</div>
 			</a>
@@ -55,7 +55,7 @@
 						</div>
 					</div>
 					<div class="item-production__img">
-						<img src="./img/prod/img_03.png" alt="" />
+						<img src="./img/prod/img_03.webp" alt="" />
 					</div>
 				</div>
 			</a>
@@ -68,7 +68,7 @@
 						</div>
 					</div>
 					<div class="item-production__img">
-						<img src="./img/prod/img_01.png" alt="" />
+						<img src="./img/prod/img_01.webp" alt="" />
 					</div>
 				</div>
 			</a>
@@ -82,7 +82,7 @@
 						</div>
 					</div>
 					<div class="item-production__img">
-						<img src="./img/prod/img_02.png" alt="" />
+						<img src="./img/prod/img_02.webp" alt="" />
 					</div>
 				</div>
 			</a>

@@ -30,42 +30,42 @@
 			<div class="swiper-research__column swiper-slide">
 				<div class="swiper-research__item item-research">
 					<div class="item-research_bg">
-						<img src="img/blog/slide_01.jpeg" alt="" />
+						<img src="img/blog/slide_01.webp" alt="" />
 					</div>
 				</div>
 			</div>
 			<div class="swiper-research__column swiper-slide">
 				<div class="swiper-research__item item-research">
 					<div class="item-research_bg">
-						<img src="img/blog/slide_02.jpeg" alt="" />
+						<img src="img/blog/slide_02.webp" alt="" />
 					</div>
 				</div>
 			</div>
 			<div class="swiper-research__column swiper-slide">
 				<div class="swiper-research__item item-research">
 					<div class="item-research_bg">
-						<img src="img/blog/slide_01.jpeg" alt="" />
+						<img src="img/blog/slide_01.webp" alt="" />
 					</div>
 				</div>
 			</div>
 			<div class="swiper-research__column swiper-slide">
 				<div class="swiper-research__item item-research">
 					<div class="item-research_bg">
-						<img src="img/blog/slide_02.jpeg" alt="" />
+						<img src="img/blog/slide_02.webp" alt="" />
 					</div>
 				</div>
 			</div>
 			<div class="swiper-research__column swiper-slide">
 				<div class="swiper-research__item item-research">
 					<div class="item-research_bg">
-						<img src="img/blog/slide_01.jpeg" alt="" />
+						<img src="img/blog/slide_01.webp" alt="" />
 					</div>
 				</div>
 			</div>
 			<div class="swiper-research__column swiper-slide">
 				<div class="swiper-research__item item-research">
 					<div class="item-research_bg">
-						<img src="img/blog/slide_02.jpeg" alt="" />
+						<img src="img/blog/slide_02.webp" alt="" />
 					</div>
 				</div>
 			</div>

@@ -1,6 +1,6 @@
 <section class="cooperation">
 	<div class="_container">
-		<img class="cooperation__image" src="img/cooperation/img_01.png" alt="" />
+		<img class="cooperation__image" src="img/cooperation/img_01.webp" alt="" />
 		<div class="cooperation__body">
 			<h2 class="cooperation__title">Хотите сотрудничать?</h2>
 			<div class="cooperation__text">
