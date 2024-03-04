@@ -21,7 +21,7 @@
                         Мы не смогли найти страницу с таким адресом, попробуйте перейти на главную
                         или напишите нам.
                      </div>
-                     <div class="not-found__btn btn">Вернуться на главную</div>
+                     <a href="./index.php" class="not-found__btn btn">Вернуться на главную</a>
                   </div>
                </div>
             </section>

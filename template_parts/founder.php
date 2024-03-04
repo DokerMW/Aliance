@@ -14,7 +14,7 @@
 						} 
 					?>
 				</div>
-				<?php if(!empty($founder_link)){echo '<a href="#" class="founder__link link">'. $founder_link .'</a>';}?>
+				<?php if(!empty($founder_link)){echo '<a href="./about.php" class="founder__link link">'. $founder_link .'</a>';}?>
 			</div>
 		</div>
 	</div>

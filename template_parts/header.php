@@ -39,31 +39,31 @@
 	</div>
 	<nav class="header__menu_mobile mobile-menu">
 		<ul class="mobile-menu_list">
-			<li class="mobile-menu__item"><a href="#">О компании</a></li>
+			<li class="mobile-menu__item"><a href="./about.php">О компании</a></li>
 			<li class="mobile-menu__item">
-				<a href="#">Контрактное производство</a>
+				<a href="./contracts.php">Контрактное производство</a>
 				<ul class="mobile-menu__sublist">
-					<li class="mobile-menu__subitem"><a href="#">Автомобильная химия</a></li>
-					<li class="mobile-menu__subitem"><a href="#">Бытовая химия</a></li>
+					<li class="mobile-menu__subitem"><a href="./autohim.php">Автомобильная химия</a></li>
+					<li class="mobile-menu__subitem"><a href="./chemicals.php">Бытовая химия</a></li>
 					<li class="mobile-menu__subitem">
-						<a href="#">Дезинфицирующие средства</a>
+						<a href="./disinfection.php">Дезинфицирующие средства</a>
 					</li>
-					<li class="mobile-menu__subitem"><a href="#">Пищевые аэрозоли</a></li>
+					<li class="mobile-menu__subitem"><a href="./aerosol.php">Пищевые аэрозоли</a></li>
 					<li class="mobile-menu__subitem">
-						<a href="#">Косметическая продукция</a>
+						<a href="./cosmetics.php">Косметическая продукция</a>
 					</li>
-					<li class="mobile-menu__subitem"><a href="#">Краски аэрозольные</a></li>
+					<li class="mobile-menu__subitem"><a href="./paints.php">Краски аэрозольные</a></li>
 				</ul>
 			</li>
 			<li class="mobile-menu__item">
-				<a href="#">Собственные торговые марки</a>
+				<a href="./trademarks.php">Собственные торговые марки</a>
 				<ul class="mobile-menu__sublist">
-					<li class="mobile-menu__subitem"><a href="#">Автохимия AG-Tech</a></li>
-					<li class="mobile-menu__subitem"><a href="#">Автохимия AP</a></li>
+					<li class="mobile-menu__subitem"><a href="./autohim_ag">Автохимия AG-Tech</a></li>
+					<li class="mobile-menu__subitem"><a href="./autohim_ap">Автохимия AP</a></li>
 				</ul>
 			</li>
-			<li class="mobile-menu__item"><a href="#">Новости</a></li>
-			<li class="mobile-menu__item"><a href="#">Контакты</a></li>
+			<li class="mobile-menu__item"><a href="./hews.php">Новости</a></li>
+			<li class="mobile-menu__item"><a href="./contacts.php">Контакты</a></li>
 		</ul>
 		<div class="mobile-menu__contacts">
 			<a href="tel:+74996861014" class="mobile-menu__phone">+7 (499) 686-10-14</a>

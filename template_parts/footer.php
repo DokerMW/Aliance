@@ -63,7 +63,7 @@
 						<a href="./about.php">О компании</a>
 					</li>
 					<li class="middle-footer__title">
-						<a href="#">Новости</a>
+						<a href="./hews.php">Новости</a>
 					</li>
 					<li class="middle-footer__title">
 						<a href="./contacts.php">Контакты</a>
