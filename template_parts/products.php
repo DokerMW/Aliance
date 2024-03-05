@@ -50,31 +50,31 @@
 			</div>
 			<div class="products__brands brands-product">
 				<div class="brands-product__item">
-					<img src="img/products/bk_logo.svg" alt="" />
+					<img src="img/products/bk_logo.webp" alt="" />
 				</div>
 				<div class="brands-product__item">
-					<img src="img/products/bk_logo.svg" alt="" />
+					<img src="img/products/bk_logo.webp" alt="" />
 				</div>
 				<div class="brands-product__item">
-					<img src="img/products/bk_logo.svg" alt="" />
+					<img src="img/products/bk_logo.webp" alt="" />
 				</div>
 				<div class="brands-product__item">
-					<img src="img/products/bk_logo.svg" alt="" />
+					<img src="img/products/bk_logo.webp" alt="" />
 				</div>
 				<div class="brands-product__item">
-					<img src="img/products/bk_logo.svg" alt="" />
+					<img src="img/products/bk_logo.webp" alt="" />
 				</div>
 				<div class="brands-product__item">
-					<img src="img/products/bk_logo.svg" alt="" />
+					<img src="img/products/bk_logo.webp" alt="" />
 				</div>
 				<div class="brands-product__item">
-					<img src="img/products/bk_logo.svg" alt="" />
+					<img src="img/products/bk_logo.webp" alt="" />
 				</div>
 				<div class="brands-product__item">
-					<img src="img/products/bk_logo.svg" alt="" />
+					<img src="img/products/bk_logo.webp" alt="" />
 				</div>
 				<div class="brands-product__item">
-					<img src="img/products/bk_logo.svg" alt="" />
+					<img src="img/products/bk_logo.webp" alt="" />
 				</div>
 			</div>
 		</div>
