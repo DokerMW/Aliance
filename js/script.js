@@ -159,14 +159,15 @@ const swiperBlog = new Swiper(".swiper-blog", {
 });
 
 const swiperResearch = new Swiper(".swiper-research", {
-   direction: "horizontal",
    loop: true,
    navigation: {
       nextEl: ".swiper-research__btn_n",
       prevEl: ".swiper-research__btn_p",
    },
    slidesPerView: 2,
+   centeredSlides: false,
    spaceBetween: 30,
+   initialSlide: 2,
    breakpoints: {
       320: {
          slidesPerView: 1,
