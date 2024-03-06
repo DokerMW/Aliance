@@ -44,6 +44,9 @@
 .experts__text p:not(:last-child) {
    margin: 0px 0px 23px 0px;
 }
+.swiper-slide {
+   height: auto;
+}
 @media (max-width: 1650px) {
    .experts__image {
       width: 400px;
@@ -223,6 +226,7 @@
    display: flex;
    justify-content: space-between;
    margin: 0px -15px;
+   flex-wrap: wrap;
 }
 .research__text {
    flex: 0 1 50%;
@@ -246,6 +250,15 @@
    display: flex;
    justify-content: flex-end;
    align-items: center;
+}
+.item-research_bg {
+   max-height: 400px;
+   max-width: 705px;
+   overflow: hidden;
+}
+.item-research_bg img {
+   height: 100%;
+   object-fit: cover;
 }
 @media (max-width: 1400px) {
    .research__body {
