@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<?php include_once('./template_parts/head.php'); ?>
+	<?php 
+		$head_subtitle = 'Главная';
+		include_once('./template_parts/head.php'); 
+	?>
 	<body>
 		<div class="wrapper">
 			<?php 
