@@ -8,6 +8,7 @@
 	<script src="./js/swiper-bundle.min.js" defer></script>
 	<script src="./js/inputmask.min.js" defer></script>
 	<script src="./js/just-validate.production.min.js" defer></script>
+	<script src="./js/modernizr.js" defer></script>
 	<script src="./js/script.js" defer></script>
 	<title>
 		<?php 

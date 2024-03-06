@@ -1,3 +1,6 @@
+.no-webp .subheader-bg {
+   background: url("../img/blog/blog_bg.jpeg") 0 0 / cover no-repeat;
+}
 .subheader-bg {
    background: url("../img/blog/blog_bg.webp") 0 0 / cover no-repeat;
    position: relative;
