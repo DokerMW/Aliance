@@ -2,6 +2,10 @@
    position: relative;
    max-width: 600px;
    width: auto;
+   align-self: start;
+}
+.founder__content {
+   align-self: start;
 }
 .founder__body {
    align-items: center;
@@ -11,6 +15,9 @@
 }
 .experts__cards {
    margin: 0px 0px 150px 0px;
+}
+.autohim-type__item {
+   line-height: 120%;
 }
 @media (max-width: 1650px) {
    .founder__image_por {

@@ -178,6 +178,11 @@
    color: rgb(41, 45, 51);
    font-size: 16px;
 }
+.fabric__item img {
+   max-width: 30px;
+   max-height: 30px;
+   object-fit: cover;
+}
 .fabric__item:last-child {
    margin: 0;
 }
