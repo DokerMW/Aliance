@@ -18,7 +18,7 @@
 						<div class="form-popup__input-group">
 							<div class="form-popup__input">
 								<input
-									class="input"
+									class="input _name"
 									id="input-name_2"
 									type="text"
 									name="username"

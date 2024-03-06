@@ -2,7 +2,9 @@
 	<div class="_container">
 		<div class="founder__body">
 			<div class="founder__image <?php echo $founder_img_class ?>">
-				<?php echo '<img src="' . $founder_img . '" alt="founder photo" />' ?>
+			<?php echo '<picture><source srcset="' . $founder_img_webp . ' type="image/webp" />
+		<source srcset="' . $founder_img_jpeg . '" type="image/jpeg" />
+		<img src="' . $founder_img_jpeg . '" alt="" />'; ?>
 			</div>
 			<div class="founder__content <?php echo $founder__content_class ?>">
 				<h2 class="founder__title title"><?php echo $founder_title ?></h2>

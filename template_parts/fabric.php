@@ -39,7 +39,9 @@
 				</ul>
 			</div>
 			<div class="fabric__image">
-				<?php echo '<img src="' . $fabric_img . '" alt="" />'; ?>
+				<?php echo '<picture><source srcset="' . $fabric_img_webp . ' type="image/webp" />
+		<source srcset="' . $fabric_img_jpeg . '" type="image/jpeg" />
+		<img src="' . $fabric_img_jpeg . '" alt="" />'; ?>
 			</div>
 		</div>
 	</div>

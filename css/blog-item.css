@@ -16,9 +16,7 @@
 .subheader-bg a {
    color: white;
 }
-.subheader-bg a:hover {
-   color: #fff;
-}
+
 .breadcrumbs__item:not(:first-child)::before {
    background-color: #fff;
 }
@@ -50,9 +48,7 @@
    height: 50px;
    border: 1px solid rgb(235, 235, 240);
 }
-.aside__btns a:hover {
-   border: 1px solid rgb(92, 142, 230);
-}
+
 .blog-text__body {
    max-width: 960px;
 }
@@ -98,4 +94,12 @@
    position: absolute;
    top: 12px;
    left: 0;
+}
+@media (min-width: 992px) {
+   .subheader-bg a:hover {
+      color: #fff;
+   }
+   .aside__btns a:hover {
+      border: 1px solid rgb(92, 142, 230);
+   }
 }

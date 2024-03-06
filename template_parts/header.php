@@ -58,8 +58,8 @@
 			<li class="mobile-menu__item">
 				<a href="./trademarks.php">Собственные торговые марки</a>
 				<ul class="mobile-menu__sublist">
-					<li class="mobile-menu__subitem"><a href="./autohim_ag">Автохимия AG-Tech</a></li>
-					<li class="mobile-menu__subitem"><a href="./autohim_ap">Автохимия AP</a></li>
+					<li class="mobile-menu__subitem"><a href="./autohim_ag.php">Автохимия AG-Tech</a></li>
+					<li class="mobile-menu__subitem"><a href="./autohim_ap.php">Автохимия AP</a></li>
 				</ul>
 			</li>
 			<li class="mobile-menu__item"><a href="./hews.php">Новости</a></li>

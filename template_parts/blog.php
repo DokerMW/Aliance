@@ -9,9 +9,11 @@
 			<div class="blog__body swiper-blog__body swiper-wrapper">
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
-						<div class="item-blog_bg">
+						<picture class="item-blog_bg">
+							<source srcset="img/blog/slide_01.webp" type="image/webp" />
+							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" />
 							<img src="img/blog/slide_01.webp" alt="" />
-						</div>
+						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
 								Современная методология разработки одухотворила всех причастных
@@ -26,9 +28,11 @@
 				</div>
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
-						<div class="item-blog_bg">
+					<picture class="item-blog_bg">
+							<source srcset="img/blog/slide_02.webp" type="image/webp" />
+							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" />
 							<img src="img/blog/slide_02.webp" alt="" />
-						</div>
+						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
 								Сложно сказать, почему жизнь прекрасна
@@ -43,9 +47,11 @@
 				</div>
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
-						<div class="item-blog_bg">
+					<picture class="item-blog_bg">
+							<source srcset="img/blog/slide_01.webp" type="image/webp" />
+							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" />
 							<img src="img/blog/slide_01.webp" alt="" />
-						</div>
+						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
 								Современная методология разработки одухотворила всех причастных
@@ -60,9 +66,11 @@
 				</div>
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
-						<div class="item-blog_bg">
+					<picture class="item-blog_bg">
+							<source srcset="img/blog/slide_02.webp" type="image/webp" />
+							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" />
 							<img src="img/blog/slide_02.webp" alt="" />
-						</div>
+						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
 								Сложно сказать, почему жизнь прекрасна
@@ -77,9 +85,11 @@
 				</div>
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
-						<div class="item-blog_bg">
+					<picture class="item-blog_bg">
+							<source srcset="img/blog/slide_01.webp" type="image/webp" />
+							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" />
 							<img src="img/blog/slide_01.webp" alt="" />
-						</div>
+						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
 								Современная методология разработки одухотворила всех причастных
@@ -94,9 +104,11 @@
 				</div>
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
-						<div class="item-blog_bg">
+					<picture class="item-blog_bg">
+							<source srcset="img/blog/slide_02.webp" type="image/webp" />
+							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" />
 							<img src="img/blog/slide_02.webp" alt="" />
-						</div>
+						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
 								Сложно сказать, почему жизнь прекрасна
@@ -111,9 +123,11 @@
 				</div>
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
-						<div class="item-blog_bg">
+					<picture class="item-blog_bg">
+							<source srcset="img/blog/slide_01.webp" type="image/webp" />
+							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" />
 							<img src="img/blog/slide_01.webp" alt="" />
-						</div>
+						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
 								Современная методология разработки одухотворила всех причастных
@@ -128,9 +142,11 @@
 				</div>
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
-						<div class="item-blog_bg">
+					<picture class="item-blog_bg">
+							<source srcset="img/blog/slide_02.webp" type="image/webp" />
+							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" />
 							<img src="img/blog/slide_02.webp" alt="" />
-						</div>
+						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
 								Сложно сказать, почему жизнь прекрасна
@@ -145,9 +161,11 @@
 				</div>
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
-						<div class="item-blog_bg">
+					<picture class="item-blog_bg">
+							<source srcset="img/blog/slide_01.webp" type="image/webp" />
+							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" />
 							<img src="img/blog/slide_01.webp" alt="" />
-						</div>
+						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
 								Современная методология разработки одухотворила всех причастных
@@ -162,9 +180,11 @@
 				</div>
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
-						<div class="item-blog_bg">
+					<picture class="item-blog_bg">
+							<source srcset="img/blog/slide_02.webp" type="image/webp" />
+							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" />
 							<img src="img/blog/slide_02.webp" alt="" />
-						</div>
+						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
 								Сложно сказать, почему жизнь прекрасна

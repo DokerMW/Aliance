@@ -21,9 +21,11 @@
 				<section class="experts">
 					<div class="_container">
 						<div class="experts__body">
-							<div class="experts__image">
-								<img src="img/experts/image.webp" alt="experts photo" />
-							</div>
+						<picture class="experts__image">
+							<source srcset="img/experts/image.webp" type="image/webp" />
+							<source srcset="img/experts/image.png" type="image/png" />
+							<img src="img/experts/image.png" alt="" />
+						</picture>
 							<div class="experts__content">
 								<h2 class="experts__title title">
 									мы - эксперты в области производства химии
@@ -69,11 +71,13 @@
 					соответствующих условий активизации. Предварительные выводы
 					неутешительны: экономическая повестка сегодняшнего дня требует анализа
 					анализа существующих паттернов поведения.';
-					$fabric_img = 'img/fabric/img.webp';
+					$fabric_img_webp = 'img/fabric/img.webp';
+					$fabric_img_jpeg = 'img/fabric/img.jpeg';
 					include_once('./template_parts/fabric.php');
 				?>
 				<?php 
-					$founder_img = './img/founder/main_img.webp';
+					$founder_img_webp = './img/founder/main_img.webp';
+					$founder_img_jpeg = './img/founder/main_img.jpeg';
 					$founder_title = 'Отношение к делу и к клиентам';
 					$founder_par = 'Кстати, интерактивные прототипы описаны максимально подробно. Повседневная практика показывает, что укрепление и развитие внутренней структуры говорит о возможностях соответствующих условий активизации. Внезапно, независимые государства, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут подвергнуты целой серии независимых исследований. С учётом сложившейся международной обстановки, синтетическое тестирование выявляет срочную потребность системы массового участия.';
 					$founder_par2 = 'А ещё действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены сами себе. Не следует, однако, забывать, что выбранный нами инновационный путь в значительной степени обусловливает важность дальнейших направлений развития.';

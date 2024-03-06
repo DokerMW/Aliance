@@ -16,12 +16,13 @@
 				<li class="breadcrumbs__item"><?php echo $subheader_title_content ?></li>
 			</ul>
 			<?php 
-				if(!empty($subheader_img)){
-					echo '<img class="subheader-img" src="' . $subheader_img . '" alt="">';
+				if(!empty($subheader_img_webp) && !empty($subheader_img_jpeg)){
+					echo '<picture class="' . $subheader_img_class . '"><source srcset="' . $subheader_img_webp . ' type="image/webp" />
+					<source srcset="' . $subheader_img_jpeg . '" type="image/png" />
+					<img src="' . $subheader_img_jpeg . '" alt="" />';
 				}
 			?>
 		</div>
 	</div>
 </section>
 
-					

@@ -13,9 +13,11 @@
 							значение форм воздействия.
 						</div>
 					</div>
-					<div class="item-production__img">
-						<img src="./img/prod/img_01.webp" alt="" />
-					</div>
+					<picture class="item-production__img">
+						<source srcset="./img/prod/img_01.webp" type="image/webp" />
+						<source srcset="./img/prod/img_01.png" type="image/png" />
+						<img src="./img/prod/img_01.png" alt="" />
+					</picture>
 				</div>
 			</a>
 			<a href="./chemicals.php" class="production__column">
@@ -27,9 +29,11 @@
 							нанотехнологии функционально разнесены на независимые элементы.
 						</div>
 					</div>
-					<div class="item-production__img">
-						<img src="./img/prod/img_02.webp" alt="" />
-					</div>
+					<picture class="item-production__img">
+						<source srcset="./img/prod/img_02.webp" type="image/webp" />
+						<source srcset="./img/prod/img_02.png" type="image/png" />
+						<img src="./img/prod/img_02.png" alt="" />
+					</picture>
 				</div>
 			</a>
 			<a href="./disinfection.php" class="production__column">
@@ -40,9 +44,11 @@
 							Лишь интерактивные прототипы призваны к ответу.
 						</div>
 					</div>
-					<div class="item-production__img">
-						<img src="./img/prod/img_03.webp" alt="" />
-					</div>
+					<picture class="item-production__img">
+						<source srcset="./img/prod/img_03.webp" type="image/webp" />
+						<source srcset="./img/prod/img_03.png" type="image/png" />
+						<img src="./img/prod/img_03.png" alt="" />
+					</picture>
 				</div>
 			</a>
 			<a href="./aerosol.php" class="production__column">
@@ -54,9 +60,11 @@
 							значение форм воздействия.
 						</div>
 					</div>
-					<div class="item-production__img">
-						<img src="./img/prod/img_03.webp" alt="" />
-					</div>
+					<picture class="item-production__img">
+						<source srcset="./img/prod/img_03.webp" type="image/webp" />
+						<source srcset="./img/prod/img_03.png" type="image/png" />
+						<img src="./img/prod/img_03.png" alt="" />
+					</picture>
 				</div>
 			</a>
 			<a href="./cosmetics.php" class="production__column">
@@ -67,9 +75,11 @@
 							Лишь интерактивные прототипы призваны к ответу.
 						</div>
 					</div>
-					<div class="item-production__img">
-						<img src="./img/prod/img_01.webp" alt="" />
-					</div>
+					<picture class="item-production__img">
+						<source srcset="./img/prod/img_01.webp" type="image/webp" />
+						<source srcset="./img/prod/img_01.png" type="image/png" />
+						<img src="./img/prod/img_01.png" alt="" />
+					</picture>
 				</div>
 			</a>
 			<a href="./paints.php" class="production__column">
@@ -81,9 +91,11 @@
 							нанотехнологии функционально разнесены на независимые элементы.
 						</div>
 					</div>
-					<div class="item-production__img">
-						<img src="./img/prod/img_02.webp" alt="" />
-					</div>
+					<picture class="item-production__img">
+						<source srcset="./img/prod/img_02.webp" type="image/webp" />
+						<source srcset="./img/prod/img_02.png" type="image/png" />
+						<img src="./img/prod/img_02.png" alt="" />
+					</picture>
 				</div>
 			</a>
 		</div>

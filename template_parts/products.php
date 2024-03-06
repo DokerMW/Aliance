@@ -49,33 +49,51 @@
 				</ul>
 			</div>
 			<div class="products__brands brands-product">
-				<div class="brands-product__item">
-					<img src="img/products/bk_logo.webp" alt="" />
-				</div>
-				<div class="brands-product__item">
-					<img src="img/products/bk_logo.webp" alt="" />
-				</div>
-				<div class="brands-product__item">
-					<img src="img/products/bk_logo.webp" alt="" />
-				</div>
-				<div class="brands-product__item">
-					<img src="img/products/bk_logo.webp" alt="" />
-				</div>
-				<div class="brands-product__item">
-					<img src="img/products/bk_logo.webp" alt="" />
-				</div>
-				<div class="brands-product__item">
-					<img src="img/products/bk_logo.webp" alt="" />
-				</div>
-				<div class="brands-product__item">
-					<img src="img/products/bk_logo.webp" alt="" />
-				</div>
-				<div class="brands-product__item">
-					<img src="img/products/bk_logo.webp" alt="" />
-				</div>
-				<div class="brands-product__item">
-					<img src="img/products/bk_logo.webp" alt="" />
-				</div>
+				<picture class="brands-product__item">
+					<source srcset="img/products/bk_logo.webp" type="image/webp" />
+					<source srcset="img/products/bk_logo.svg" type="image/svg" />
+					<img src="img/products/bk_logo.svg" alt="" />
+				</picture>
+				<picture class="brands-product__item">
+					<source srcset="img/products/bk_logo.webp" type="image/webp" />
+					<source srcset="img/products/bk_logo.svg" type="image/svg" />
+					<img src="img/products/bk_logo.svg" alt="" />
+				</picture>
+				<picture class="brands-product__item">
+					<source srcset="img/products/bk_logo.webp" type="image/webp" />
+					<source srcset="img/products/bk_logo.svg" type="image/svg" />
+					<img src="img/products/bk_logo.svg" alt="" />
+				</picture>
+				<picture class="brands-product__item">
+					<source srcset="img/products/bk_logo.webp" type="image/webp" />
+					<source srcset="img/products/bk_logo.svg" type="image/svg" />
+					<img src="img/products/bk_logo.svg" alt="" />
+				</picture>
+				<picture class="brands-product__item">
+					<source srcset="img/products/bk_logo.webp" type="image/webp" />
+					<source srcset="img/products/bk_logo.svg" type="image/svg" />
+					<img src="img/products/bk_logo.svg" alt="" />
+				</picture>
+				<picture class="brands-product__item">
+					<source srcset="img/products/bk_logo.webp" type="image/webp" />
+					<source srcset="img/products/bk_logo.svg" type="image/svg" />
+					<img src="img/products/bk_logo.svg" alt="" />
+				</picture>
+				<picture class="brands-product__item">
+					<source srcset="img/products/bk_logo.webp" type="image/webp" />
+					<source srcset="img/products/bk_logo.svg" type="image/svg" />
+					<img src="img/products/bk_logo.svg" alt="" />
+				</picture>
+				<picture class="brands-product__item">
+					<source srcset="img/products/bk_logo.webp" type="image/webp" />
+					<source srcset="img/products/bk_logo.svg" type="image/svg" />
+					<img src="img/products/bk_logo.svg" alt="" />
+				</picture>
+				<picture class="brands-product__item">
+					<source srcset="img/products/bk_logo.webp" type="image/webp" />
+					<source srcset="img/products/bk_logo.svg" type="image/svg" />
+					<img src="img/products/bk_logo.svg" alt="" />
+				</picture>
 			</div>
 		</div>
 	</div>

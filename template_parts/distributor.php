@@ -12,5 +12,9 @@
 			<button class="distributor_btn btn"><span>Скачать каталог</span></button>
 		</div>
 	</div>
-	<img class="distributor__image" src="./img/brands/book.webp" alt="">
+	<picture class="distributor__image">
+		<source srcset="./img/brands/book.webp" type="image/webp" />
+		<source srcset="./img/brands/book.png" type="image/png" />
+		<img src="./img/brands/book.png" alt="" />
+	</picture>
 </section>

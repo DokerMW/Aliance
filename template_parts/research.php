@@ -27,24 +27,36 @@
 	</div>
 	<div class="research__swiper swiper-research swiper">
   	<div class="swiper-research__body swiper-wrapper">
-  	  <div class="swiper-research__item item-research swiper-slide">
-				<img src="./img/blog/slide_01.webp" alt="">
-			</div>
-  	  <div class="swiper-research__item item-research swiper-slide">
-				<img src="./img/blog/slide_02.webp" alt="">
-			</div>
-  	  <div class="swiper-research__item item-research swiper-slide">
-				<img src="./img/blog/slide_01.webp" alt="">
-			</div>
-  	  <div class="swiper-research__item item-research swiper-slide">
-				<img src="./img/blog/slide_02.webp" alt="">
-			</div>    
-  	  <div class="swiper-research__item item-research swiper-slide">
-				<img src="./img/blog/slide_01.webp" alt="">
-			</div>
-  	  <div class="swiper-research__item item-research swiper-slide">
-				<img src="./img/blog/slide_02.webp" alt="">
-			</div>
+			<picture class="swiper-research__item item-research swiper-slide">
+				<source srcset="./img/blog/slide_01.webp" type="image/webp" />
+				<source srcset="./img/blog/slide_01.jpeg" type="image/jpeg" />
+				<img src="./img/blog/slide_01.jpeg" alt="" />
+			</picture>
+			<picture class="swiper-research__item item-research swiper-slide">
+				<source srcset="./img/blog/slide_02.webp" type="image/webp" />
+				<source srcset="./img/blog/slide_02.jpeg" type="image/jpeg" />
+				<img src="./img/blog/slide_02.jpeg" alt="" />
+			</picture>
+			<picture class="swiper-research__item item-research swiper-slide">
+				<source srcset="./img/blog/slide_01.webp" type="image/webp" />
+				<source srcset="./img/blog/slide_01.jpeg" type="image/jpeg" />
+				<img src="./img/blog/slide_01.jpeg" alt="" />
+			</picture>
+			<picture class="swiper-research__item item-research swiper-slide">
+				<source srcset="./img/blog/slide_02.webp" type="image/webp" />
+				<source srcset="./img/blog/slide_02.jpeg" type="image/jpeg" />
+				<img src="./img/blog/slide_02.jpeg" alt="" />
+			</picture>
+			<picture class="swiper-research__item item-research swiper-slide">
+				<source srcset="./img/blog/slide_01.webp" type="image/webp" />
+				<source srcset="./img/blog/slide_01.jpeg" type="image/jpeg" />
+				<img src="./img/blog/slide_01.jpeg" alt="" />
+			</picture>
+			<picture class="swiper-research__item item-research swiper-slide">
+				<source srcset="./img/blog/slide_02.webp" type="image/webp" />
+				<source srcset="./img/blog/slide_02.jpeg" type="image/jpeg" />
+				<img src="./img/blog/slide_02.jpeg" alt="" />
+			</picture>
   	</div>
 	</div>
 	<div class="_container">

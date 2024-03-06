@@ -1,11 +1,11 @@
 <footer class="footer">
 	<div class="footer__top top-footer">
 		<div class="top-footer__container _container">
-			<div class="top-footer__logo">
+			<a href="./" class="top-footer__logo">
 				<svg class="footer__img">
 					<use href="./img/icons/sprite.svg#main_logo_d"></use>
 				</svg>
-			</div>
+			</ф>
 			<a href="tel:+74996861014" class="top-footer__tel">+7 (555) 686-10-14</a>
 			<div class="top-footer__info">
 				<div class="top-footer__address">г. Мосвка, Холодильный пер. 4к1с8</div>
