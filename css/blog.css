@@ -18,6 +18,13 @@
 .pagination_wrapper {
    width: 100%;
 }
+.blog-text__img {
+   max-width: 100%;
+}
+.blog-text__img img {
+   width: 100%;
+   object-fit: cover;
+}
 .pagination {
    padding-right: 30px;
    display: flex;

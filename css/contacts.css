@@ -5,10 +5,13 @@
    justify-content: space-between;
 }
 .top-contacts__tel {
+   display: inline-block;
    color: rgb(41, 45, 51);
    font-size: 48px;
    font-weight: 600;
    text-decoration-line: underline;
+   max-width: 420px;
+   line-height: 120%;
 }
 .top-contacts__info {
    display: flex;
@@ -19,9 +22,13 @@
 }
 .top-contacts__address {
    background: url("../img/icons/address.svg") 0 0 / 18px 24px no-repeat;
+   max-width: 412px;
+   line-height: 120%;
 }
 .top-contacts__email {
    background: url("../img/icons/mail.svg") 0 3px / 25px no-repeat;
+   max-width: 300px;
+   line-height: 120%;
 }
 .top-contacts__email,
 .top-contacts__address {
