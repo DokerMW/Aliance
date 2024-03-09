@@ -1,16 +1,16 @@
 .distributor {
    background: rgb(240, 242, 245);
-   margin: 0px 0px 160px 0px;
+   margin: 0px 0px 175px 0px;
    position: relative;
 }
 .distributor__body {
-   padding: 130px 0 100px 0;
+   padding: 125px 0 98px 0;
    max-width: 720px;
    margin-right: auto;
 }
 .distributor__title {
    position: relative;
-   margin: 0px 0px 20px 0px;
+   margin: 0px 0px 25px 0px;
 }
 
 .distributor__text {
@@ -18,16 +18,16 @@
    font-family: Noto Sans;
    font-size: 16px;
    line-height: 160%;
-   margin: 0px 0px 30px 0px;
+   margin: 0px 0px 35px 0px;
 }
 .distributor__list {
-   margin: 0px 0px 50px 0px;
+   margin: 0px 0px 25px 0px;
    columns: 2;
 }
 .distributor__item {
    color: rgb(41, 45, 51);
    font-size: 16px;
-   margin: 0px 0px 20px 0px;
+   margin: 0px 0px 30px 0px;
    position: relative;
    padding-left: 36px;
 }
@@ -42,7 +42,8 @@
    background-color: #5c8ee6;
 }
 .distributor_btn {
-   padding: 25px 60px;
+   padding: 25px 62px;
+   letter-spacing: 0.4px;
 }
 .distributor_btn span {
    padding-left: 30px;
@@ -52,10 +53,13 @@
    position: absolute;
    right: 0;
    bottom: 0;
-   max-width: 960px;
+   max-width: 950px;
    object-fit: cover;
 }
 .distributor__image img {
    width: 100%;
    object-fit: cover;
+}
+.products {
+   margin: 0px 0px 220px 0px;
 }

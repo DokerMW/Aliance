@@ -35,7 +35,7 @@
 				</div>
 				<div class="map">
 					<div class="_container">
-						<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac48714a7e34dc26dbe791c93fb08da527b26cc1eb1550324a80417b61d20d2b7&amp;source=constructor"  height="600"></iframe>
+						<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac48714a7e34dc26dbe791c93fb08da527b26cc1eb1550324a80417b61d20d2b7&amp;source=constructor"  height="595"></iframe>
 					</div>
 				</div>
 				<?php include_once('./template_parts/cooperation.php') ?>

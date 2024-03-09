@@ -30,14 +30,16 @@
 .blog-text__wrapper {
    display: flex;
    justify-content: space-between;
+   margin: 0px 0px 120px 0px;
 }
 .aside {
 }
 .aside__title {
+   padding-top: 5px;
    color: rgb(130, 138, 153);
    font-size: 16px;
    font-weight: 600;
-   margin: 0px 0px 20px 0px;
+   margin: 0px 0px 25px 0px;
 }
 .aside__btns {
    display: flex;
@@ -53,15 +55,20 @@
 }
 
 .blog-text__body {
+   padding-top: 10px;
+   padding-left: 10px;
    max-width: 960px;
 }
 .blog-text__block {
-   margin: 0px 0px 50px 0px;
+   margin: 0px 0px 57px 0px;
 }
 .blog-text__title {
    color: rgb(41, 45, 51);
    font-size: 36px;
-   margin: 0px 0px 20px 0px;
+   margin: 0px 0px 30px 0px;
+}
+.blog-text__title_min {
+   font-size: 28px;
 }
 .blog-text__par {
    color: rgb(41, 45, 51);
@@ -73,18 +80,22 @@
    margin: 0px 0px 0px 0px;
 }
 .blog-text__img {
+   max-width: 950px;
+}
+.blog-text__img img {
+   max-width: 100%;
 }
 .blog-text__list {
 }
 .blog-text__subtitle {
    color: rgb(41, 45, 51);
    font-size: 20px;
-   margin: 0px 0px 20px 0px;
+   margin: 0px 0px 27px 0px;
 }
 .blog-text__item {
    color: rgb(41, 45, 51);
    font-size: 16px;
-   padding-left: 36px;
+   padding-left: 30px;
    line-height: 160%;
    position: relative;
    margin: 0px 0px 10px 0px;

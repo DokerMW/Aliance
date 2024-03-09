@@ -19,7 +19,7 @@
 					include_once('./template_parts/subheader.php');
 				?>
 				<?php 
-					$blog_slider_class = 'main-blog';
+					$blog_slider_class = 'blog-page';
 					include_once('./template_parts/blog.php') 
 				?>
 				<?php include_once('./template_parts/cooperation.php') ?>

@@ -199,7 +199,6 @@
 				</div>
 			</div>
 			<div class="swiper-blog__footer">
-				
 				<?php if($blog_slider_class == 'swiper-blog'){
 					echo '<a href="./blog.php" class="swiper-blog__link link">Весь блог</a>
 					<div class="swiper-blog__nav blue-btn-nav">
