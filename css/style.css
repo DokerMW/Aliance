@@ -329,6 +329,9 @@ body._lock .header__row {
    color: white;
    padding-left: 26px;
 }
+.header.dark .header__phone a {
+   font-weight: 600;
+}
 .header__phone-link {
    display: -webkit-box;
    display: -ms-flexbox;

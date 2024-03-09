@@ -1,8 +1,8 @@
 <section class="research">
 	<div class="_container">
-		<div class="research__title title">
+		<h2 class="research__title title">
 			Исследовательский центр Aliance production
-		</div>
+		</h2>
 		<div class="research__body">
 			<p class="research__text">
 				Явные признаки победы институционализации рассмотрены исключительно в

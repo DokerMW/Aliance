@@ -52,6 +52,9 @@
 .map {
    margin: 40px 0px 200px 0px;
 }
+iframe {
+   width: 100%;
+}
 @media (max-width: 1650px) {
    .top-contacts__tel {
       font-size: 28px;

@@ -5,7 +5,7 @@
 				<svg class="footer__img">
 					<use href="./img/icons/sprite.svg#main_logo_d"></use>
 				</svg>
-			</ф>
+			</a>
 			<a href="tel:+74996861014" class="top-footer__tel">+7 (555) 686-10-14</a>
 			<div class="top-footer__info">
 				<div class="top-footer__address">г. Мосвка, Холодильный пер. 4к1с8</div>
