@@ -1,11 +1,16 @@
+.founder {
+   margin: 0px 0px 60px 0px;
+}
+
 .founder__image_por {
    position: relative;
-   max-width: 600px;
+   max-width: 595px;
    width: auto;
    align-self: start;
 }
 .founder__content {
    align-self: start;
+   padding-left: 47px;
 }
 .founder__body {
    align-items: center;
@@ -17,7 +22,32 @@
    margin: 0px 0px 150px 0px;
 }
 .autohim-type__item {
-   line-height: 120%;
+   line-height: 160%;
+}
+.fabric {
+   position: relative;
+   margin: 0px 0px 310px 0px;
+}
+.fabric__text {
+   margin: 0px 0px 27px 0px;
+}
+.fabric__image {
+   width: 832px;
+   position: absolute;
+   right: 0;
+   top: 0;
+}
+.fabric__image img {
+   width: 100%;
+}
+.research {
+   margin: 0px 0px 110px 0px;
+}
+.work-scheme {
+   margin: 0px 0px 173px 0px;
+}
+.products {
+   margin: 0px 0px 218px 0px;
 }
 @media (max-width: 1650px) {
    .founder__image_por {

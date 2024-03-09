@@ -2797,7 +2797,7 @@ body._lock .header__row {
    position: absolute;
    right: 0;
    bottom: 0;
-   max-height: 240px;
+   max-height: 238px;
    -o-object-fit: cover;
    object-fit: cover;
 }
@@ -2812,7 +2812,7 @@ body._lock .header__row {
    }
 }
 .autohim-type {
-   margin: 0px 0px 166px 0px;
+   margin: 0px 0px 162px 0px;
 }
 .autohim-type__title {
    position: relative;
@@ -2836,6 +2836,7 @@ body._lock .header__row {
    margin: 0px 0px 20px 0px;
    position: relative;
    padding-left: 36px;
+   max-width: 280px;
 }
 .autohim-type__item:before {
    content: "";
