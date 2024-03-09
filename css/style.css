@@ -14,6 +14,8 @@ body._lock {
 .dark .header__phone a,
 .dark .menu__item a {
    color: #292d33;
+   font-weight: 400;
+   letter-spacing: 0.1px;
 }
 .header.dark {
    background-color: #fff;
@@ -171,12 +173,12 @@ main {
 }
 .breadcrumbs {
    list-style: none;
-   padding-bottom: 55px;
+   padding-bottom: 50px;
 }
 .breadcrumbs__item {
    display: inline;
    position: relative;
-   margin-right: 10px;
+   margin-right: 8px;
    color: rgb(41, 45, 51);
    font-size: 14px;
    line-height: 20px;
@@ -373,7 +375,7 @@ body._lock .header__row {
 }
 .secondary_header {
    background-color: #f0f2f5;
-   padding: 168px 0 0 0;
+   padding: 165px 0 0 0;
 }
 @media (min-width: 998px) {
    .menu__item:hover:after {
@@ -790,6 +792,7 @@ body._lock .header__row {
 }
 .item-cards__text_black {
    color: rgb(41, 45, 51);
+   font-weight: 400;
 }
 @media (max-width: 1650px) {
    .main-block {

@@ -30,7 +30,7 @@
 					</li>
 					<li class="fabric__item">
 						<img src="img/products/05.svg" alt="" />
-						Косметические средства
+						Косметическая продукция
 					</li>
 					<li class="fabric__item">
 						<img src="img/products/06.svg" alt="" />
