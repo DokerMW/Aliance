@@ -199,13 +199,7 @@
 				</div>
 			</div>
 			<div class="swiper-blog__footer">
-				<ul class="pagination">
-					<li class="page-item _active">1</li>
-					<li class="page-item">2</li>
-					<li class="page-item">3</li>
-					<li class="page-item">4</li>
-					<li class="page-item">5</li>
-				</ul>
+				
 				<?php if($blog_slider_class == 'swiper-blog'){
 					echo '<a href="./blog.php" class="swiper-blog__link link">Весь блог</a>
 					<div class="swiper-blog__nav blue-btn-nav">
@@ -218,15 +212,13 @@
 					</div>';
 					}
 						 if($blog_slider_class == 'blog-page'){
-					echo '<a href="./blog.php" class="swiper-blog__link link">Весь блог</a>
-					<div class="swiper-blog__nav blue-btn-nav">
-						<div class="swiper-blog__btn_p blue-btn-nav_prev">
-							<img src="./img/icons/arrow.svg" alt="slider arrow" />
-						</div>
-						<div class="swiper-blog__btn_n blue-btn-nav_next">
-							<img src="./img/icons/arrow.svg" alt="slider arrow" />
-						</div>
-					</div>';
+					echo '<ul class="pagination">
+					<li class="page-item _active">1</li>
+					<li class="page-item">2</li>
+					<li class="page-item">3</li>
+					<li class="page-item">4</li>
+					<li class="page-item">5</li>
+				</ul>';
 					}
 				?>
 			</div>

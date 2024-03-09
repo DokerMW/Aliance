@@ -9,7 +9,7 @@
 			<div class="founder__content <?php echo $founder__content_class ?>">
 				<h2 class="founder__title title"><?php echo $founder_title ?></h2>
 				<div class="founder__text">
-					<?php echo $founder_par ?>
+					<?php echo '<p>' . $founder_par . '</p>'?>
 					<?php 
 						if(!empty($founder_par2)){
 							echo '<p>' . $founder_par2 . '</p>';
