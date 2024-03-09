@@ -264,3 +264,17 @@ inputTel.forEach((e) => {
       }).mask(e);
    }
 });
+
+const pageItem = document.querySelectorAll(".page-item");
+
+pageItem.forEach((option) => {
+   option.addEventListener("click", function (e) {
+      e.preventDefault();
+      pageItem.forEach((option) => option.classList.remove("_active"));
+      handleOptionSelected(e);
+   });
+});
+
+function handleOptionSelected(e) {
+   e.target.classList.add("_active");
+}
