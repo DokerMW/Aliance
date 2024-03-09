@@ -42,7 +42,7 @@
 					include_once('./template_parts/production.php') 
 				?>
 				<?php 
-					$brands_title = 'собственные торговые марки';
+					$brands_title = 'собственные <span>торговые</span> марки';
 					include_once('./template_parts/brands.php') 
 				?>
 				<?php 
