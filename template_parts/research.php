@@ -1,4 +1,4 @@
-<section class="research"></section>
+<section class="research">
 	<div class="_container">
 		<h2 class="research__title title">
 			Исследовательский центр Aliance production

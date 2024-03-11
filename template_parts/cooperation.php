@@ -7,7 +7,7 @@
 		</picture>
 		<div class="cooperation__body">
 			<h2 class="cooperation__title">Хотите сотрудничать?</h2>
-			<div class="cooperation__text"></div>
+			<div class="cooperation__text">
 				Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит
 				на все интересующие вопросы и поможем даже в самых сложных случаях!
 			</div>
