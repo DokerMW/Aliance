@@ -1,0 +1,25 @@
+@media (max-width: 1400px) {
+   .founder__image_por img {
+      height: 500px;
+      min-height: auto;
+   }
+}
+@media (max-width: 1150px) {
+   .founder__image_por img {
+      height: 300px;
+   }
+}
+@media (max-width: 450px) {
+   .founder__image_por img {
+      height: 427px;
+   }
+   .founder__image_por {
+      margin: 0px 0px 24px 0px;
+   }
+   .experts__cards {
+      margin: 0px 0px 62px 0px;
+   }
+   .products {
+      margin: 0px 0px 95px 0px;
+   }
+}

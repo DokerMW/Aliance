@@ -30,3 +30,26 @@
 .not-found__btn {
    padding: 25px 64px;
 }
+@media (max-width: 450px) {
+   .not-found__body {
+      padding: 150px 0 100px 0;
+   }
+   .not-found__title {
+      font-size: 197px;
+      margin: 0px 0px 25px 0px;
+   }
+   .not-found__subtitle {
+      font-size: 20px;
+      margin: 0px 0px 23px 0px;
+   }
+   .not-found__text {
+      font-size: 14px;
+      margin: 0px 0px 48px 0px;
+   }
+   .not-found__btn {
+      padding: 18px 64px;
+      display: block;
+      width: 100%;
+      text-align: center;
+   }
+}

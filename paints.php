@@ -22,6 +22,7 @@
 					$extra_link_content = 'Контрактное производство';
 					$subheader_img_webp = './img/secondary-header/avto-him.webp';
 					$subheader_img_jpeg = './img/secondary-header/avto-him.png';
+					$subheader_img_class = 'subheader-img';
 					include_once('./template_parts/subheader.php');
 				?>
 				<?php 

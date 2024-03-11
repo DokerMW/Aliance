@@ -171,6 +171,7 @@ const swiperResearch = new Swiper(".swiper-research", {
    breakpoints: {
       320: {
          slidesPerView: 1,
+         spaceBetween: 8,
       },
       900: {
          slidesPerView: 1.3,

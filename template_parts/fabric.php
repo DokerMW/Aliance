@@ -36,6 +36,14 @@
 						<img src="img/products/06.svg" alt="" />
 						Краски аэрозольные
 					</li>
+					<li class="fabric__item fabric__item_extra" style="display:none;">
+						<img src="img/products/01.svg" alt="" />
+						Актуальные цены
+					</li>
+					<li class="fabric__item fabric__item_extra" style="display:none;">
+						<img src="img/products/02.svg" alt="" />
+						Лаки и краски
+					</li>
 				</ul>
 			</div>
 			<div class="fabric__image">

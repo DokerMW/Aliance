@@ -82,3 +82,57 @@ iframe {
       margin-left: 0;
    }
 }
+@media (max-width: 450px) {
+   .about-header__title::before {
+      top: -18px;
+   }
+   .about-header__title {
+      margin: 0px 0px 25px 0px;
+   }
+   .top-contacts__container {
+      align-items: start;
+   }
+   .top-contacts {
+      margin: 0px 0px 50px 0px;
+   }
+   .top-contacts__tel {
+      font-size: 32px;
+      margin: 0px 0px 38px 0px;
+   }
+   .top-contacts__info {
+      align-items: start;
+      padding-left: 8px;
+      gap: 17px;
+      margin: 0px 0px 38px 0px;
+   }
+   .top-contacts__email,
+   .top-contacts__address {
+      font-size: 21px;
+      line-height: 160%;
+      padding-left: 41px;
+   }
+   .top-contacts__address {
+      margin: 0px 0px 10px 0px;
+   }
+   .top-contacts__email {
+      background: url("../img/icons/mail.svg") 0 9px / 25px no-repeat;
+   }
+   .top-contacts__social_item {
+      width: 25px;
+      height: 30px;
+   }
+   .top-contacts__social {
+      padding-left: 5px;
+      gap: 27px;
+   }
+   .top-contacts__social_item img {
+      width: 100%;
+      height: 100%;
+   }
+   iframe {
+      height: 500px;
+   }
+   .map {
+      margin: 40px 0px 100px 0px;
+   }
+}

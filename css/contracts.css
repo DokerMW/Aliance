@@ -10,11 +10,33 @@
    content: "";
    top: -22px;
 }
+@media (max-width: 450px) {
+   .secondary_header {
+      padding: 136px 0 0 0;
+      margin: 0px 0px 50px 0px;
+   }
+   .contracts-header__title::before {
+      top: -18px;
+   }
+   .contracts-header__title {
+      font-size: 48px;
+      margin: 0px 0px 25px 0px;
+   }
+   .breadcrumbs__item,
+   .breadcrumbs__item a {
+      font-size: 12px;
+   }
+}
 /*===============================================================================================*/
 
 /*===== production ==============================================================================*/
 .production {
    margin: 0px 0px 110px 0px;
+}
+@media (max-width: 450px) {
+   .production {
+      margin: 0px 0px 70px 0px;
+   }
 }
 /*===============================================================================================*/
 
@@ -36,7 +58,16 @@
    font-size: 16px;
    line-height: 160%;
 }
-.seo__link {
+@media (max-width: 450px) {
+   .seo {
+      margin: 0px 0px 100px 0px;
+   }
+   .seo__title {
+      font-size: 20px;
+   }
+   .seo__body p {
+      line-height: 162%;
+   }
 }
 /*===============================================================================================*/
 .brands {

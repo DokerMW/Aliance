@@ -1,6 +1,3 @@
-.politics {
-}
-
 .politics__body {
    padding: 0 0 150px 0;
 }
@@ -13,4 +10,20 @@
 }
 .politics__body p:last-child {
    margin: 0;
+}
+@media (max-width: 767px) {
+   .politics__body p {
+      font-size: 14px;
+   }
+}
+@media (max-width: 450px) {
+   .about-header__title {
+      max-width: 342px;
+   }
+   .about-header__title::before {
+      top: -18px;
+   }
+   .politics__body {
+      padding: 0 0 96px 0;
+   }
 }
