@@ -21,7 +21,7 @@
 						<div class="item-scheme__number">02</div>
 						<h3 class="item-scheme__title">Заключение договора</h3>
 						<p class="item-scheme__text">
-							Лишь интерактивные прототипы<br />
+							Лишь интерактивные прототипы<br >
 							призваны к ответу.
 						</p>
 					</div>
@@ -49,10 +49,10 @@
 			</div>
 			<div class="scheme-swiper-nav blue-btn-nav">
 				<div class="scheme-prev-btn blue-btn-nav_prev">
-					<img src="./img/icons/arrow.svg" alt="slider arrow" />
+					<img src="./img/icons/arrow.svg" alt="slider arrow" >
 				</div>
 				<div class="scheme-next-btn blue-btn-nav_next">
-					<img src="./img/icons/arrow.svg" alt="slider arrow" />
+					<img src="./img/icons/arrow.svg" alt="slider arrow" >
 				</div>
 			</div>
 		</div>

@@ -13,8 +13,8 @@
 		</div>
 	</div>
 	<picture class="distributor__image">
-		<source srcset="./img/brands/book.webp" type="image/webp" />
-		<source srcset="./img/brands/book.png" type="image/png" />
-		<img src="./img/brands/book.png" alt="" />
+		<source srcset="./img/brands/book.webp" type="image/webp" >
+		<source srcset="./img/brands/book.png" type="image/png" >
+		<img src="./img/brands/book.png" alt="" >
 	</picture>
 </section>

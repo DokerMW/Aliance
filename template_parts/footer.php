@@ -14,8 +14,8 @@
 				</a>
 			</div>
 			<div class="top-footer__social">
-				<img src="img/icons/vk.svg" alt="" />
-				<img src="img/icons/inst.svg" alt="" />
+				<img src="img/icons/vk.svg" alt="" >
+				<img src="img/icons/inst.svg" alt="" >
 			</div>
 		</div>
 	</div>

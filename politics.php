@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <?php 
-	$extra_styles = '<link rel="stylesheet" href="./css/about.css" /> <link rel="stylesheet" href="./css/contracts.css" /> <link rel="stylesheet" href="./css/politics.css" />'; 
+	$extra_styles = '<link rel="stylesheet" href="./css/about.css" > <link rel="stylesheet" href="./css/contracts.css" > <link rel="stylesheet" href="./css/politics.css" >'; 
 	$head_subtitle = 'Политика конфиденциальности'; 
 	include_once('./template_parts/head.php');
 ?>

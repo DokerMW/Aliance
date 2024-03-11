@@ -17,9 +17,9 @@
 			</ul>
 			<?php 
 				if(!empty($subheader_img_webp) && !empty($subheader_img_jpeg)){
-					echo '<picture class="' . $subheader_img_class . '"><source srcset="' . $subheader_img_webp . '" type="image/webp" />
-					<source srcset="' . $subheader_img_jpeg . '" type="image/png" />
-					<img src="' . $subheader_img_jpeg . '" alt="" /></picture>';
+					echo '<picture class="' . $subheader_img_class . '"><source srcset="' . $subheader_img_webp . '" type="image/webp" >
+					<source srcset="' . $subheader_img_jpeg . '" type="image/png" >
+					<img src="' . $subheader_img_jpeg . '" alt="" ></picture>';
 				}
 			?>
 		</div>

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
    <?php 
-	$extra_styles = '<link rel="stylesheet" href="./css/about.css" />
-   <link rel="stylesheet" href="./css/contracts.css" />
-   <link rel="stylesheet" href="./css/404.css" />'; $head_subtitle = 'Страница не найдена';
+	$extra_styles = '<link rel="stylesheet" href="./css/about.css" >
+   <link rel="stylesheet" href="./css/contracts.css" >
+   <link rel="stylesheet" href="./css/404.css" >'; $head_subtitle = 'Страница не найдена';
    include_once('./template_parts/head.php'); ?>
    <body>
       <div class="wrapper">

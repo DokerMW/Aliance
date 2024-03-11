@@ -1,4 +1,4 @@
-<section class="research">
+<section class="research"></section>
 	<div class="_container">
 		<h2 class="research__title title">
 			Исследовательский центр Aliance production
@@ -28,34 +28,34 @@
 	<div class="research__swiper swiper-research swiper">
   	<div class="swiper-research__body swiper-wrapper">
 			<picture class="swiper-research__item item-research swiper-slide">
-				<source srcset="./img/blog/slide_01.webp" type="image/webp" />
-				<source srcset="./img/blog/slide_01.jpeg" type="image/jpeg" />
-				<img src="./img/blog/slide_01.jpeg" alt="" />
+				<source srcset="./img/blog/slide_01.webp" type="image/webp" >
+				<source srcset="./img/blog/slide_01.jpeg" type="image/jpeg" >
+				<img src="./img/blog/slide_01.jpeg" alt="" >
 			</picture>
 			<picture class="swiper-research__item item-research swiper-slide">
-				<source srcset="./img/blog/slide_02.webp" type="image/webp" />
-				<source srcset="./img/blog/slide_02.jpeg" type="image/jpeg" />
-				<img src="./img/blog/slide_02.jpeg" alt="" />
+				<source srcset="./img/blog/slide_02.webp" type="image/webp" >
+				<source srcset="./img/blog/slide_02.jpeg" type="image/jpeg" >
+				<img src="./img/blog/slide_02.jpeg" alt="" >
 			</picture>
 			<picture class="swiper-research__item item-research swiper-slide">
-				<source srcset="./img/blog/slide_01.webp" type="image/webp" />
-				<source srcset="./img/blog/slide_01.jpeg" type="image/jpeg" />
-				<img src="./img/blog/slide_01.jpeg" alt="" />
+				<source srcset="./img/blog/slide_01.webp" type="image/webp" >
+				<source srcset="./img/blog/slide_01.jpeg" type="image/jpeg" >
+				<img src="./img/blog/slide_01.jpeg" alt="" >
 			</picture>
 			<picture class="swiper-research__item item-research swiper-slide">
-				<source srcset="./img/blog/slide_02.webp" type="image/webp" />
-				<source srcset="./img/blog/slide_02.jpeg" type="image/jpeg" />
-				<img src="./img/blog/slide_02.jpeg" alt="" />
+				<source srcset="./img/blog/slide_02.webp" type="image/webp" >
+				<source srcset="./img/blog/slide_02.jpeg" type="image/jpeg" >
+				<img src="./img/blog/slide_02.jpeg" alt="" >
 			</picture>
 			<picture class="swiper-research__item item-research swiper-slide">
-				<source srcset="./img/blog/slide_01.webp" type="image/webp" />
-				<source srcset="./img/blog/slide_01.jpeg" type="image/jpeg" />
-				<img src="./img/blog/slide_01.jpeg" alt="" />
+				<source srcset="./img/blog/slide_01.webp" type="image/webp" >
+				<source srcset="./img/blog/slide_01.jpeg" type="image/jpeg" >
+				<img src="./img/blog/slide_01.jpeg" alt="" >
 			</picture>
 			<picture class="swiper-research__item item-research swiper-slide">
-				<source srcset="./img/blog/slide_02.webp" type="image/webp" />
-				<source srcset="./img/blog/slide_02.jpeg" type="image/jpeg" />
-				<img src="./img/blog/slide_02.jpeg" alt="" />
+				<source srcset="./img/blog/slide_02.webp" type="image/webp" >
+				<source srcset="./img/blog/slide_02.jpeg" type="image/jpeg" >
+				<img src="./img/blog/slide_02.jpeg" alt="" >
 			</picture>
   	</div>
 	</div>
@@ -63,10 +63,10 @@
 		<div class="swiper-research__footer">
 			<div class="swiper-research__nav blue-btn-nav">
 				<div class="swiper-research__btn_p blue-btn-nav_prev">
-					<img src="./img/icons/arrow.svg" alt="slider arrow" />
+					<img src="./img/icons/arrow.svg" alt="slider arrow" >
 				</div>
 				<div class="swiper-research__btn_n blue-btn-nav_next">
-					<img src="./img/icons/arrow.svg" alt="slider arrow" />
+					<img src="./img/icons/arrow.svg" alt="slider arrow" >
 				</div>
 			</div>
 		</div>

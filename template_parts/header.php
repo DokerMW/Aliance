@@ -73,10 +73,10 @@
 			</a>
 			<div class="mobile-menu__social">
 				<a href="#">
-					<img src="./img/icons/vk.svg" alt="vk" />
+					<img src="./img/icons/vk.svg" alt="vk" >
 				</a>
 				<a href="#">
-					<img src="./img/icons/inst.svg" alt="inst" />
+					<img src="./img/icons/inst.svg" alt="inst" >
 				</a>
 			</div>
 		</div>

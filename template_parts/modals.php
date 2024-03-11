@@ -4,7 +4,7 @@
 			<div class="popup__body">
 				<div class="popup-top">
 					<div data-toggle="modal" class="popup__close">
-						<img class="popup__close-img" src="img/icons/close.png" alt="" />
+						<img class="popup__close-img" src="img/icons/close.png" alt="" >
 					</div>
 					<h3>Есть вопросы?</h3>
 					<p>
@@ -22,7 +22,7 @@
 									id="input-name_2"
 									type="text"
 									name="username"
-									placeholder=" " />
+									placeholder=" " >
 								<label class="label" for="input-name_2">Имя</label>
 							</div>
 							<div class="form-popup__input">
@@ -31,7 +31,7 @@
 									id="input-tel_2"
 									type="tel"
 									name="usertel"
-									placeholder=" " />
+									placeholder=" " >
 								<label class="label" for="input-tel_2">Номер телефона</label>
 							</div>
 						</div>
@@ -56,9 +56,9 @@
 			<div class="popup__body">
 				<div class="popup-top">
 					<div data-toggle="modal-thx" class="popup__close">
-						<img class="popup__close-img" src="img/icons/close.png" alt="" />
+						<img class="popup__close-img" src="img/icons/close.png" alt="" >
 					</div>
-					<img class="popup-thx-img" src="img/modals/thanks.svg" alt="" />
+					<img class="popup-thx-img" src="img/modals/thanks.svg" alt="" >
 					<h3>Спасибо за заявку!</h3>
 					<p>
 						Наш менеджер свяжется с Вами в ближайшее время ответит на все

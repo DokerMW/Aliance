@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='ru'>
 	<?php 
-		$extra_styles = '<link rel="stylesheet" href="./css/contracts.css" /> <link rel="stylesheet" href="./css/about.css" /> <link rel="stylesheet" href="./css/autohim.css" /> <link rel="stylesheet" href="./css/distributor.css" /> <link rel="stylesheet" href="./css/mark-item.css" />'; 
+		$extra_styles = '<link rel="stylesheet" href="./css/contracts.css" > <link rel="stylesheet" href="./css/about.css" > <link rel="stylesheet" href="./css/autohim.css" > <link rel="stylesheet" href="./css/distributor.css" > <link rel="stylesheet" href="./css/mark-item.css" >'; 
 		$head_subtitle = 'Автохимия AP'; 
 		include_once('./template_parts/head.php');
 	?>

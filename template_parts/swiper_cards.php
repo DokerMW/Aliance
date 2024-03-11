@@ -8,7 +8,7 @@
 					</svg>
 				</div>
 				<div class="item-cards__text <?php echo $text_color ?>">
-					Непрерывная работа<br />
+					Непрерывная работа<br >
 					с 2017 года
 				</div>
 			</div>
@@ -56,10 +56,10 @@
 	</div>
 	<div class="<?php echo $btn_cnt_class ?> cards-swiper-nav">
 		<div class="<?php echo $btn_prev?>">
-			<img src="<?php echo $arrows_path ?>" alt="slider arrow" />
+			<img src="<?php echo $arrows_path ?>" alt="slider arrow" >
 		</div>
 		<div class="<?php echo $btn_next?>">
-			<img src="<?php echo $arrows_path ?>" alt="slider arrow" />
+			<img src="<?php echo $arrows_path ?>" alt="slider arrow" >
 		</div>
 	</div>
 </div>

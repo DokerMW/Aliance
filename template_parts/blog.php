@@ -10,9 +10,9 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 						<picture class="item-blog_bg">
-							<source srcset="img/blog/slide_01.webp" type="image/webp" />
-							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" />
-							<img src="img/blog/slide_01.webp" alt="" />
+							<source srcset="img/blog/slide_01.webp" type="image/webp" >
+							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" >
+							<img src="img/blog/slide_01.webp" alt="" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -29,9 +29,9 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 					<picture class="item-blog_bg">
-							<source srcset="img/blog/slide_02.webp" type="image/webp" />
-							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" />
-							<img src="img/blog/slide_02.webp" alt="" />
+							<source srcset="img/blog/slide_02.webp" type="image/webp" >
+							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" >
+							<img src="img/blog/slide_02.webp" alt="" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -48,9 +48,9 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 					<picture class="item-blog_bg">
-							<source srcset="img/blog/slide_01.webp" type="image/webp" />
-							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" />
-							<img src="img/blog/slide_01.webp" alt="" />
+							<source srcset="img/blog/slide_01.webp" type="image/webp" >
+							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" >
+							<img src="img/blog/slide_01.webp" alt="" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -67,9 +67,9 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 					<picture class="item-blog_bg">
-							<source srcset="img/blog/slide_02.webp" type="image/webp" />
-							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" />
-							<img src="img/blog/slide_02.webp" alt="" />
+							<source srcset="img/blog/slide_02.webp" type="image/webp" >
+							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" >
+							<img src="img/blog/slide_02.webp" alt="" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -86,9 +86,9 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 					<picture class="item-blog_bg">
-							<source srcset="img/blog/slide_01.webp" type="image/webp" />
-							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" />
-							<img src="img/blog/slide_01.webp" alt="" />
+							<source srcset="img/blog/slide_01.webp" type="image/webp" >
+							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" >
+							<img src="img/blog/slide_01.webp" alt="" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -105,9 +105,9 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 					<picture class="item-blog_bg">
-							<source srcset="img/blog/slide_02.webp" type="image/webp" />
-							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" />
-							<img src="img/blog/slide_02.webp" alt="" />
+							<source srcset="img/blog/slide_02.webp" type="image/webp" >
+							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" >
+							<img src="img/blog/slide_02.webp" alt="" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -124,9 +124,9 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 					<picture class="item-blog_bg">
-							<source srcset="img/blog/slide_01.webp" type="image/webp" />
-							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" />
-							<img src="img/blog/slide_01.webp" alt="" />
+							<source srcset="img/blog/slide_01.webp" type="image/webp" >
+							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" >
+							<img src="img/blog/slide_01.webp" alt="" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -143,9 +143,9 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 					<picture class="item-blog_bg">
-							<source srcset="img/blog/slide_02.webp" type="image/webp" />
-							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" />
-							<img src="img/blog/slide_02.webp" alt="" />
+							<source srcset="img/blog/slide_02.webp" type="image/webp" >
+							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" >
+							<img src="img/blog/slide_02.webp" alt="" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -162,9 +162,9 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 					<picture class="item-blog_bg">
-							<source srcset="img/blog/slide_01.webp" type="image/webp" />
-							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" />
-							<img src="img/blog/slide_01.webp" alt="" />
+							<source srcset="img/blog/slide_01.webp" type="image/webp" >
+							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" >
+							<img src="img/blog/slide_01.webp" alt="" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -181,9 +181,9 @@
 				<div class="blog__column swiper-slide">
 					<a href="./blog-item.php" class="blog__item item-blog">
 					<picture class="item-blog_bg">
-							<source srcset="img/blog/slide_02.webp" type="image/webp" />
-							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" />
-							<img src="img/blog/slide_02.webp" alt="" />
+							<source srcset="img/blog/slide_02.webp" type="image/webp" >
+							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" >
+							<img src="img/blog/slide_02.webp" alt="" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -203,10 +203,10 @@
 					echo '<a href="./blog.php" class="swiper-blog__link link">Весь блог</a>
 					<div class="swiper-blog__nav blue-btn-nav">
 						<div class="swiper-blog__btn_p blue-btn-nav_prev">
-							<img src="./img/icons/arrow.svg" alt="slider arrow" />
+							<img src="./img/icons/arrow.svg" alt="slider arrow" >
 						</div>
 						<div class="swiper-blog__btn_n blue-btn-nav_next">
-							<img src="./img/icons/arrow.svg" alt="slider arrow" />
+							<img src="./img/icons/arrow.svg" alt="slider arrow" >
 						</div>
 					</div>';
 					}

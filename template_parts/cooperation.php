@@ -1,13 +1,13 @@
 <section class="cooperation">
 	<div class="_container">
 		<picture class="cooperation__image">
-			<source srcset="img/cooperation/img_01.webp" type="image/webp" />
-			<source srcset="img/cooperation/img_01.png" type="image/png" />
-			<img src="img/cooperation/img_01.png" alt="" />
+			<source srcset="img/cooperation/img_01.webp" type="image/webp" >
+			<source srcset="img/cooperation/img_01.png" type="image/png" >
+			<img src="img/cooperation/img_01.png" alt="" >
 		</picture>
 		<div class="cooperation__body">
 			<h2 class="cooperation__title">Хотите сотрудничать?</h2>
-			<div class="cooperation__text">
+			<div class="cooperation__text"></div>
 				Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит
 				на все интересующие вопросы и поможем даже в самых сложных случаях!
 			</div>
@@ -19,7 +19,7 @@
 							id="input-name"
 							type="text"
 							name="username"
-							placeholder=" " />
+							placeholder=" " >
 						<label class="label" for="input-name">Имя</label>
 					</div>
 					<div class="form-cooperation__input">
@@ -28,7 +28,7 @@
 							id="input-tel"
 							type="tel"
 							name="usertel"
-							placeholder=" " />
+							placeholder=" " >
 						<label class="label" for="input-tel">Номер телефона</label>
 					</div>
 				</div>

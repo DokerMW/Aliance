@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='ru'>
 	<?php 
-		$extra_styles = '<link rel="stylesheet" href="./css/contracts.css" /> <link rel="stylesheet" href="./css/about.css" /> <link rel="stylesheet" href="./css/autohim.css" /> <link rel="stylesheet" href="./css/distributor.css" /> <link rel="stylesheet" href="./css/blog-item.css" />'; 
+		$extra_styles = '<link rel="stylesheet" href="./css/contracts.css" > <link rel="stylesheet" href="./css/about.css" > <link rel="stylesheet" href="./css/autohim.css" > <link rel="stylesheet" href="./css/distributor.css" > <link rel="stylesheet" href="./css/blog-item.css" >'; 
 		$head_subtitle = 'Современная методология разработки одухотворила всех причастных'; 
 		include_once('./template_parts/head.php');
 	?>
@@ -45,9 +45,9 @@
 									<p class="blog-text__par">С другой стороны рамки и место обучения кадров влечет за собой процесс внедрения и модернизации систем массового участия. Равным образом консультация с широким активом в значительной степени обуславливает создание дальнейших направлений развития. Идейные соображения высшего порядка, а также консультация с широким активом требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных задач. Равным образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации дальнейших направлений развития.</p>
 									<p class="blog-text__par">Разнообразный и богатый опыт начало повседневной работы по формированию позиции позволяет оценить значение позиций, занимаемых участниками в отношении поставленных задач. Разнообразный и богатый опыт реализация намеченных плановых заданий позволяет выполнять важные задания по разработке форм развития. Задача организации, в особенности же постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании форм развития.</p>
 									<picture class="blog-text__img">
-										<source srcset="./img/blog/blog-item.webp" type="image/webp" />
-										<source srcset="./img/blog/blog-item.jpeg" type="image/jpeg" />
-										<img src="./img/blog/blog-item.jpeg" alt="" />
+										<source srcset="./img/blog/blog-item.webp" type="image/webp" >
+										<source srcset="./img/blog/blog-item.jpeg" type="image/jpeg" >
+										<img src="./img/blog/blog-item.jpeg" alt="" >
 									</picture>
 								</div>
 								<div class="blog-text__block">

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <?php 
-	$extra_styles = '<link rel="stylesheet" href="./css/about.css" /> <link rel="stylesheet" href="./css/contracts.css" /> <link rel="stylesheet" href="./css/contacts.css" />'; 
+	$extra_styles = '<link rel="stylesheet" href="./css/about.css" > <link rel="stylesheet" href="./css/contracts.css" > <link rel="stylesheet" href="./css/contacts.css" >'; 
 	$head_subtitle = 'Контакты'; 
 	include_once('./template_parts/head.php');
 ?>
@@ -28,8 +28,8 @@
 							</a>
 						</div>
 						<div class="top-contacts__social">
-							<div  class="top-contacts__social_item"><img src="img/icons/vk.svg" alt="" /></div>
-							<div  class="top-contacts__social_item"><img src="img/icons/inst.svg" alt="" /></div>
+							<div  class="top-contacts__social_item"><img src="img/icons/vk.svg" alt="" ></div>
+							<div  class="top-contacts__social_item"><img src="img/icons/inst.svg" alt="" ></div>
 						</div>
 					</div>
 				</div>

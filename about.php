@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <?php 
-	$extra_styles = '<link rel="stylesheet" href="./css/about.css" />'; 
+	$extra_styles = '<link rel="stylesheet" href="./css/about.css" >'; 
 	$head_subtitle = 'О Компании'; 
 	include_once('./template_parts/head.php');
 ?>
@@ -22,9 +22,9 @@
 					<div class="_container">
 						<div class="experts__body">
 						<picture class="experts__image">
-							<source srcset="img/experts/image.webp" type="image/webp" />
-							<source srcset="img/experts/image.png" type="image/png" />
-							<img src="img/experts/image.png" alt="" />
+							<source srcset="img/experts/image.webp" type="image/webp" >
+							<source srcset="img/experts/image.png" type="image/png" >
+							<img src="img/experts/image.png" alt="" >
 						</picture>
 							<div class="experts__content">
 								<h2 class="experts__title title">

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <?php 
-	$extra_styles = '<link rel="stylesheet" href="./css/about.css" /> <link rel="stylesheet" href="./css/contracts.css" /> <link rel="stylesheet" href="./css/trademarks.css" />'; 
+	$extra_styles = '<link rel="stylesheet" href="./css/about.css" > <link rel="stylesheet" href="./css/contracts.css" > <link rel="stylesheet" href="./css/trademarks.css" >'; 
 	$head_subtitle = 'Собственные торговые марки'; 
 	include_once('./template_parts/head.php');
 ?>
