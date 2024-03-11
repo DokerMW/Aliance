@@ -1,11 +1,1 @@
-@media (max-width: 450px) {
-   .about-header__title {
-      margin: 0px 0px 25px 0px;
-   }
-   .about-header__title::before {
-      top: -18px;
-   }
-   .brands {
-      margin: 0px 0px 105px 0px;
-   }
-}
+@media (max-width:450px){.about-header__title{margin:0px 0px 25px 0px}.about-header__title:before{top:-18px}.brands{margin:0px 0px 105px 0px}}
