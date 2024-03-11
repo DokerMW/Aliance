@@ -3,7 +3,7 @@
 		<picture class="cooperation__image">
 			<source srcset="img/cooperation/img_01.webp" type="image/webp" >
 			<source srcset="img/cooperation/img_01.png" type="image/png" >
-			<img src="img/cooperation/img_01.png" alt="" >
+			<img src="img/cooperation/img_01.png" alt="spray image" >
 		</picture>
 		<div class="cooperation__body">
 			<h2 class="cooperation__title">Хотите сотрудничать?</h2>

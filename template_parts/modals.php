@@ -4,7 +4,7 @@
 			<div class="popup__body">
 				<div class="popup-top">
 					<div data-toggle="modal" class="popup__close">
-						<img class="popup__close-img" src="img/icons/close.png" alt="" >
+						<img class="popup__close-img" src="img/icons/close.png" alt="close icon" >
 					</div>
 					<h3>Есть вопросы?</h3>
 					<p>
@@ -56,9 +56,9 @@
 			<div class="popup__body">
 				<div class="popup-top">
 					<div data-toggle="modal-thx" class="popup__close">
-						<img class="popup__close-img" src="img/icons/close.png" alt="" >
+						<img class="popup__close-img" src="img/icons/close.png" alt="close icon" >
 					</div>
-					<img class="popup-thx-img" src="img/modals/thanks.svg" alt="" >
+					<img class="popup-thx-img" src="img/modals/thanks.svg" alt="thanks image" >
 					<h3>Спасибо за заявку!</h3>
 					<p>
 						Наш менеджер свяжется с Вами в ближайшее время ответит на все

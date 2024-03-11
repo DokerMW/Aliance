@@ -12,7 +12,7 @@
 						<picture class="item-blog_bg">
 							<source srcset="img/blog/slide_01.webp" type="image/webp" >
 							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" >
-							<img src="img/blog/slide_01.webp" alt="" >
+							<img src="img/blog/slide_01.webp" alt="slide 1" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -31,7 +31,7 @@
 					<picture class="item-blog_bg">
 							<source srcset="img/blog/slide_02.webp" type="image/webp" >
 							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" >
-							<img src="img/blog/slide_02.webp" alt="" >
+							<img src="img/blog/slide_02.webp" alt="slide 2" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -50,7 +50,7 @@
 					<picture class="item-blog_bg">
 							<source srcset="img/blog/slide_01.webp" type="image/webp" >
 							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" >
-							<img src="img/blog/slide_01.webp" alt="" >
+							<img src="img/blog/slide_01.webp" alt="slide 3" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -69,7 +69,7 @@
 					<picture class="item-blog_bg">
 							<source srcset="img/blog/slide_02.webp" type="image/webp" >
 							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" >
-							<img src="img/blog/slide_02.webp" alt="" >
+							<img src="img/blog/slide_02.webp" alt="slide 4" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -88,7 +88,7 @@
 					<picture class="item-blog_bg">
 							<source srcset="img/blog/slide_01.webp" type="image/webp" >
 							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" >
-							<img src="img/blog/slide_01.webp" alt="" >
+							<img src="img/blog/slide_01.webp" alt="slide 5" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -107,7 +107,7 @@
 					<picture class="item-blog_bg">
 							<source srcset="img/blog/slide_02.webp" type="image/webp" >
 							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" >
-							<img src="img/blog/slide_02.webp" alt="" >
+							<img src="img/blog/slide_02.webp" alt="slide 6" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -126,7 +126,7 @@
 					<picture class="item-blog_bg">
 							<source srcset="img/blog/slide_01.webp" type="image/webp" >
 							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" >
-							<img src="img/blog/slide_01.webp" alt="" >
+							<img src="img/blog/slide_01.webp" alt="slide 7" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -145,7 +145,7 @@
 					<picture class="item-blog_bg">
 							<source srcset="img/blog/slide_02.webp" type="image/webp" >
 							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" >
-							<img src="img/blog/slide_02.webp" alt="" >
+							<img src="img/blog/slide_02.webp" alt="slide 8" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -164,7 +164,7 @@
 					<picture class="item-blog_bg">
 							<source srcset="img/blog/slide_01.webp" type="image/webp" >
 							<source srcset="img/blog/slide_01.jpeg" type="image/jpeg" >
-							<img src="img/blog/slide_01.webp" alt="" >
+							<img src="img/blog/slide_01.webp" alt="slide 9" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">
@@ -183,7 +183,7 @@
 					<picture class="item-blog_bg">
 							<source srcset="img/blog/slide_02.webp" type="image/webp" >
 							<source srcset="img/blog/slide_02.jpeg" type="image/jpeg" >
-							<img src="img/blog/slide_02.webp" alt="" >
+							<img src="img/blog/slide_02.webp" alt="slide 10" >
 						</picture>
 						<div class="item-blog__content">
 							<h3 class="item-blog__title">

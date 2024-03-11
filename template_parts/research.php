@@ -30,32 +30,32 @@
 			<picture class="swiper-research__item item-research swiper-slide">
 				<source srcset="./img/blog/slide_01.webp" type="image/webp" >
 				<source srcset="./img/blog/slide_01.jpeg" type="image/jpeg" >
-				<img src="./img/blog/slide_01.jpeg" alt="" >
+				<img src="./img/blog/slide_01.jpeg" alt="slide photo" >
 			</picture>
 			<picture class="swiper-research__item item-research swiper-slide">
 				<source srcset="./img/blog/slide_02.webp" type="image/webp" >
 				<source srcset="./img/blog/slide_02.jpeg" type="image/jpeg" >
-				<img src="./img/blog/slide_02.jpeg" alt="" >
+				<img src="./img/blog/slide_02.jpeg" alt="slide photo" >
 			</picture>
 			<picture class="swiper-research__item item-research swiper-slide">
 				<source srcset="./img/blog/slide_01.webp" type="image/webp" >
 				<source srcset="./img/blog/slide_01.jpeg" type="image/jpeg" >
-				<img src="./img/blog/slide_01.jpeg" alt="" >
+				<img src="./img/blog/slide_01.jpeg" alt="slide photo" >
 			</picture>
 			<picture class="swiper-research__item item-research swiper-slide">
 				<source srcset="./img/blog/slide_02.webp" type="image/webp" >
 				<source srcset="./img/blog/slide_02.jpeg" type="image/jpeg" >
-				<img src="./img/blog/slide_02.jpeg" alt="" >
+				<img src="./img/blog/slide_02.jpeg" alt="slide photo" >
 			</picture>
 			<picture class="swiper-research__item item-research swiper-slide">
 				<source srcset="./img/blog/slide_01.webp" type="image/webp" >
 				<source srcset="./img/blog/slide_01.jpeg" type="image/jpeg" >
-				<img src="./img/blog/slide_01.jpeg" alt="" >
+				<img src="./img/blog/slide_01.jpeg" alt="slide photo" >
 			</picture>
 			<picture class="swiper-research__item item-research swiper-slide">
 				<source srcset="./img/blog/slide_02.webp" type="image/webp" >
 				<source srcset="./img/blog/slide_02.jpeg" type="image/jpeg" >
-				<img src="./img/blog/slide_02.jpeg" alt="" >
+				<img src="./img/blog/slide_02.jpeg" alt="slide photo" >
 			</picture>
   	</div>
 	</div>

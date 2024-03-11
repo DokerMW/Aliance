@@ -13,35 +13,35 @@
 				</div>
 				<ul class="fabric__list">
 					<li class="fabric__item">
-						<img src="img/products/02.svg" alt="" >
+						<img src="img/products/02.svg" alt="products icon" >
 						Автомобильная химия
 					</li>
 					<li class="fabric__item">
-						<img src="img/products/01.svg" alt="" >
+						<img src="img/products/01.svg" alt="products icon" >
 						Бытовая химия
 					</li>
 					<li class="fabric__item">
-						<img src="img/products/03.svg" alt="" >
+						<img src="img/products/03.svg" alt="products icon" >
 						Дезинфицирующие средства
 					</li>
 					<li class="fabric__item">
-						<img src="img/products/04.svg" alt="" >
+						<img src="img/products/04.svg" alt="products icon" >
 						Пищевые аэрозоли
 					</li>
 					<li class="fabric__item">
-						<img src="img/products/05.svg" alt="" >
+						<img src="img/products/05.svg" alt="products icon" >
 						Косметическая продукция
 					</li>
 					<li class="fabric__item">
-						<img src="img/products/06.svg" alt="" >
+						<img src="img/products/06.svg" alt="products icon" >
 						Краски аэрозольные
 					</li>
 					<li class="fabric__item fabric__item_extra" style="display:none;">
-						<img src="img/products/01.svg" alt="" >
+						<img src="img/products/01.svg" alt="products icon" >
 						Актуальные цены
 					</li>
 					<li class="fabric__item fabric__item_extra" style="display:none;">
-						<img src="img/products/02.svg" alt="" >
+						<img src="img/products/02.svg" alt="products icon" >
 						Лаки и краски
 					</li>
 				</ul>
@@ -49,7 +49,7 @@
 			<div class="fabric__image">
 				<?php echo '<picture><source srcset="' . $fabric_img_webp . '" type="image/webp" >
 		<source srcset="' . $fabric_img_jpeg . '" type="image/jpeg" >
-		<img src="' . $fabric_img_jpeg . '" alt="" ></picture>'; ?>
+		<img src="' . $fabric_img_jpeg . '" alt="fabric photo" ></picture>'; ?>
 			</div>
 		</div>
 	</div>

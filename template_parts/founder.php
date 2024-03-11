@@ -4,7 +4,7 @@
 			<div class="founder__image <?php echo $founder_img_class ?>">
 			<?php echo '<picture><source srcset="' . $founder_img_webp . '" type="image/webp" >
 		<source srcset="' . $founder_img_jpeg . '" type="image/jpeg" >
-		<img src="' . $founder_img_jpeg . '" alt="" ></picture>'; ?>
+		<img src="' . $founder_img_jpeg . '" alt="founder photo" ></picture>'; ?>
 			</div>
 			<div class="founder__content <?php echo $founder__content_class ?>">
 				<h2 class="founder__title title"><?php echo $founder_title ?></h2>

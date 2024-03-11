@@ -28,8 +28,8 @@
 							</a>
 						</div>
 						<div class="top-contacts__social">
-							<div  class="top-contacts__social_item"><img src="img/icons/vk.svg" alt="" ></div>
-							<div  class="top-contacts__social_item"><img src="img/icons/inst.svg" alt="" ></div>
+							<div  class="top-contacts__social_item"><img src="img/icons/vk.svg" alt="vk icon" ></div>
+							<div  class="top-contacts__social_item"><img src="img/icons/inst.svg" alt="instagramm icon" ></div>
 						</div>
 					</div>
 				</div>

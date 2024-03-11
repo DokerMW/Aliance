@@ -24,7 +24,7 @@
 						<picture class="experts__image">
 							<source srcset="img/experts/image.webp" type="image/webp" >
 							<source srcset="img/experts/image.png" type="image/png" >
-							<img src="img/experts/image.png" alt="" >
+							<img src="img/experts/image.png" alt="expert photo" >
 						</picture>
 							<div class="experts__content">
 								<h2 class="experts__title title">

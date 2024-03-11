@@ -16,7 +16,7 @@
 					<picture class="item-production__img">
 						<source srcset="./img/prod/img_01.webp" type="image/webp" >
 						<source srcset="./img/prod/img_01.png" type="image/png" >
-						<img src="./img/prod/img_01.png" alt="" >
+						<img src="./img/prod/img_01.png" alt="product icon" >
 					</picture>
 				</div>
 			</a>
@@ -32,7 +32,7 @@
 					<picture class="item-production__img">
 						<source srcset="./img/prod/img_02.webp" type="image/webp" >
 						<source srcset="./img/prod/img_02.png" type="image/png" >
-						<img src="./img/prod/img_02.png" alt="" >
+						<img src="./img/prod/img_02.png" alt="product icon" >
 					</picture>
 				</div>
 			</a>
@@ -47,7 +47,7 @@
 					<picture class="item-production__img">
 						<source srcset="./img/prod/img_03.webp" type="image/webp" >
 						<source srcset="./img/prod/img_03.png" type="image/png" >
-						<img src="./img/prod/img_03.png" alt="" >
+						<img src="./img/prod/img_03.png" alt="product icon" >
 					</picture>
 				</div>
 			</a>
@@ -63,7 +63,7 @@
 					<picture class="item-production__img">
 						<source srcset="./img/prod/img_03.webp" type="image/webp" >
 						<source srcset="./img/prod/img_03.png" type="image/png" >
-						<img src="./img/prod/img_03.png" alt="" >
+						<img src="./img/prod/img_03.png" alt="product icon" >
 					</picture>
 				</div>
 			</a>
@@ -78,7 +78,7 @@
 					<picture class="item-production__img">
 						<source srcset="./img/prod/img_01.webp" type="image/webp" >
 						<source srcset="./img/prod/img_01.png" type="image/png" >
-						<img src="./img/prod/img_01.png" alt="" >
+						<img src="./img/prod/img_01.png" alt="product icon" >
 					</picture>
 				</div>
 			</a>
@@ -94,7 +94,7 @@
 					<picture class="item-production__img">
 						<source srcset="./img/prod/img_02.webp" type="image/webp" >
 						<source srcset="./img/prod/img_02.png" type="image/png" >
-						<img src="./img/prod/img_02.png" alt="" >
+						<img src="./img/prod/img_02.png" alt="product icon" >
 					</picture>
 				</div>
 			</a>

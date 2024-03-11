@@ -28,10 +28,10 @@
 							<aside class="aside">
 								<h4 class="aside__title">Поделиться:</h4>
 								<div class="aside__btns">
-									<a href="#"><img src="./img/icons/vk.png" alt=""></a>
-									<a href="#"><img src="./img/icons/fb.png" alt=""></a>
-									<a href="#"><img src="./img/icons/twitter.png" alt=""></a>
-									<a href="#"><img src="./img/icons/gmail.png" alt=""></a>
+									<a href="#"><img src="./img/icons/vk.png" alt="vk icon"></a>
+									<a href="#"><img src="./img/icons/fb.png" alt="fb icon"></a>
+									<a href="#"><img src="./img/icons/twitter.png" alt="twitter icon"></a>
+									<a href="#"><img src="./img/icons/gmail.png" alt="gmail icon"></a>
 								</div>
 							</aside>
 							<div class="blog-text__body">
@@ -47,7 +47,7 @@
 									<picture class="blog-text__img">
 										<source srcset="./img/blog/blog-item.webp" type="image/webp" >
 										<source srcset="./img/blog/blog-item.jpeg" type="image/jpeg" >
-										<img src="./img/blog/blog-item.jpeg" alt="" >
+										<img src="./img/blog/blog-item.jpeg" alt="blog photo" >
 									</picture>
 								</div>
 								<div class="blog-text__block">
